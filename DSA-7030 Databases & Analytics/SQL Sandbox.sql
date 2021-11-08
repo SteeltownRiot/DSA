@@ -133,3 +133,4 @@ ORDER BY reading;
 CREATE TABLE jch5x8.whoami (pawprint_id char(20) UNIQUE, name varchar(70));
 
 INSERT INTO jch5x8.whoami VALUES ('jch5x8','John Hopson');
+
