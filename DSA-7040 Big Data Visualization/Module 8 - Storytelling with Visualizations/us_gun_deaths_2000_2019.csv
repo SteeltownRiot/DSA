@@ -1,0 +1,1121 @@
+year,age,gender,ethnicity,deaths,age_code,gender_code,ethnicity_code
+2000,12 to 14,Male,Asian,1,2,0,0
+2000,15 to 17,Male,Asian,5,3,0,0
+2000,18 to 24,Male,Asian,32,4,0,0
+2000,25 to 49,Male,Asian,53,5,0,0
+2000,50+,Male,Asian,9,6,0,0
+2000,6 to 11,Male,Asian,0,1,0,0
+2000,Under 5,Male,Asian,1,0,0,0
+2001,12 to 14,Male,Asian,1,2,0,0
+2001,15 to 17,Male,Asian,8,3,0,0
+2001,18 to 24,Male,Asian,50,4,0,0
+2001,25 to 49,Male,Asian,80,5,0,0
+2001,50+,Male,Asian,14,6,0,0
+2001,6 to 11,Male,Asian,1,1,0,0
+2001,Under 5,Male,Asian,1,0,0,0
+2002,12 to 14,Male,Asian,1,2,0,0
+2002,15 to 17,Male,Asian,8,3,0,0
+2002,18 to 24,Male,Asian,54,4,0,0
+2002,25 to 49,Male,Asian,85,5,0,0
+2002,50+,Male,Asian,14,6,0,0
+2002,6 to 11,Male,Asian,1,1,0,0
+2002,Under 5,Male,Asian,1,0,0,0
+2003,12 to 14,Male,Asian,1,2,0,0
+2003,15 to 17,Male,Asian,9,3,0,0
+2003,18 to 24,Male,Asian,61,4,0,0
+2003,25 to 49,Male,Asian,95,5,0,0
+2003,50+,Male,Asian,16,6,0,0
+2003,6 to 11,Male,Asian,1,1,0,0
+2003,Under 5,Male,Asian,1,0,0,0
+2004,12 to 14,Male,Asian,1,2,0,0
+2004,15 to 17,Male,Asian,7,3,0,0
+2004,18 to 24,Male,Asian,42,4,0,0
+2004,25 to 49,Male,Asian,71,5,0,0
+2004,50+,Male,Asian,13,6,0,0
+2004,6 to 11,Male,Asian,1,1,0,0
+2004,Under 5,Male,Asian,1,0,0,0
+2005,12 to 14,Male,Asian,2,2,0,0
+2005,15 to 17,Male,Asian,9,3,0,0
+2005,18 to 24,Male,Asian,53,4,0,0
+2005,25 to 49,Male,Asian,89,5,0,0
+2005,50+,Male,Asian,16,6,0,0
+2005,6 to 11,Male,Asian,1,1,0,0
+2005,Under 5,Male,Asian,1,0,0,0
+2006,12 to 14,Male,Asian,2,2,0,0
+2006,15 to 17,Male,Asian,12,3,0,0
+2006,18 to 24,Male,Asian,65,4,0,0
+2006,25 to 49,Male,Asian,102,5,0,0
+2006,50+,Male,Asian,19,6,0,0
+2006,6 to 11,Male,Asian,1,1,0,0
+2006,Under 5,Male,Asian,1,0,0,0
+2007,12 to 14,Male,Asian,1,2,0,0
+2007,15 to 17,Male,Asian,9,3,0,0
+2007,18 to 24,Male,Asian,47,4,0,0
+2007,25 to 49,Male,Asian,75,5,0,0
+2007,50+,Male,Asian,13,6,0,0
+2007,6 to 11,Male,Asian,1,1,0,0
+2007,Under 5,Male,Asian,1,0,0,0
+2008,12 to 14,Male,Asian,1,2,0,0
+2008,15 to 17,Male,Asian,8,3,0,0
+2008,18 to 24,Male,Asian,38,4,0,0
+2008,25 to 49,Male,Asian,66,5,0,0
+2008,50+,Male,Asian,13,6,0,0
+2008,6 to 11,Male,Asian,1,1,0,0
+2008,Under 5,Male,Asian,1,0,0,0
+2009,12 to 14,Male,Asian,1,2,0,0
+2009,15 to 17,Male,Asian,9,3,0,0
+2009,18 to 24,Male,Asian,46,4,0,0
+2009,25 to 49,Male,Asian,78,5,0,0
+2009,50+,Male,Asian,17,6,0,0
+2009,6 to 11,Male,Asian,1,1,0,0
+2009,Under 5,Male,Asian,1,0,0,0
+2010,12 to 14,Male,Asian,1,2,0,0
+2010,15 to 17,Male,Asian,5,3,0,0
+2010,18 to 24,Male,Asian,29,4,0,0
+2010,25 to 49,Male,Asian,51,5,0,0
+2010,50+,Male,Asian,11,6,0,0
+2010,6 to 11,Male,Asian,0,1,0,0
+2010,Under 5,Male,Asian,1,0,0,0
+2011,12 to 14,Male,Asian,1,2,0,0
+2011,15 to 17,Male,Asian,6,3,0,0
+2011,18 to 24,Male,Asian,39,4,0,0
+2011,25 to 49,Male,Asian,64,5,0,0
+2011,50+,Male,Asian,15,6,0,0
+2011,6 to 11,Male,Asian,1,1,0,0
+2011,Under 5,Male,Asian,1,0,0,0
+2012,12 to 14,Male,Asian,1,2,0,0
+2012,15 to 17,Male,Asian,5,3,0,0
+2012,18 to 24,Male,Asian,37,4,0,0
+2012,25 to 49,Male,Asian,63,5,0,0
+2012,50+,Male,Asian,15,6,0,0
+2012,6 to 11,Male,Asian,1,1,0,0
+2012,Under 5,Male,Asian,1,0,0,0
+2013,12 to 14,Male,Asian,1,2,0,0
+2013,15 to 17,Male,Asian,5,3,0,0
+2013,18 to 24,Male,Asian,33,4,0,0
+2013,25 to 49,Male,Asian,60,5,0,0
+2013,50+,Male,Asian,14,6,0,0
+2013,6 to 11,Male,Asian,1,1,0,0
+2013,Under 5,Male,Asian,1,0,0,0
+2014,12 to 14,Male,Asian,1,2,0,0
+2014,15 to 17,Male,Asian,5,3,0,0
+2014,18 to 24,Male,Asian,34,4,0,0
+2014,25 to 49,Male,Asian,59,5,0,0
+2014,50+,Male,Asian,14,6,0,0
+2014,6 to 11,Male,Asian,1,1,0,0
+2014,Under 5,Male,Asian,1,0,0,0
+2015,12 to 14,Male,Asian,1,2,0,0
+2015,15 to 17,Male,Asian,5,3,0,0
+2015,18 to 24,Male,Asian,37,4,0,0
+2015,25 to 49,Male,Asian,70,5,0,0
+2015,50+,Male,Asian,16,6,0,0
+2015,6 to 11,Male,Asian,1,1,0,0
+2015,Under 5,Male,Asian,1,0,0,0
+2016,12 to 14,Male,Asian,1,2,0,0
+2016,15 to 17,Male,Asian,6,3,0,0
+2016,18 to 24,Male,Asian,40,4,0,0
+2016,25 to 49,Male,Asian,78,5,0,0
+2016,50+,Male,Asian,17,6,0,0
+2016,6 to 11,Male,Asian,1,1,0,0
+2016,Under 5,Male,Asian,1,0,0,0
+2017,12 to 14,Male,Asian,1,2,0,0
+2017,15 to 17,Male,Asian,6,3,0,0
+2017,18 to 24,Male,Asian,36,4,0,0
+2017,25 to 49,Male,Asian,76,5,0,0
+2017,50+,Male,Asian,18,6,0,0
+2017,6 to 11,Male,Asian,1,1,0,0
+2017,Under 5,Male,Asian,1,0,0,0
+2018,12 to 14,Male,Asian,1,2,0,0
+2018,15 to 17,Male,Asian,7,3,0,0
+2018,18 to 24,Male,Asian,37,4,0,0
+2018,25 to 49,Male,Asian,81,5,0,0
+2018,50+,Male,Asian,19,6,0,0
+2018,6 to 11,Male,Asian,1,1,0,0
+2018,Under 5,Male,Asian,1,0,0,0
+2019,12 to 14,Male,Asian,1,2,0,0
+2019,15 to 17,Male,Asian,6,3,0,0
+2019,18 to 24,Male,Asian,36,4,0,0
+2019,25 to 49,Male,Asian,76,5,0,0
+2019,50+,Male,Asian,17,6,0,0
+2019,6 to 11,Male,Asian,1,1,0,0
+2019,Under 5,Male,Asian,1,0,0,0
+2000,12 to 14,Male,Black,33,2,0,1
+2000,15 to 17,Male,Black,177,3,0,1
+2000,18 to 24,Male,Black,1029,4,0,1
+2000,25 to 49,Male,Black,1705,5,0,1
+2000,50+,Male,Black,292,6,0,1
+2000,6 to 11,Male,Black,15,1,0,1
+2000,Under 5,Male,Black,18,0,0,1
+2001,12 to 14,Male,Black,33,2,0,1
+2001,15 to 17,Male,Black,226,3,0,1
+2001,18 to 24,Male,Black,1435,4,0,1
+2001,25 to 49,Male,Black,2281,5,0,1
+2001,50+,Male,Black,386,6,0,1
+2001,6 to 11,Male,Black,24,1,0,1
+2001,Under 5,Male,Black,32,0,0,1
+2002,12 to 14,Male,Black,38,2,0,1
+2002,15 to 17,Male,Black,245,3,0,1
+2002,18 to 24,Male,Black,1561,4,0,1
+2002,25 to 49,Male,Black,2482,5,0,1
+2002,50+,Male,Black,416,6,0,1
+2002,6 to 11,Male,Black,29,1,0,1
+2002,Under 5,Male,Black,32,0,0,1
+2003,12 to 14,Male,Black,37,2,0,1
+2003,15 to 17,Male,Black,239,3,0,1
+2003,18 to 24,Male,Black,1671,4,0,1
+2003,25 to 49,Male,Black,2602,5,0,1
+2003,50+,Male,Black,435,6,0,1
+2003,6 to 11,Male,Black,19,1,0,1
+2003,Under 5,Male,Black,26,0,0,1
+2004,12 to 14,Male,Black,42,2,0,1
+2004,15 to 17,Male,Black,258,3,0,1
+2004,18 to 24,Male,Black,1509,4,0,1
+2004,25 to 49,Male,Black,2532,5,0,1
+2004,50+,Male,Black,478,6,0,1
+2004,6 to 11,Male,Black,21,1,0,1
+2004,Under 5,Male,Black,23,0,0,1
+2005,12 to 14,Male,Black,48,2,0,1
+2005,15 to 17,Male,Black,286,3,0,1
+2005,18 to 24,Male,Black,1625,4,0,1
+2005,25 to 49,Male,Black,2712,5,0,1
+2005,50+,Male,Black,477,6,0,1
+2005,6 to 11,Male,Black,20,1,0,1
+2005,Under 5,Male,Black,23,0,0,1
+2006,12 to 14,Male,Black,63,2,0,1
+2006,15 to 17,Male,Black,337,3,0,1
+2006,18 to 24,Male,Black,1773,4,0,1
+2006,25 to 49,Male,Black,2775,5,0,1
+2006,50+,Male,Black,507,6,0,1
+2006,6 to 11,Male,Black,29,1,0,1
+2006,Under 5,Male,Black,25,0,0,1
+2007,12 to 14,Male,Black,53,2,0,1
+2007,15 to 17,Male,Black,340,3,0,1
+2007,18 to 24,Male,Black,1750,4,0,1
+2007,25 to 49,Male,Black,2828,5,0,1
+2007,50+,Male,Black,501,6,0,1
+2007,6 to 11,Male,Black,30,1,0,1
+2007,Under 5,Male,Black,27,0,0,1
+2008,12 to 14,Male,Black,45,2,0,1
+2008,15 to 17,Male,Black,304,3,0,1
+2008,18 to 24,Male,Black,1515,4,0,1
+2008,25 to 49,Male,Black,2631,5,0,1
+2008,50+,Male,Black,527,6,0,1
+2008,6 to 11,Male,Black,29,1,0,1
+2008,Under 5,Male,Black,27,0,0,1
+2009,12 to 14,Male,Black,36,2,0,1
+2009,15 to 17,Male,Black,265,3,0,1
+2009,18 to 24,Male,Black,1423,4,0,1
+2009,25 to 49,Male,Black,2433,5,0,1
+2009,50+,Male,Black,542,6,0,1
+2009,6 to 11,Male,Black,26,1,0,1
+2009,Under 5,Male,Black,32,0,0,1
+2010,12 to 14,Male,Black,35,2,0,1
+2010,15 to 17,Male,Black,263,3,0,1
+2010,18 to 24,Male,Black,1419,4,0,1
+2010,25 to 49,Male,Black,2464,5,0,1
+2010,50+,Male,Black,547,6,0,1
+2010,6 to 11,Male,Black,17,1,0,1
+2010,Under 5,Male,Black,29,0,0,1
+2011,12 to 14,Male,Black,35,2,0,1
+2011,15 to 17,Male,Black,221,3,0,1
+2011,18 to 24,Male,Black,1472,4,0,1
+2011,25 to 49,Male,Black,2415,5,0,1
+2011,50+,Male,Black,570,6,0,1
+2011,6 to 11,Male,Black,23,1,0,1
+2011,Under 5,Male,Black,34,0,0,1
+2012,12 to 14,Male,Black,38,2,0,1
+2012,15 to 17,Male,Black,221,3,0,1
+2012,18 to 24,Male,Black,1507,4,0,1
+2012,25 to 49,Male,Black,2595,5,0,1
+2012,50+,Male,Black,599,6,0,1
+2012,6 to 11,Male,Black,38,1,0,1
+2012,Under 5,Male,Black,26,0,0,1
+2013,12 to 14,Male,Black,30,2,0,1
+2013,15 to 17,Male,Black,195,3,0,1
+2013,18 to 24,Male,Black,1413,4,0,1
+2013,25 to 49,Male,Black,2539,5,0,1
+2013,50+,Male,Black,599,6,0,1
+2013,6 to 11,Male,Black,24,1,0,1
+2013,Under 5,Male,Black,28,0,0,1
+2014,12 to 14,Male,Black,29,2,0,1
+2014,15 to 17,Male,Black,199,3,0,1
+2014,18 to 24,Male,Black,1393,4,0,1
+2014,25 to 49,Male,Black,2421,5,0,1
+2014,50+,Male,Black,572,6,0,1
+2014,6 to 11,Male,Black,31,1,0,1
+2014,Under 5,Male,Black,40,0,0,1
+2015,12 to 14,Male,Black,36,2,0,1
+2015,15 to 17,Male,Black,226,3,0,1
+2015,18 to 24,Male,Black,1622,4,0,1
+2015,25 to 49,Male,Black,3059,5,0,1
+2015,50+,Male,Black,694,6,0,1
+2015,6 to 11,Male,Black,31,1,0,1
+2015,Under 5,Male,Black,34,0,0,1
+2016,12 to 14,Male,Black,33,2,0,1
+2016,15 to 17,Male,Black,250,3,0,1
+2016,18 to 24,Male,Black,1750,4,0,1
+2016,25 to 49,Male,Black,3461,5,0,1
+2016,50+,Male,Black,764,6,0,1
+2016,6 to 11,Male,Black,28,1,0,1
+2016,Under 5,Male,Black,49,0,0,1
+2017,12 to 14,Male,Black,36,2,0,1
+2017,15 to 17,Male,Black,283,3,0,1
+2017,18 to 24,Male,Black,1611,4,0,1
+2017,25 to 49,Male,Black,3412,5,0,1
+2017,50+,Male,Black,793,6,0,1
+2017,6 to 11,Male,Black,31,1,0,1
+2017,Under 5,Male,Black,39,0,0,1
+2018,12 to 14,Male,Black,39,2,0,1
+2018,15 to 17,Male,Black,263,3,0,1
+2018,18 to 24,Male,Black,1492,4,0,1
+2018,25 to 49,Male,Black,3236,5,0,1
+2018,50+,Male,Black,743,6,0,1
+2018,6 to 11,Male,Black,28,1,0,1
+2018,Under 5,Male,Black,37,0,0,1
+2019,12 to 14,Male,Black,38,2,0,1
+2019,15 to 17,Male,Black,282,3,0,1
+2019,18 to 24,Male,Black,1598,4,0,1
+2019,25 to 49,Male,Black,3412,5,0,1
+2019,50+,Male,Black,760,6,0,1
+2019,6 to 11,Male,Black,49,1,0,1
+2019,Under 5,Male,Black,34,0,0,1
+2000,12 to 14,Male,Native American,0,2,0,2
+2000,15 to 17,Male,Native American,2,3,0,2
+2000,18 to 24,Male,Native American,10,4,0,2
+2000,25 to 49,Male,Native American,17,5,0,2
+2000,50+,Male,Native American,3,6,0,2
+2000,6 to 11,Male,Native American,0,1,0,2
+2000,Under 5,Male,Native American,0,0,0,2
+2001,12 to 14,Male,Native American,0,2,0,2
+2001,15 to 17,Male,Native American,2,3,0,2
+2001,18 to 24,Male,Native American,14,4,0,2
+2001,25 to 49,Male,Native American,22,5,0,2
+2001,50+,Male,Native American,4,6,0,2
+2001,6 to 11,Male,Native American,0,1,0,2
+2001,Under 5,Male,Native American,0,0,0,2
+2002,12 to 14,Male,Native American,0,2,0,2
+2002,15 to 17,Male,Native American,3,3,0,2
+2002,18 to 24,Male,Native American,17,4,0,2
+2002,25 to 49,Male,Native American,26,5,0,2
+2002,50+,Male,Native American,4,6,0,2
+2002,6 to 11,Male,Native American,0,1,0,2
+2002,Under 5,Male,Native American,0,0,0,2
+2003,12 to 14,Male,Native American,0,2,0,2
+2003,15 to 17,Male,Native American,2,3,0,2
+2003,18 to 24,Male,Native American,13,4,0,2
+2003,25 to 49,Male,Native American,21,5,0,2
+2003,50+,Male,Native American,3,6,0,2
+2003,6 to 11,Male,Native American,0,1,0,2
+2003,Under 5,Male,Native American,0,0,0,2
+2004,12 to 14,Male,Native American,0,2,0,2
+2004,15 to 17,Male,Native American,3,3,0,2
+2004,18 to 24,Male,Native American,17,4,0,2
+2004,25 to 49,Male,Native American,29,5,0,2
+2004,50+,Male,Native American,5,6,0,2
+2004,6 to 11,Male,Native American,0,1,0,2
+2004,Under 5,Male,Native American,0,0,0,2
+2005,12 to 14,Male,Native American,0,2,0,2
+2005,15 to 17,Male,Native American,2,3,0,2
+2005,18 to 24,Male,Native American,13,4,0,2
+2005,25 to 49,Male,Native American,22,5,0,2
+2005,50+,Male,Native American,4,6,0,2
+2005,6 to 11,Male,Native American,0,1,0,2
+2005,Under 5,Male,Native American,0,0,0,2
+2006,12 to 14,Male,Native American,1,2,0,2
+2006,15 to 17,Male,Native American,3,3,0,2
+2006,18 to 24,Male,Native American,16,4,0,2
+2006,25 to 49,Male,Native American,24,5,0,2
+2006,50+,Male,Native American,4,6,0,2
+2006,6 to 11,Male,Native American,0,1,0,2
+2006,Under 5,Male,Native American,0,0,0,2
+2007,12 to 14,Male,Native American,0,2,0,2
+2007,15 to 17,Male,Native American,2,3,0,2
+2007,18 to 24,Male,Native American,12,4,0,2
+2007,25 to 49,Male,Native American,20,5,0,2
+2007,50+,Male,Native American,3,6,0,2
+2007,6 to 11,Male,Native American,0,1,0,2
+2007,Under 5,Male,Native American,0,0,0,2
+2008,12 to 14,Male,Native American,0,2,0,2
+2008,15 to 17,Male,Native American,2,3,0,2
+2008,18 to 24,Male,Native American,11,4,0,2
+2008,25 to 49,Male,Native American,19,5,0,2
+2008,50+,Male,Native American,4,6,0,2
+2008,6 to 11,Male,Native American,0,1,0,2
+2008,Under 5,Male,Native American,0,0,0,2
+2009,12 to 14,Male,Native American,0,2,0,2
+2009,15 to 17,Male,Native American,2,3,0,2
+2009,18 to 24,Male,Native American,13,4,0,2
+2009,25 to 49,Male,Native American,23,5,0,2
+2009,50+,Male,Native American,5,6,0,2
+2009,6 to 11,Male,Native American,0,1,0,2
+2009,Under 5,Male,Native American,0,0,0,2
+2010,12 to 14,Male,Native American,0,2,0,2
+2010,15 to 17,Male,Native American,2,3,0,2
+2010,18 to 24,Male,Native American,11,4,0,2
+2010,25 to 49,Male,Native American,19,5,0,2
+2010,50+,Male,Native American,4,6,0,2
+2010,6 to 11,Male,Native American,0,1,0,2
+2010,Under 5,Male,Native American,0,0,0,2
+2011,12 to 14,Male,Native American,0,2,0,2
+2011,15 to 17,Male,Native American,2,3,0,2
+2011,18 to 24,Male,Native American,11,4,0,2
+2011,25 to 49,Male,Native American,18,5,0,2
+2011,50+,Male,Native American,4,6,0,2
+2011,6 to 11,Male,Native American,0,1,0,2
+2011,Under 5,Male,Native American,0,0,0,2
+2012,12 to 14,Male,Native American,0,2,0,2
+2012,15 to 17,Male,Native American,1,3,0,2
+2012,18 to 24,Male,Native American,8,4,0,2
+2012,25 to 49,Male,Native American,13,5,0,2
+2012,50+,Male,Native American,3,6,0,2
+2012,6 to 11,Male,Native American,0,1,0,2
+2012,Under 5,Male,Native American,0,0,0,2
+2013,12 to 14,Male,Native American,0,2,0,2
+2013,15 to 17,Male,Native American,1,3,0,2
+2013,18 to 24,Male,Native American,9,4,0,2
+2013,25 to 49,Male,Native American,16,5,0,2
+2013,50+,Male,Native American,4,6,0,2
+2013,6 to 11,Male,Native American,0,1,0,2
+2013,Under 5,Male,Native American,0,0,0,2
+2014,12 to 14,Male,Native American,0,2,0,2
+2014,15 to 17,Male,Native American,2,3,0,2
+2014,18 to 24,Male,Native American,12,4,0,2
+2014,25 to 49,Male,Native American,22,5,0,2
+2014,50+,Male,Native American,5,6,0,2
+2014,6 to 11,Male,Native American,0,1,0,2
+2014,Under 5,Male,Native American,0,0,0,2
+2015,12 to 14,Male,Native American,0,2,0,2
+2015,15 to 17,Male,Native American,3,3,0,2
+2015,18 to 24,Male,Native American,19,4,0,2
+2015,25 to 49,Male,Native American,36,5,0,2
+2015,50+,Male,Native American,8,6,0,2
+2015,6 to 11,Male,Native American,0,1,0,2
+2015,Under 5,Male,Native American,0,0,0,2
+2016,12 to 14,Male,Native American,0,2,0,2
+2016,15 to 17,Male,Native American,3,3,0,2
+2016,18 to 24,Male,Native American,18,4,0,2
+2016,25 to 49,Male,Native American,36,5,0,2
+2016,50+,Male,Native American,8,6,0,2
+2016,6 to 11,Male,Native American,0,1,0,2
+2016,Under 5,Male,Native American,1,0,0,2
+2017,12 to 14,Male,Native American,0,2,0,2
+2017,15 to 17,Male,Native American,4,3,0,2
+2017,18 to 24,Male,Native American,21,4,0,2
+2017,25 to 49,Male,Native American,45,5,0,2
+2017,50+,Male,Native American,10,6,0,2
+2017,6 to 11,Male,Native American,0,1,0,2
+2017,Under 5,Male,Native American,1,0,0,2
+2018,12 to 14,Male,Native American,0,2,0,2
+2018,15 to 17,Male,Native American,3,3,0,2
+2018,18 to 24,Male,Native American,19,4,0,2
+2018,25 to 49,Male,Native American,40,5,0,2
+2018,50+,Male,Native American,9,6,0,2
+2018,6 to 11,Male,Native American,0,1,0,2
+2018,Under 5,Male,Native American,0,0,0,2
+2019,12 to 14,Male,Native American,0,2,0,2
+2019,15 to 17,Male,Native American,3,3,0,2
+2019,18 to 24,Male,Native American,20,4,0,2
+2019,25 to 49,Male,Native American,42,5,0,2
+2019,50+,Male,Native American,9,6,0,2
+2019,6 to 11,Male,Native American,1,1,0,2
+2019,Under 5,Male,Native American,0,0,0,2
+2000,12 to 14,Male,White,26,2,0,3
+2000,15 to 17,Male,White,142,3,0,3
+2000,18 to 24,Male,White,826,4,0,3
+2000,25 to 49,Male,White,1370,5,0,3
+2000,50+,Male,White,234,6,0,3
+2000,6 to 11,Male,White,12,1,0,3
+2000,Under 5,Male,White,14,0,0,3
+2001,12 to 14,Male,White,27,2,0,3
+2001,15 to 17,Male,White,187,3,0,3
+2001,18 to 24,Male,White,1186,4,0,3
+2001,25 to 49,Male,White,1885,5,0,3
+2001,50+,Male,White,319,6,0,3
+2001,6 to 11,Male,White,20,1,0,3
+2001,Under 5,Male,White,26,0,0,3
+2002,12 to 14,Male,White,30,2,0,3
+2002,15 to 17,Male,White,194,3,0,3
+2002,18 to 24,Male,White,1240,4,0,3
+2002,25 to 49,Male,White,1972,5,0,3
+2002,50+,Male,White,331,6,0,3
+2002,6 to 11,Male,White,23,1,0,3
+2002,Under 5,Male,White,25,0,0,3
+2003,12 to 14,Male,White,28,2,0,3
+2003,15 to 17,Male,White,184,3,0,3
+2003,18 to 24,Male,White,1285,4,0,3
+2003,25 to 49,Male,White,2001,5,0,3
+2003,50+,Male,White,335,6,0,3
+2003,6 to 11,Male,White,15,1,0,3
+2003,Under 5,Male,White,20,0,0,3
+2004,12 to 14,Male,White,34,2,0,3
+2004,15 to 17,Male,White,206,3,0,3
+2004,18 to 24,Male,White,1206,4,0,3
+2004,25 to 49,Male,White,2023,5,0,3
+2004,50+,Male,White,382,6,0,3
+2004,6 to 11,Male,White,17,1,0,3
+2004,Under 5,Male,White,19,0,0,3
+2005,12 to 14,Male,White,38,2,0,3
+2005,15 to 17,Male,White,223,3,0,3
+2005,18 to 24,Male,White,1266,4,0,3
+2005,25 to 49,Male,White,2113,5,0,3
+2005,50+,Male,White,372,6,0,3
+2005,6 to 11,Male,White,15,1,0,3
+2005,Under 5,Male,White,18,0,0,3
+2006,12 to 14,Male,White,45,2,0,3
+2006,15 to 17,Male,White,242,3,0,3
+2006,18 to 24,Male,White,1275,4,0,3
+2006,25 to 49,Male,White,1996,5,0,3
+2006,50+,Male,White,365,6,0,3
+2006,6 to 11,Male,White,21,1,0,3
+2006,Under 5,Male,White,18,0,0,3
+2007,12 to 14,Male,White,38,2,0,3
+2007,15 to 17,Male,White,244,3,0,3
+2007,18 to 24,Male,White,1255,4,0,3
+2007,25 to 49,Male,White,2029,5,0,3
+2007,50+,Male,White,360,6,0,3
+2007,6 to 11,Male,White,21,1,0,3
+2007,Under 5,Male,White,19,0,0,3
+2008,12 to 14,Male,White,34,2,0,3
+2008,15 to 17,Male,White,230,3,0,3
+2008,18 to 24,Male,White,1144,4,0,3
+2008,25 to 49,Male,White,1987,5,0,3
+2008,50+,Male,White,398,6,0,3
+2008,6 to 11,Male,White,22,1,0,3
+2008,Under 5,Male,White,21,0,0,3
+2009,12 to 14,Male,White,26,2,0,3
+2009,15 to 17,Male,White,193,3,0,3
+2009,18 to 24,Male,White,1040,4,0,3
+2009,25 to 49,Male,White,1780,5,0,3
+2009,50+,Male,White,396,6,0,3
+2009,6 to 11,Male,White,19,1,0,3
+2009,Under 5,Male,White,24,0,0,3
+2010,12 to 14,Male,White,24,2,0,3
+2010,15 to 17,Male,White,181,3,0,3
+2010,18 to 24,Male,White,977,4,0,3
+2010,25 to 49,Male,White,1696,5,0,3
+2010,50+,Male,White,376,6,0,3
+2010,6 to 11,Male,White,12,1,0,3
+2010,Under 5,Male,White,20,0,0,3
+2011,12 to 14,Male,White,23,2,0,3
+2011,15 to 17,Male,White,149,3,0,3
+2011,18 to 24,Male,White,995,4,0,3
+2011,25 to 49,Male,White,1632,5,0,3
+2011,50+,Male,White,385,6,0,3
+2011,6 to 11,Male,White,16,1,0,3
+2011,Under 5,Male,White,23,0,0,3
+2012,12 to 14,Male,White,25,2,0,3
+2012,15 to 17,Male,White,146,3,0,3
+2012,18 to 24,Male,White,998,4,0,3
+2012,25 to 49,Male,White,1718,5,0,3
+2012,50+,Male,White,397,6,0,3
+2012,6 to 11,Male,White,25,1,0,3
+2012,Under 5,Male,White,17,0,0,3
+2013,12 to 14,Male,White,19,2,0,3
+2013,15 to 17,Male,White,128,3,0,3
+2013,18 to 24,Male,White,924,4,0,3
+2013,25 to 49,Male,White,1660,5,0,3
+2013,50+,Male,White,392,6,0,3
+2013,6 to 11,Male,White,16,1,0,3
+2013,Under 5,Male,White,18,0,0,3
+2014,12 to 14,Male,White,19,2,0,3
+2014,15 to 17,Male,White,130,3,0,3
+2014,18 to 24,Male,White,909,4,0,3
+2014,25 to 49,Male,White,1579,5,0,3
+2014,50+,Male,White,373,6,0,3
+2014,6 to 11,Male,White,21,1,0,3
+2014,Under 5,Male,White,26,0,0,3
+2015,12 to 14,Male,White,22,2,0,3
+2015,15 to 17,Male,White,138,3,0,3
+2015,18 to 24,Male,White,990,4,0,3
+2015,25 to 49,Male,White,1866,5,0,3
+2015,50+,Male,White,423,6,0,3
+2015,6 to 11,Male,White,19,1,0,3
+2015,Under 5,Male,White,21,0,0,3
+2016,12 to 14,Male,White,21,2,0,3
+2016,15 to 17,Male,White,154,3,0,3
+2016,18 to 24,Male,White,1079,4,0,3
+2016,25 to 49,Male,White,2135,5,0,3
+2016,50+,Male,White,471,6,0,3
+2016,6 to 11,Male,White,18,1,0,3
+2016,Under 5,Male,White,30,0,0,3
+2017,12 to 14,Male,White,22,2,0,3
+2017,15 to 17,Male,White,176,3,0,3
+2017,18 to 24,Male,White,1003,4,0,3
+2017,25 to 49,Male,White,2124,5,0,3
+2017,50+,Male,White,494,6,0,3
+2017,6 to 11,Male,White,20,1,0,3
+2017,Under 5,Male,White,24,0,0,3
+2018,12 to 14,Male,White,24,2,0,3
+2018,15 to 17,Male,White,162,3,0,3
+2018,18 to 24,Male,White,921,4,0,3
+2018,25 to 49,Male,White,1997,5,0,3
+2018,50+,Male,White,459,6,0,3
+2018,6 to 11,Male,White,17,1,0,3
+2018,Under 5,Male,White,23,0,0,3
+2019,12 to 14,Male,White,22,2,0,3
+2019,15 to 17,Male,White,160,3,0,3
+2019,18 to 24,Male,White,907,4,0,3
+2019,25 to 49,Male,White,1937,5,0,3
+2019,50+,Male,White,431,6,0,3
+2019,6 to 11,Male,White,28,1,0,3
+2019,Under 5,Male,White,19,0,0,3
+2000,12 to 14,Female,Asian,1,2,1,0
+2000,15 to 17,Female,Asian,4,3,1,0
+2000,18 to 24,Female,Asian,21,4,1,0
+2000,25 to 49,Female,Asian,34,5,1,0
+2000,50+,Female,Asian,6,6,1,0
+2000,6 to 11,Female,Asian,0,1,1,0
+2000,Under 5,Female,Asian,0,0,1,0
+2001,12 to 14,Female,Asian,0,2,1,0
+2001,15 to 17,Female,Asian,2,3,1,0
+2001,18 to 24,Female,Asian,10,4,1,0
+2001,25 to 49,Female,Asian,16,5,1,0
+2001,50+,Female,Asian,3,6,1,0
+2001,6 to 11,Female,Asian,0,1,1,0
+2001,Under 5,Female,Asian,0,0,1,0
+2002,12 to 14,Female,Asian,0,2,1,0
+2002,15 to 17,Female,Asian,2,3,1,0
+2002,18 to 24,Female,Asian,11,4,1,0
+2002,25 to 49,Female,Asian,17,5,1,0
+2002,50+,Female,Asian,3,6,1,0
+2002,6 to 11,Female,Asian,0,1,1,0
+2002,Under 5,Female,Asian,0,0,1,0
+2003,12 to 14,Female,Asian,0,2,1,0
+2003,15 to 17,Female,Asian,2,3,1,0
+2003,18 to 24,Female,Asian,11,4,1,0
+2003,25 to 49,Female,Asian,17,5,1,0
+2003,50+,Female,Asian,3,6,1,0
+2003,6 to 11,Female,Asian,0,1,1,0
+2003,Under 5,Female,Asian,0,0,1,0
+2004,12 to 14,Female,Asian,0,2,1,0
+2004,15 to 17,Female,Asian,1,3,1,0
+2004,18 to 24,Female,Asian,7,4,1,0
+2004,25 to 49,Female,Asian,12,5,1,0
+2004,50+,Female,Asian,2,6,1,0
+2004,6 to 11,Female,Asian,0,1,1,0
+2004,Under 5,Female,Asian,0,0,1,0
+2005,12 to 14,Female,Asian,0,2,1,0
+2005,15 to 17,Female,Asian,2,3,1,0
+2005,18 to 24,Female,Asian,9,4,1,0
+2005,25 to 49,Female,Asian,15,5,1,0
+2005,50+,Female,Asian,3,6,1,0
+2005,6 to 11,Female,Asian,0,1,1,0
+2005,Under 5,Female,Asian,0,0,1,0
+2006,12 to 14,Female,Asian,0,2,1,0
+2006,15 to 17,Female,Asian,2,3,1,0
+2006,18 to 24,Female,Asian,12,4,1,0
+2006,25 to 49,Female,Asian,19,5,1,0
+2006,50+,Female,Asian,3,6,1,0
+2006,6 to 11,Female,Asian,0,1,1,0
+2006,Under 5,Female,Asian,0,0,1,0
+2007,12 to 14,Female,Asian,0,2,1,0
+2007,15 to 17,Female,Asian,2,3,1,0
+2007,18 to 24,Female,Asian,8,4,1,0
+2007,25 to 49,Female,Asian,13,5,1,0
+2007,50+,Female,Asian,2,6,1,0
+2007,6 to 11,Female,Asian,0,1,1,0
+2007,Under 5,Female,Asian,0,0,1,0
+2008,12 to 14,Female,Asian,0,2,1,0
+2008,15 to 17,Female,Asian,1,3,1,0
+2008,18 to 24,Female,Asian,7,4,1,0
+2008,25 to 49,Female,Asian,12,5,1,0
+2008,50+,Female,Asian,2,6,1,0
+2008,6 to 11,Female,Asian,0,1,1,0
+2008,Under 5,Female,Asian,0,0,1,0
+2009,12 to 14,Female,Asian,0,2,1,0
+2009,15 to 17,Female,Asian,2,3,1,0
+2009,18 to 24,Female,Asian,9,4,1,0
+2009,25 to 49,Female,Asian,16,5,1,0
+2009,50+,Female,Asian,3,6,1,0
+2009,6 to 11,Female,Asian,0,1,1,0
+2009,Under 5,Female,Asian,0,0,1,0
+2010,12 to 14,Female,Asian,0,2,1,0
+2010,15 to 17,Female,Asian,1,3,1,0
+2010,18 to 24,Female,Asian,6,4,1,0
+2010,25 to 49,Female,Asian,10,5,1,0
+2010,50+,Female,Asian,2,6,1,0
+2010,6 to 11,Female,Asian,0,1,1,0
+2010,Under 5,Female,Asian,0,0,1,0
+2011,12 to 14,Female,Asian,0,2,1,0
+2011,15 to 17,Female,Asian,1,3,1,0
+2011,18 to 24,Female,Asian,8,4,1,0
+2011,25 to 49,Female,Asian,13,5,1,0
+2011,50+,Female,Asian,3,6,1,0
+2011,6 to 11,Female,Asian,0,1,1,0
+2011,Under 5,Female,Asian,0,0,1,0
+2012,12 to 14,Female,Asian,0,2,1,0
+2012,15 to 17,Female,Asian,1,3,1,0
+2012,18 to 24,Female,Asian,7,4,1,0
+2012,25 to 49,Female,Asian,12,5,1,0
+2012,50+,Female,Asian,3,6,1,0
+2012,6 to 11,Female,Asian,0,1,1,0
+2012,Under 5,Female,Asian,0,0,1,0
+2013,12 to 14,Female,Asian,0,2,1,0
+2013,15 to 17,Female,Asian,1,3,1,0
+2013,18 to 24,Female,Asian,6,4,1,0
+2013,25 to 49,Female,Asian,11,5,1,0
+2013,50+,Female,Asian,3,6,1,0
+2013,6 to 11,Female,Asian,0,1,1,0
+2013,Under 5,Female,Asian,0,0,1,0
+2014,12 to 14,Female,Asian,0,2,1,0
+2014,15 to 17,Female,Asian,1,3,1,0
+2014,18 to 24,Female,Asian,7,4,1,0
+2014,25 to 49,Female,Asian,12,5,1,0
+2014,50+,Female,Asian,3,6,1,0
+2014,6 to 11,Female,Asian,0,1,1,0
+2014,Under 5,Female,Asian,0,0,1,0
+2015,12 to 14,Female,Asian,0,2,1,0
+2015,15 to 17,Female,Asian,1,3,1,0
+2015,18 to 24,Female,Asian,7,4,1,0
+2015,25 to 49,Female,Asian,13,5,1,0
+2015,50+,Female,Asian,3,6,1,0
+2015,6 to 11,Female,Asian,0,1,1,0
+2015,Under 5,Female,Asian,0,0,1,0
+2016,12 to 14,Female,Asian,0,2,1,0
+2016,15 to 17,Female,Asian,1,3,1,0
+2016,18 to 24,Female,Asian,8,4,1,0
+2016,25 to 49,Female,Asian,15,5,1,0
+2016,50+,Female,Asian,3,6,1,0
+2016,6 to 11,Female,Asian,0,1,1,0
+2016,Under 5,Female,Asian,0,0,1,0
+2017,12 to 14,Female,Asian,0,2,1,0
+2017,15 to 17,Female,Asian,1,3,1,0
+2017,18 to 24,Female,Asian,7,4,1,0
+2017,25 to 49,Female,Asian,15,5,1,0
+2017,50+,Female,Asian,3,6,1,0
+2017,6 to 11,Female,Asian,0,1,1,0
+2017,Under 5,Female,Asian,0,0,1,0
+2018,12 to 14,Female,Asian,0,2,1,0
+2018,15 to 17,Female,Asian,1,3,1,0
+2018,18 to 24,Female,Asian,8,4,1,0
+2018,25 to 49,Female,Asian,17,5,1,0
+2018,50+,Female,Asian,4,6,1,0
+2018,6 to 11,Female,Asian,0,1,1,0
+2018,Under 5,Female,Asian,0,0,1,0
+2019,12 to 14,Female,Asian,0,2,1,0
+2019,15 to 17,Female,Asian,1,3,1,0
+2019,18 to 24,Female,Asian,7,4,1,0
+2019,25 to 49,Female,Asian,15,5,1,0
+2019,50+,Female,Asian,3,6,1,0
+2019,6 to 11,Female,Asian,0,1,1,0
+2019,Under 5,Female,Asian,0,0,1,0
+2000,12 to 14,Female,Black,21,2,1,1
+2000,15 to 17,Female,Black,115,3,1,1
+2000,18 to 24,Female,Black,671,4,1,1
+2000,25 to 49,Female,Black,1113,5,1,1
+2000,50+,Female,Black,190,6,1,1
+2000,6 to 11,Female,Black,10,1,1,1
+2000,Under 5,Female,Black,12,0,1,1
+2001,12 to 14,Female,Black,6,2,1,1
+2001,15 to 17,Female,Black,44,3,1,1
+2001,18 to 24,Female,Black,278,4,1,1
+2001,25 to 49,Female,Black,442,5,1,1
+2001,50+,Female,Black,75,6,1,1
+2001,6 to 11,Female,Black,5,1,1,1
+2001,Under 5,Female,Black,6,0,1,1
+2002,12 to 14,Female,Black,8,2,1,1
+2002,15 to 17,Female,Black,48,3,1,1
+2002,18 to 24,Female,Black,309,4,1,1
+2002,25 to 49,Female,Black,492,5,1,1
+2002,50+,Female,Black,83,6,1,1
+2002,6 to 11,Female,Black,6,1,1,1
+2002,Under 5,Female,Black,6,0,1,1
+2003,12 to 14,Female,Black,7,2,1,1
+2003,15 to 17,Female,Black,42,3,1,1
+2003,18 to 24,Female,Black,296,4,1,1
+2003,25 to 49,Female,Black,461,5,1,1
+2003,50+,Female,Black,77,6,1,1
+2003,6 to 11,Female,Black,3,1,1,1
+2003,Under 5,Female,Black,4,0,1,1
+2004,12 to 14,Female,Black,7,2,1,1
+2004,15 to 17,Female,Black,44,3,1,1
+2004,18 to 24,Female,Black,257,4,1,1
+2004,25 to 49,Female,Black,430,5,1,1
+2004,50+,Female,Black,81,6,1,1
+2004,6 to 11,Female,Black,3,1,1,1
+2004,Under 5,Female,Black,4,0,1,1
+2005,12 to 14,Female,Black,8,2,1,1
+2005,15 to 17,Female,Black,50,3,1,1
+2005,18 to 24,Female,Black,283,4,1,1
+2005,25 to 49,Female,Black,472,5,1,1
+2005,50+,Female,Black,83,6,1,1
+2005,6 to 11,Female,Black,3,1,1,1
+2005,Under 5,Female,Black,4,0,1,1
+2006,12 to 14,Female,Black,11,2,1,1
+2006,15 to 17,Female,Black,61,3,1,1
+2006,18 to 24,Female,Black,320,4,1,1
+2006,25 to 49,Female,Black,501,5,1,1
+2006,50+,Female,Black,92,6,1,1
+2006,6 to 11,Female,Black,5,1,1,1
+2006,Under 5,Female,Black,5,0,1,1
+2007,12 to 14,Female,Black,9,2,1,1
+2007,15 to 17,Female,Black,59,3,1,1
+2007,18 to 24,Female,Black,306,4,1,1
+2007,25 to 49,Female,Black,494,5,1,1
+2007,50+,Female,Black,87,6,1,1
+2007,6 to 11,Female,Black,5,1,1,1
+2007,Under 5,Female,Black,5,0,1,1
+2008,12 to 14,Female,Black,8,2,1,1
+2008,15 to 17,Female,Black,57,3,1,1
+2008,18 to 24,Female,Black,281,4,1,1
+2008,25 to 49,Female,Black,489,5,1,1
+2008,50+,Female,Black,98,6,1,1
+2008,6 to 11,Female,Black,5,1,1,1
+2008,Under 5,Female,Black,5,0,1,1
+2009,12 to 14,Female,Black,7,2,1,1
+2009,15 to 17,Female,Black,52,3,1,1
+2009,18 to 24,Female,Black,284,4,1,1
+2009,25 to 49,Female,Black,485,5,1,1
+2009,50+,Female,Black,108,6,1,1
+2009,6 to 11,Female,Black,5,1,1,1
+2009,Under 5,Female,Black,6,0,1,1
+2010,12 to 14,Female,Black,7,2,1,1
+2010,15 to 17,Female,Black,51,3,1,1
+2010,18 to 24,Female,Black,273,4,1,1
+2010,25 to 49,Female,Black,474,5,1,1
+2010,50+,Female,Black,105,6,1,1
+2010,6 to 11,Female,Black,3,1,1,1
+2010,Under 5,Female,Black,5,0,1,1
+2011,12 to 14,Female,Black,6,2,1,1
+2011,15 to 17,Female,Black,43,3,1,1
+2011,18 to 24,Female,Black,286,4,1,1
+2011,25 to 49,Female,Black,470,5,1,1
+2011,50+,Female,Black,111,6,1,1
+2011,6 to 11,Female,Black,5,1,1,1
+2011,Under 5,Female,Black,6,0,1,1
+2012,12 to 14,Female,Black,8,2,1,1
+2012,15 to 17,Female,Black,43,3,1,1
+2012,18 to 24,Female,Black,289,4,1,1
+2012,25 to 49,Female,Black,498,5,1,1
+2012,50+,Female,Black,115,6,1,1
+2012,6 to 11,Female,Black,7,1,1,1
+2012,Under 5,Female,Black,5,0,1,1
+2013,12 to 14,Female,Black,6,2,1,1
+2013,15 to 17,Female,Black,37,3,1,1
+2013,18 to 24,Female,Black,273,4,1,1
+2013,25 to 49,Female,Black,490,5,1,1
+2013,50+,Female,Black,116,6,1,1
+2013,6 to 11,Female,Black,5,1,1,1
+2013,Under 5,Female,Black,5,0,1,1
+2014,12 to 14,Female,Black,6,2,1,1
+2014,15 to 17,Female,Black,40,3,1,1
+2014,18 to 24,Female,Black,278,4,1,1
+2014,25 to 49,Female,Black,483,5,1,1
+2014,50+,Female,Black,114,6,1,1
+2014,6 to 11,Female,Black,6,1,1,1
+2014,Under 5,Female,Black,8,0,1,1
+2015,12 to 14,Female,Black,7,2,1,1
+2015,15 to 17,Female,Black,42,3,1,1
+2015,18 to 24,Female,Black,302,4,1,1
+2015,25 to 49,Female,Black,570,5,1,1
+2015,50+,Female,Black,129,6,1,1
+2015,6 to 11,Female,Black,5,1,1,1
+2015,Under 5,Female,Black,7,0,1,1
+2016,12 to 14,Female,Black,7,2,1,1
+2016,15 to 17,Female,Black,48,3,1,1
+2016,18 to 24,Female,Black,336,4,1,1
+2016,25 to 49,Female,Black,665,5,1,1
+2016,50+,Female,Black,147,6,1,1
+2016,6 to 11,Female,Black,5,1,1,1
+2016,Under 5,Female,Black,10,0,1,1
+2017,12 to 14,Female,Black,7,2,1,1
+2017,15 to 17,Female,Black,55,3,1,1
+2017,18 to 24,Female,Black,314,4,1,1
+2017,25 to 49,Female,Black,664,5,1,1
+2017,50+,Female,Black,154,6,1,1
+2017,6 to 11,Female,Black,6,1,1,1
+2017,Under 5,Female,Black,7,0,1,1
+2018,12 to 14,Female,Black,8,2,1,1
+2018,15 to 17,Female,Black,54,3,1,1
+2018,18 to 24,Female,Black,306,4,1,1
+2018,25 to 49,Female,Black,664,5,1,1
+2018,50+,Female,Black,153,6,1,1
+2018,6 to 11,Female,Black,6,1,1,1
+2018,Under 5,Female,Black,7,0,1,1
+2019,12 to 14,Female,Black,7,2,1,1
+2019,15 to 17,Female,Black,55,3,1,1
+2019,18 to 24,Female,Black,313,4,1,1
+2019,25 to 49,Female,Black,667,5,1,1
+2019,50+,Female,Black,149,6,1,1
+2019,6 to 11,Female,Black,9,1,1,1
+2019,Under 5,Female,Native American,0,0,1,2
+2000,12 to 14,Female,Native American,0,2,1,2
+2000,15 to 17,Female,Native American,1,3,1,2
+2000,18 to 24,Female,Native American,7,4,1,2
+2000,25 to 49,Female,Native American,11,5,1,2
+2000,50+,Female,Native American,2,6,1,2
+2000,6 to 11,Female,Native American,0,1,1,2
+2000,Under 5,Female,Native American,0,0,1,2
+2001,12 to 14,Female,Native American,0,2,1,2
+2001,15 to 17,Female,Native American,0,3,1,2
+2001,18 to 24,Female,Native American,3,4,1,2
+2001,25 to 49,Female,Native American,4,5,1,2
+2001,50+,Female,Native American,1,6,1,2
+2001,6 to 11,Female,Native American,0,1,1,2
+2001,Under 5,Female,Native American,0,0,1,2
+2002,12 to 14,Female,Native American,0,2,1,2
+2002,15 to 17,Female,Native American,1,3,1,2
+2002,18 to 24,Female,Native American,3,4,1,2
+2002,25 to 49,Female,Native American,5,5,1,2
+2002,50+,Female,Native American,1,6,1,2
+2002,6 to 11,Female,Native American,0,1,1,2
+2002,Under 5,Female,Native American,0,0,1,2
+2003,12 to 14,Female,Native American,0,2,1,2
+2003,15 to 17,Female,Native American,0,3,1,2
+2003,18 to 24,Female,Native American,2,4,1,2
+2003,25 to 49,Female,Native American,4,5,1,2
+2003,50+,Female,Native American,1,6,1,2
+2003,6 to 11,Female,Native American,0,1,1,2
+2003,Under 5,Female,Native American,0,0,1,2
+2004,12 to 14,Female,Native American,0,2,1,2
+2004,15 to 17,Female,Native American,1,3,1,2
+2004,18 to 24,Female,Native American,3,4,1,2
+2004,25 to 49,Female,Native American,5,5,1,2
+2004,50+,Female,Native American,1,6,1,2
+2004,6 to 11,Female,Native American,0,1,1,2
+2004,Under 5,Female,Native American,0,0,1,2
+2005,12 to 14,Female,Native American,0,2,1,2
+2005,15 to 17,Female,Native American,0,3,1,2
+2005,18 to 24,Female,Native American,2,4,1,2
+2005,25 to 49,Female,Native American,4,5,1,2
+2005,50+,Female,Native American,1,6,1,2
+2005,6 to 11,Female,Native American,0,1,1,2
+2005,Under 5,Female,Native American,0,0,1,2
+2006,12 to 14,Female,Native American,0,2,1,2
+2006,15 to 17,Female,Native American,1,3,1,2
+2006,18 to 24,Female,Native American,3,4,1,2
+2006,25 to 49,Female,Native American,4,5,1,2
+2006,50+,Female,Native American,1,6,1,2
+2006,6 to 11,Female,Native American,0,1,1,2
+2006,Under 5,Female,Native American,0,0,1,2
+2007,12 to 14,Female,Native American,0,2,1,2
+2007,15 to 17,Female,Native American,0,3,1,2
+2007,18 to 24,Female,Native American,2,4,1,2
+2007,25 to 49,Female,Native American,3,5,1,2
+2007,50+,Female,Native American,1,6,1,2
+2007,6 to 11,Female,Native American,0,1,1,2
+2007,Under 5,Female,Native American,0,0,1,2
+2008,12 to 14,Female,Native American,0,2,1,2
+2008,15 to 17,Female,Native American,0,3,1,2
+2008,18 to 24,Female,Native American,2,4,1,2
+2008,25 to 49,Female,Native American,4,5,1,2
+2008,50+,Female,Native American,1,6,1,2
+2008,6 to 11,Female,Native American,0,1,1,2
+2008,Under 5,Female,Native American,0,0,1,2
+2009,12 to 14,Female,Native American,0,2,1,2
+2009,15 to 17,Female,Native American,0,3,1,2
+2009,18 to 24,Female,Native American,3,4,1,2
+2009,25 to 49,Female,Native American,5,5,1,2
+2009,50+,Female,Native American,1,6,1,2
+2009,6 to 11,Female,Native American,0,1,1,2
+2009,Under 5,Female,Native American,0,0,1,2
+2010,12 to 14,Female,Native American,0,2,1,2
+2010,15 to 17,Female,Native American,0,3,1,2
+2010,18 to 24,Female,Native American,2,4,1,2
+2010,25 to 49,Female,Native American,4,5,1,2
+2010,50+,Female,Native American,1,6,1,2
+2010,6 to 11,Female,Native American,0,1,1,2
+2010,Under 5,Female,Native American,0,0,1,2
+2011,12 to 14,Female,Native American,0,2,1,2
+2011,15 to 17,Female,Native American,0,3,1,2
+2011,18 to 24,Female,Native American,2,4,1,2
+2011,25 to 49,Female,Native American,3,5,1,2
+2011,50+,Female,Native American,1,6,1,2
+2011,6 to 11,Female,Native American,0,1,1,2
+2011,Under 5,Female,Native American,0,0,1,2
+2012,12 to 14,Female,Native American,0,2,1,2
+2012,15 to 17,Female,Native American,0,3,1,2
+2012,18 to 24,Female,Native American,1,4,1,2
+2012,25 to 49,Female,Native American,2,5,1,2
+2012,50+,Female,Native American,1,6,1,2
+2012,6 to 11,Female,Native American,0,1,1,2
+2012,Under 5,Female,Native American,0,0,1,2
+2013,12 to 14,Female,Native American,0,2,1,2
+2013,15 to 17,Female,Native American,0,3,1,2
+2013,18 to 24,Female,Native American,2,4,1,2
+2013,25 to 49,Female,Native American,3,5,1,2
+2013,50+,Female,Native American,1,6,1,2
+2013,6 to 11,Female,Native American,0,1,1,2
+2013,Under 5,Female,Native American,0,0,1,2
+2014,12 to 14,Female,Native American,0,2,1,2
+2014,15 to 17,Female,Native American,0,3,1,2
+2014,18 to 24,Female,Native American,2,4,1,2
+2014,25 to 49,Female,Native American,4,5,1,2
+2014,50+,Female,Native American,1,6,1,2
+2014,6 to 11,Female,Native American,0,1,1,2
+2014,Under 5,Female,Native American,0,0,1,2
+2015,12 to 14,Female,Native American,0,2,1,2
+2015,15 to 17,Female,Native American,0,3,1,2
+2015,18 to 24,Female,Native American,4,4,1,2
+2015,25 to 49,Female,Native American,7,5,1,2
+2015,50+,Female,Native American,2,6,1,2
+2015,6 to 11,Female,Native American,0,1,1,2
+2015,Under 5,Female,Native American,0,0,1,2
+2016,12 to 14,Female,Native American,0,2,1,2
+2016,15 to 17,Female,Native American,1,3,1,2
+2016,18 to 24,Female,Native American,4,4,1,2
+2016,25 to 49,Female,Native American,7,5,1,2
+2016,50+,Female,Native American,2,6,1,2
+2016,6 to 11,Female,Native American,0,1,1,2
+2016,Under 5,Female,Native American,0,0,1,2
+2017,12 to 14,Female,Native American,0,2,1,2
+2017,15 to 17,Female,Native American,1,3,1,2
+2017,18 to 24,Female,Native American,4,4,1,2
+2017,25 to 49,Female,Native American,9,5,1,2
+2017,50+,Female,Native American,2,6,1,2
+2017,6 to 11,Female,Native American,0,1,1,2
+2017,Under 5,Female,Native American,0,0,1,2
+2018,12 to 14,Female,Native American,0,2,1,2
+2018,15 to 17,Female,Native American,1,3,1,2
+2018,18 to 24,Female,Native American,4,4,1,2
+2018,25 to 49,Female,Native American,8,5,1,2
+2018,50+,Female,Native American,2,6,1,2
+2018,6 to 11,Female,Native American,0,1,1,2
+2018,Under 5,Female,Native American,0,0,1,2
+2019,12 to 14,Female,Native American,0,2,1,2
+2019,15 to 17,Female,Native American,1,3,1,2
+2019,18 to 24,Female,Native American,4,4,1,2
+2019,25 to 49,Female,Native American,8,5,1,2
+2019,50+,Female,Native American,2,6,1,2
+2019,6 to 11,Female,White,5,1,1,3
+2019,Under 5,Female,White,4,0,1,3
+2000,12 to 14,Female,White,17,2,1,3
+2000,15 to 17,Female,White,93,3,1,3
+2000,18 to 24,Female,White,539,4,1,3
+2000,25 to 49,Female,White,894,5,1,3
+2000,50+,Female,White,153,6,1,3
+2000,6 to 11,Female,White,8,1,1,3
+2000,Under 5,Female,White,10,0,1,3
+2001,12 to 14,Female,White,5,2,1,3
+2001,15 to 17,Female,White,36,3,1,3
+2001,18 to 24,Female,White,230,4,1,3
+2001,25 to 49,Female,White,365,5,1,3
+2001,50+,Female,White,62,6,1,3
+2001,6 to 11,Female,White,4,1,1,3
+2001,Under 5,Female,White,5,0,1,3
+2002,12 to 14,Female,White,6,2,1,3
+2002,15 to 17,Female,White,38,3,1,3
+2002,18 to 24,Female,White,246,4,1,3
+2002,25 to 49,Female,White,391,5,1,3
+2002,50+,Female,White,66,6,1,3
+2002,6 to 11,Female,White,5,1,1,3
+2002,Under 5,Female,White,5,0,1,3
+2003,12 to 14,Female,White,5,2,1,3
+2003,15 to 17,Female,White,33,3,1,3
+2003,18 to 24,Female,White,228,4,1,3
+2003,25 to 49,Female,White,354,5,1,3
+2003,50+,Female,White,59,6,1,3
+2003,6 to 11,Female,White,3,1,1,3
+2003,Under 5,Female,White,3,0,1,3
+2004,12 to 14,Female,White,6,2,1,3
+2004,15 to 17,Female,White,35,3,1,3
+2004,18 to 24,Female,White,205,4,1,3
+2004,25 to 49,Female,White,344,5,1,3
+2004,50+,Female,White,65,6,1,3
+2004,6 to 11,Female,White,3,1,1,3
+2004,Under 5,Female,White,3,0,1,3
+2005,12 to 14,Female,White,6,2,1,3
+2005,15 to 17,Female,White,39,3,1,3
+2005,18 to 24,Female,White,221,4,1,3
+2005,25 to 49,Female,White,368,5,1,3
+2005,50+,Female,White,65,6,1,3
+2005,6 to 11,Female,White,3,1,1,3
+2005,Under 5,Female,White,3,0,1,3
+2006,12 to 14,Female,White,8,2,1,3
+2006,15 to 17,Female,White,44,3,1,3
+2006,18 to 24,Female,White,230,4,1,3
+2006,25 to 49,Female,White,361,5,1,3
+2006,50+,Female,White,66,6,1,3
+2006,6 to 11,Female,White,4,1,1,3
+2006,Under 5,Female,White,3,0,1,3
+2007,12 to 14,Female,White,7,2,1,3
+2007,15 to 17,Female,White,43,3,1,3
+2007,18 to 24,Female,White,219,4,1,3
+2007,25 to 49,Female,White,354,5,1,3
+2007,50+,Female,White,63,6,1,3
+2007,6 to 11,Female,White,4,1,1,3
+2007,Under 5,Female,White,3,0,1,3
+2008,12 to 14,Female,White,6,2,1,3
+2008,15 to 17,Female,White,43,3,1,3
+2008,18 to 24,Female,White,213,4,1,3
+2008,25 to 49,Female,White,369,5,1,3
+2008,50+,Female,White,74,6,1,3
+2008,6 to 11,Female,White,4,1,1,3
+2008,Under 5,Female,White,4,0,1,3
+2009,12 to 14,Female,White,5,2,1,3
+2009,15 to 17,Female,White,38,3,1,3
+2009,18 to 24,Female,White,207,4,1,3
+2009,25 to 49,Female,White,355,5,1,3
+2009,50+,Female,White,79,6,1,3
+2009,6 to 11,Female,White,4,1,1,3
+2009,Under 5,Female,White,5,0,1,3
+2010,12 to 14,Female,White,5,2,1,3
+2010,15 to 17,Female,White,35,3,1,3
+2010,18 to 24,Female,White,188,4,1,3
+2010,25 to 49,Female,White,326,5,1,3
+2010,50+,Female,White,73,6,1,3
+2010,6 to 11,Female,White,2,1,1,3
+2010,Under 5,Female,White,4,0,1,3
+2011,12 to 14,Female,White,4,2,1,3
+2011,15 to 17,Female,White,29,3,1,3
+2011,18 to 24,Female,White,193,4,1,3
+2011,25 to 49,Female,White,317,5,1,3
+2011,50+,Female,White,75,6,1,3
+2011,6 to 11,Female,White,3,1,1,3
+2011,Under 5,Female,White,4,0,1,3
+2012,12 to 14,Female,White,5,2,1,3
+2012,15 to 17,Female,White,28,3,1,3
+2012,18 to 24,Female,White,191,4,1,3
+2012,25 to 49,Female,White,330,5,1,3
+2012,50+,Female,White,76,6,1,3
+2012,6 to 11,Female,White,5,1,1,3
+2012,Under 5,Female,White,3,0,1,3
+2013,12 to 14,Female,White,4,2,1,3
+2013,15 to 17,Female,White,24,3,1,3
+2013,18 to 24,Female,White,178,4,1,3
+2013,25 to 49,Female,White,320,5,1,3
+2013,50+,Female,White,76,6,1,3
+2013,6 to 11,Female,White,3,1,1,3
+2013,Under 5,Female,White,3,0,1,3
+2014,12 to 14,Female,White,4,2,1,3
+2014,15 to 17,Female,White,26,3,1,3
+2014,18 to 24,Female,White,181,4,1,3
+2014,25 to 49,Female,White,315,5,1,3
+2014,50+,Female,White,74,6,1,3
+2014,6 to 11,Female,White,4,1,1,3
+2014,Under 5,Female,White,5,0,1,3
+2015,12 to 14,Female,White,4,2,1,3
+2015,15 to 17,Female,White,26,3,1,3
+2015,18 to 24,Female,White,184,4,1,3
+2015,25 to 49,Female,White,348,5,1,3
+2015,50+,Female,White,79,6,1,3
+2015,6 to 11,Female,White,3,1,1,3
+2015,Under 5,Female,White,4,0,1,3
+2016,12 to 14,Female,White,4,2,1,3
+2016,15 to 17,Female,White,30,3,1,3
+2016,18 to 24,Female,White,208,4,1,3
+2016,25 to 49,Female,White,410,5,1,3
+2016,50+,Female,White,90,6,1,3
+2016,6 to 11,Female,White,3,1,1,3
+2016,Under 5,Female,White,6,0,1,3
+2017,12 to 14,Female,White,4,2,1,3
+2017,15 to 17,Female,White,34,3,1,3
+2017,18 to 24,Female,White,195,4,1,3
+2017,25 to 49,Female,White,413,5,1,3
+2017,50+,Female,White,96,6,1,3
+2017,6 to 11,Female,White,4,1,1,3
+2017,Under 5,Female,White,5,0,1,3
+2018,12 to 14,Female,White,5,2,1,3
+2018,15 to 17,Female,White,33,3,1,3
+2018,18 to 24,Female,White,189,4,1,3
+2018,25 to 49,Female,White,410,5,1,3
+2018,50+,Female,White,94,6,1,3
+2018,6 to 11,Female,White,4,1,1,3
+2018,Under 5,Female,White,4,0,1,3
+2019,12 to 14,Female,White,4,2,1,3
+2019,15 to 17,Female,White,31,3,1,3
+2019,18 to 24,Female,White,178,4,1,3
+2019,25 to 49,Female,White,379,5,1,3
+2019,50+,Female,White,84,6,1,3
+2019,6 to 11,Female,White,5,1,1,3
+2019,Under 5,Female,White,4,0,1,3
