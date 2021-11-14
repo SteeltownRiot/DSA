@@ -119,3 +119,6 @@ g
 
 
 
+myData$ethnicity <- as.character(myData$ethnicity)
+myData[myData == "Black"] <- "African American"
+#myData
