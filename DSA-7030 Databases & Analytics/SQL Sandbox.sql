@@ -140,7 +140,7 @@ FROM  (
         SELECT
             SUM(return_date - rental_date) as rental_time,
             MAX(return_date-rental_date), customer_id
-        , COUNT(*) as cnt
+        , COUNT(*) as rent
         FROM rental
         WHERE 
         GROUP BY customer_id 
@@ -199,7 +199,7 @@ WHERE    (
         SELECT
             SUM(return_date - rental_date) as rental_time,
             MAX(return_date-rental_date), customer_id
-        , COUNT(*) as cnt
+        , COUNT(*) as rent
         FROM rental
         GROUP BY customer_id 
         HAVING SUM(return_date - rental_date) > '170 days'::interval
@@ -258,24 +258,24 @@ SELECT  title
 FROM    film AS f JOIN inventory AS i
         ON f.film_id = i.film_id
         INNER JOIN (
-            SELECT  COUNT(*) as cnt, inventory_id
+            SELECT  COUNT(*) as rent, inventory_id
             FROM    rental
             WHERE   rental_date IS NOT NULL
             GROUP BY inventory_id
-            ORDER BY cnt
+            ORDER BY rent
         ) AS rentals
         ON i.inventory_id = rentals.inventory_id;
 
 
 %%sql
 EXPLAIN
-SELECT  f.title, top_renter.cnt AS rentals
+SELECT  f.title, top_renter.rent AS rentals
 FROM    rental AS r
         INNER JOIN (
-        SELECT  COUNT(*) as cnt
+        SELECT  COUNT(*) as rent
             FROM    rental
             GROUP BY customer_id
-            ORDER BY cnt DESC
+            ORDER BY rent DESC
             LIMIT 10
         ) as top_renters
         USING (customer_id)
@@ -283,3 +283,229 @@ FROM    rental AS r
         ON top_renters.inventory_id = i.inventory_id
         JOIN film AS f
         ON f.film_id = i.film_id;
+
+
+%%sql
+EXPLAIN 
+SELECT  DISTINCT(f.title)
+FROM    film AS f JOIN inventory AS i
+        ON f.film_id = i.film_id
+        JOIN rental AS r
+        ON i.inventory_id = r.inventory_id 
+WHERE   r.customer_id IN (
+            SELECT  customer_id
+            FROM    rental
+            GROUP BY customer_id
+            ORDER BY COUNT(*) DESC
+            LIMIT   10
+        );
+
+%%sql
+EXPLAIN 
+SELECT  DISTINCT(f.title)
+FROM    film AS f JOIN inventory AS i
+        ON f.film_id = i.film_id
+        JOIN rental AS r
+        ON i.inventory_id = r.inventory_id
+        INNER JOIN (
+            SELECT  customer_id, COUNT(*) as rent
+            FROM    rental
+            GROUP BY customer_id
+            ORDER BY rent DESC
+            LIMIT   10
+        ) AS top_renters
+        ON top_renters.customer_id = r.customer_id;
+
+
+%%sql
+EXPLAIN
+SELECT  f.title, COUNT(*) AS rentals
+FROM    customer AS c
+        INNER JOIN (
+            SELECT  COUNT(*) as rent, customer_id
+            FROM    rental
+            GROUP BY customer_id
+        ) as top_renters
+        ON c.customer_id = top_renters.customer_id
+        JOIN rental as r
+        ON c.customer_id = r.customer_id
+        JOIN inventory AS i
+        ON r.inventory_id = i.inventory_id
+        JOIN film AS f
+        ON f.film_id = i.film_id
+ORDER BY top_renters.rent DESC
+LIMIT   10;
+
+
+%%sql
+EXPLAIN
+SELECT  c.city, s.store_id, f.title
+FROM    store AS s JOIN address AS a
+        ON s.address_id = a.address_id
+        JOIN city AS c
+        ON a.city_id = c.city_id
+        JOIN staff AS st
+        ON s.store_id = st.store_id
+        JOIN rental as r
+        ON st.staff_id = r.staff_id
+        JOIN inventory AS i
+        ON r.inventory_id = i.inventory_id
+        JOIN film AS f
+        ON f.film_id = i.film_id
+WHERE   f.film_id NOT IN (
+            SELECT  film_id
+            FROM    rental
+            WHERE   rental_date IS NULL
+        );
+
+SELECT  DISTINCT(f.title), c.city, s.store_id
+FROM    store AS s JOIN address AS a USING (address_id)
+        JOIN city AS c USING (city_id)
+, film AS f
+;
+
+
+%%sql
+EXPLAIN
+SELECT  c.city, s.store_id, f.title
+FROM    store AS s JOIN address AS a USING (address_id)
+        JOIN city AS c USING (city_id)
+        CROSS JOIN film AS f
+WHERE   NOT EXISTS (
+            SELECT  'x'
+            FROM    film AS f2 JOIN inventory AS i USING (film_id)
+                    JOIN rental r USING (inventory_id)
+                    JOIN staff AS st USING (staff_id)
+                    JOIN store as s2 USING (store_id)
+            WHERE   rental_date IS NOT NULL
+                    AND f2.film_id = f.film_id
+                    AND s2.store_id = s.store_id
+        );
+
+
+%%sql
+EXPLAIN
+SELECT  c.city, s.store_id, f.title
+FROM    store AS s JOIN address AS a
+        ON s.address_id = a.address_id
+        JOIN city AS c
+
+        CROSS JOIN film AS f
+WHERE   NOT EXISTS (
+            SELECT  'x'
+            FROM    FROM film AS f2 JOIN inventory AS i
+                    ON f.film_id = i.film_id  
+                    JOIN rental AS r
+                    ON i.inventory_id = r.inventory_id
+                    JOIN staff AS st 
+                    ON st.staff_id = r.staff_id
+                    JOIN store AS s2
+                    ON s2.store_id = s.store_id
+            WHERE   rental_date IS NOT NULL
+                    AND f2.film_id = f.film_id
+                    AND s2.store_id = s.store_id
+        );
+
+
+
+%%sql
+EXPLAIN
+SELECT  c.city, s.store_id, f.title
+FROM    store AS s JOIN address AS a
+        ON s.address_id = a.address_id
+        JOIN city AS c
+        ON a.city_id = c.city_id
+        CROSS JOIN film AS f
+WHERE   NOT EXISTS (
+            SELECT  'x'
+            FROM    film AS f2 JOIN inventory AS i
+                    ON f.film_id = i.film_id  
+                    JOIN rental AS r
+                    ON i.inventory_id = r.inventory_id
+                    JOIN staff AS st 
+                    ON st.staff_id = r.staff_id
+            WHERE   rental_date IS NOT NULL
+                    AND f2.film_id = f.film_id
+                    AND st.store_id = s.store_id
+        );
+
+
+
+
+
+
+
+
+%%sql
+EXPLAIN 
+SELECT  DISTINCT f.title
+        ,top_renters.rent
+FROM    film AS f JOIN inventory AS i
+        ON f.film_id = i.film_id
+        JOIN rental AS r
+        ON i.inventory_id = r.inventory_id
+        INNER JOIN (
+            SELECT  customer_id
+                    ,COUNT(i.inventory_id) as rent
+            FROM    rental
+            GROUP BY customer_id
+            ORDER BY rent DESC
+            LIMIT   10
+        ) AS top_renters
+        ON top_renters.customer_id = r.customer_id;
+
+
+
+
+%%sql
+SELECT  f.title
+        ,COUNT(r.inventory_id) AS rentals
+FROM    film AS f JOIN inventory AS i
+        ON f.film_id = i.film_id
+        JOIN rental AS r
+        ON i.inventory_id = r.inventory_id 
+WHERE   r.customer_id IN (
+            SELECT  customer_id
+            FROM    rental
+            GROUP BY customer_id
+            ORDER BY COUNT(*) DESC
+            LIMIT   10
+        )
+GROUP BY f.title;
+
+
+SELECT  DISTINCT f.title
+        ,top_renters.rent AS rentals
+FROM    film AS f JOIN inventory AS i
+        ON f.film_id = i.film_id
+        JOIN rental AS r
+        ON i.inventory_id = r.inventory_id
+        INNER JOIN (
+            SELECT  customer_id
+                    COUNT(customer_id) AS cust
+                    ,COUNT(inventory_id) as rent
+            FROM    rental
+            GROUP BY customer_id
+            ORDER BY cust DESC
+            LIMIT   10
+        ) AS top_renters
+        ON top_renters.customer_id = r.customer_id;
+
+--take a look at q5, select titles count them from film then join inventory, 
+--rental and check for customer ids in as per q5 top ten renters
+
+%%sql
+EXPLAIN 
+SELECT  f.title, COUNT(f.title) AS rentals
+FROM    film AS f JOIN inventory AS i
+        ON f.film_id = i.film_id
+        JOIN rental AS r
+        ON i.inventory_id = r.inventory_id 
+WHERE   r.customer_id IN (
+            SELECT  customer_id
+            FROM    rental
+            GROUP BY customer_id
+            ORDER BY COUNT(*) DESC
+            LIMIT   10
+        )
+GROUP BY f.title;
