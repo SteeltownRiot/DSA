@@ -509,3 +509,74 @@ WHERE   r.customer_id IN (
             LIMIT   10
         )
 GROUP BY f.title;
+\df and \df+
+
+UPDATE jch5x8.survey 
+SET reading = 0.111
+WHERE taken = 751
+AND person = 'lake' 
+AND quant = 'sal';
+
+jch5x8
+
+
+SELECT * FROM jch5x8.survey
+WHERE person = 'lake'
+and quant = 'sal';
+
+SELECT * FROM jch5x8.dr1_measurements;
+
+
+UPDATE jch5x8.survey 
+SET reading = 0.1
+WHERE taken = 751
+AND person = 'lake' 
+and quant = 'sal';
+
+
+SELECT * FROM jch5x8.survey_audit;
+
+CREATE OR REPLACE VIEW
+    jch5x8.dr1_measurements
+AS
+SELECT v.dated as date_taken
+    , s.quant, s.reading
+FROM jch5x8.visited v JOIN jch5x8.survey s ON (v.id::int=s.taken::int)
+WHERE v.site='DR-1';
+
+
+CREATE OR REPLACE VIEW
+    jch5x8.dr1_radiation
+AS
+
+SELECT  v.dated as date_taken
+        ,place.lat as latitude
+        ,place.long as longitude
+        ,s.reading as radiation
+FROM    jch5x8.visited v
+        JOIN jch5x8.survey s
+        ON (v.id::int = s.taken::int)
+        JOIN jch5x8.site as place
+        ON (place.name = v.site)
+WHERE   s.quant = 'rad'
+        AND v.site = 'DR-1';
+
+DROP VIEW jch5x8.dr1_radiation;
+
+\d+ jch5x8.dr1_radiation
+
+SELECT * FROM jch5x8.dr1_radiation
+
+
+
+CREATE OR REPLACE FUNCTION jch5x8.totalSites ()
+RETURNS integer AS $$
+DECLARE
+    total integer;
+BEGIN
+   SELECT count(*) INTO total FROM jch5x8.site;
+   RETURN total;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT * FROM jch5x8.totalSites
