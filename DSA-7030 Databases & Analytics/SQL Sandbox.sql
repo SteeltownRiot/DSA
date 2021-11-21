@@ -17,12 +17,7 @@ SELECT city, population FROM cities WHERE country IN ('South Africa', 'Egypt');
 
 
 -- #2
-SELECT state_alpha_code, state_number_code FROM util_us_states WHERE state_name IN ('MISSOURI', 'NEW YORK');
- state_alpha_code | state_number_code
-------------------+-------------------
- MO               |                29
- NY               |                36
-(2 rows)
+
 
 
 
@@ -580,3 +575,93 @@ END;
 $$ LANGUAGE plpgsql;
 
 SELECT * FROM jch5x8.totalSites
+
+
+CREATE OR REPLACE FUNCTION jch5x8.totalReadingsForSite(p_site text)
+RETURNS integer AS $$
+DECLARE
+    total integer;
+BEGIN
+   SELECT count(*) INTO total
+    FROM jch5x8.visited v JOIN jch5x8.survey s ON (v.id::int=s.taken::int)
+    WHERE v.site= p_site ;
+   RETURN total;
+END;
+$$ LANGUAGE plpgsql;
+
+
+\df+ jch5x8.totalReadingsForSite
+
+
+select * from jch5x8.totalreadingsforsite('DR-3'::text);
+
+
+UPDATE jch5x8.survey 
+SET reading = reading + 0.01
+WHERE person = 'roe';
+
+
+CREATE OR REPLACE FUNCTION jch5x8.audit_jch5x8_survey_reading_insert()
+  RETURNS TRIGGER 
+  AS
+$$
+BEGIN
+   INSERT INTO jch5x8.survey_audit
+       (taken, person, quant, old_reading, new_reading)
+   VALUES
+       (NEW.taken, NEW.person, NEW.quant, NULL, NEW.reading);
+   RETURN NEW;
+END;
+$$
+LANGUAGE PLPGSQL;
+
+
+
+DROP TRIGGER IF EXISTS jch5x8_survey_insert_audit ON jch5x8.survey;
+
+CREATE TRIGGER jch5x8_survey_insert_audit
+  AFTER INSERT
+  ON jch5x8.survey
+  FOR EACH ROW
+  EXECUTE PROCEDURE jch5x8.audit_jch5x8_survey_reading_insert();
+
+\d jch5x8.survey
+
+
+DROP TRIGGER IF EXISTS jch5x8_survey_update_audit ON jch5x8.survey;
+
+CREATE TRIGGER jch5x8_survey_update_audit
+  AFTER UPDATE
+  ON jch5x8.survey
+  FOR EACH ROW
+  EXECUTE PROCEDURE jch5x8.audit_jch5x8_survey_reading_changes();
+
+
+CREATE OR REPLACE FUNCTION jch5x8.audit_jch5x8_survey_reading_changes()
+  RETURNS TRIGGER 
+  AS
+$$
+BEGIN
+    IF NEW.reading <> OLD.reading THEN
+         INSERT INTO jch5x8.survey_audit
+           (taken, person, quant, old_reading, new_reading)
+           VALUES
+           (OLD.taken, OLD.person, OLD.quant, OLD.reading, NEW.reading);
+    END IF;
+
+    RETURN NEW;
+END;
+$$
+LANGUAGE PLPGSQL;
+
+
+INSERT INTO jch5x8.survey VALUES (619,'roe','rad',101);
+Then
+
+select * from jch5x8.survey_audit;
+
+INSERT INTO jch5x8.survey VALUES 
+(619,'lake','rad',8.72),
+(619,'lake','sal',2.03),
+(622,'lake','rad',8.8),
+(622,'lake','sal',1.9);
