@@ -665,3 +665,161 @@ INSERT INTO jch5x8.survey VALUES
 (619,'lake','sal',2.03),
 (622,'lake','rad',8.8),
 (622,'lake','sal',1.9);
+
+
+EXPLAIN
+SELECT  r.customer_id
+        ,f.title
+        ,f.rental_duration
+        ,f.rental_duration - avg(r.return_date::TIMESTAMP::DATE  - r.rental_date::TIMESTAMP::DATE) OVER (PARTITION BY f.film_id) as cmp 
+FROM    film f JOIN inventory i
+        USING(film_id)
+        JOIN rental r
+        USING(inventory_id)
+WHERE customer_id IN (61, 110, 281, 318);
+
+
+SELECT  i.store_id
+        ,i.film_id
+        ,sum(r.return_date  - r.rental_date) OVER (PARTITION BY i.store_id) as duration
+FROM    inventory i JOIN rental r
+        USING(inventory_id)
+WHERE   r.return_date IS NOT NULL
+GROUP BY i.store_id, i.film_id;
+
+
+
+SELECT  durations.store_id
+        ,durations.film_id
+        FROM (SELECT  sum(r.return_date  - r.rental_date) as duration
+                        ,rank() OVER (PARTITION BY i.store_id ORDER BY duration DESC)
+                        ,store_id
+                        i.film_id
+                FROM    inventory i JOIN rental r
+                        USING(inventory_id)
+                WHERE   r.return_date IS NOT NULL
+                GROUP BY i.store_id, i.film_id
+        ) AS durations
+WHERE RANK <= 3;
+
+
+
+SELECT  lengths.category_id
+        ,lengths.film_id
+        FROM (SELECT  rank() OVER (PARTITION BY c.category_id ORDER BY f.length DESC)
+                        ,c.category_id
+                        ,f.film_id
+                FROM    film f JOIN film_category c
+                        USING(film_id)
+                GROUP BY c.category_id, f.film_id
+        ) AS lengths
+WHERE RANK <= 3
+ORDER BY category_id;
+
+
+SELECT  shorts.customer_id
+        ,shorts.film_id
+        ,shorts.rental_duration
+        FROM (SELECT  rank() OVER (PARTITION BY c.customer_id ORDER BY -sum(r.return_date  - r.rental_date) DESC)
+                        ,sum(r.return_date  - r.rental_date) as rental_duration
+                        ,c.customer_id
+                        ,i.film_id
+                FROM    rental r JOIN customer c
+                        USING(customer_id)
+                        JOIN inventory i
+                        USING(inventory_id)
+                GROUP BY i.film_id, c.customer_id
+                ORDER BY c.customer_id, rental_duration
+        ) AS shorts
+WHERE RANK <= 2
+ORDER BY customer_id, shorts.rental_duration;
+
+
+
+
+SELECT  release_year
+        ,percentile_cont(0.25) WITHIN GROUP (ORDER BY length) as first_quartile
+        ,percentile_cont(0.5) WITHIN GROUP (ORDER BY length) as second_quartile
+        ,percentile_cont(0.75) WITHIN GROUP (ORDER BY length) as third_quartile
+FROM    film
+GROUP BY release_year;
+
+
+Select  q.release_year
+        ,q.quartiles
+FROM    (SELECT release_year
+                ,ntile(4) OVER (order by length) as quartiles
+        FROM    film
+        ) q
+ GROUP BY release_year, quartiles
+ ORDER BY quartile
+
+
+%%sql
+EXPLAIN
+SELECT  release_year
+        ,percentile_cont(0.25) WITHIN GROUP (ORDER BY length) as first_quartile
+        ,percentile_cont(0.5) WITHIN GROUP (ORDER BY length) as second_quartile
+        ,percentile_cont(0.75) WITHIN GROUP (ORDER BY length) as third_quartile
+FROM    film
+GROUP BY release_year;
+
+
+
+CREATE OR REPLACE VIEW
+    jch5x8.all_dr_measurements
+AS
+
+SELECT  s.reading
+        ,v.site
+FROM    jch5x8.survey s JOIN jch5x8.visited v
+        ON (v.id::int = s.taken::int)
+WHERE   v.site LIKE 'DR%';
+
+-- Create a view of all readings that are from DR* sites, using a Type-1 nested query.
+SELECT  reading
+        ,taken
+FROM    survey s JOIN (SELECT   reading
+                        FROM     survey s JOIN visited v
+                                ON (v.id::int = s.taken::int)
+                        WHERE    v.site LIKE 'DR%') v
+
+        )
+WHERE   v.site LIKE 'DR%';
+ORDER BY population
+
+
+-- Create a view that list all readings from the Survey table along with the associated Latitude
+-- and Longitude position from the Site table and the date of the reading for data collected by
+-- Anderson Lake. Name this view: anderson_lake_collections
+CREATE OR REPLACE VIEW
+    jch5x8.anderson_lake_collections
+AS
+
+SELECT  s.reading
+        ,site.lat
+        ,site.long
+        ,v.dated
+FROM    jch5x8.survey s JOIN jch5x8.visited v
+        ON (v.id::int = s.taken::int)
+        JOIN jch5x8.site site
+        ON site.name = v.site
+WHERE   s.person = 'lake';
+
+select * from jch5x8.anderson_lake_collections;
+
+-- Create a view that list each person, location, and associated measurements for readings
+-- that are undated.
+-- Name this view: undated_survey_measurements
+
+CREATE OR REPLACE VIEW
+    jch5x8.undated_survey_measurements
+AS
+
+SELECT  s.person
+        ,v.site
+        ,s.reading
+        ,v.dated
+FROM    jch5x8.survey s JOIN jch5x8.visited v
+        ON (v.id::int = s.taken::int)
+WHERE   v.dated IS NULL;
