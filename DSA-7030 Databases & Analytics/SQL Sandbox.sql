@@ -823,3 +823,182 @@ SELECT  s.person
 FROM    jch5x8.survey s JOIN jch5x8.visited v
         ON (v.id::int = s.taken::int)
 WHERE   v.dated IS NULL;
+
+(619,'lake','rad',8.72),
+(619,'lake','sal',2.03);
+
+
+CREATE OR REPLACE FUNCTION jch5x8.audit_jch5x8_survey_reading_delete()
+  RETURNS TRIGGER 
+  AS
+$$
+BEGIN
+   INSERT INTO jch5x8.survey_audit
+       (taken, person, quant, old_reading, new_reading)
+   VALUES
+       (OLD.taken, OLD.person, OLD.quant, OLD.reading, NULL);
+   RETURN NEW;
+END;
+$$
+LANGUAGE PLPGSQL;
+
+
+DROP TRIGGER IF EXISTS jch5x8_survey_delete_audit ON jch5x8.survey;
+
+CREATE TRIGGER jch5x8_survey_delete_audit
+  AFTER DELETE
+  ON jch5x8.survey
+  FOR EACH ROW
+  EXECUTE PROCEDURE jch5x8.audit_jch5x8_survey_reading_delete();
+
+
+select * from jch5x8.survey
+WHERE   person = 'lake'
+        AND taken = '622';
+        
+DELETE  FROM jch5x8.survey
+WHERE   person = 'lake'
+        AND reading = '2.03';
+
+DELETE  FROM jch5x8.survey
+WHERE   person = 'lake'
+        AND reading = '8.72';
+
+DELETE  FROM jch5x8.survey
+WHERE   person = 'lake'
+        AND reading IN (8.72, 2.03);
+
+
+DELETE FROM jch5x8.survey
+WHERE   person = 'lake'
+        AND taken = '622';
+
+INSERT INTO jch5x8.survey VALUES 
+(619,'lake','rad',8.72),
+(619,'lake','sal',2.03);
+
+DELETE  FROM jch5x8.survey_audit
+WHERE   change_time in ('2021-11-22 10:59:36.6014-06','2021-11-22 11:00:30.309903-06');
+
+
+
+-- start a transaction
+BEGIN;
+
+-- deduct 1000 from account 1
+UPDATE accounts 
+SET balance = balance - 1000
+WHERE id = 1;
+
+-- add 1000 to account 2
+UPDATE accounts
+SET balance = balance + 1000
+WHERE id = 2; 
+
+-- select the data from accounts
+SELECT id, name, balance
+FROM accounts;
+
+-- commit the transaction
+COMMIT;
+-- rool the transaction back
+ROLLBACK;
+
+
+CREATE TABLE jch5x8.battle (
+ battle_number INT PRIMARY KEY, 
+ name VARCHAR(150) NOT NULL, 
+ year INT, 
+ attacker_king VARCHAR(50), 
+ defender_king VARCHAR(50), 
+ attacker_1 VARCHAR(50) NOT NULL, 
+ attacker_2 VARCHAR(50), 
+ attacker_3 VARCHAR(50), 
+ attacker_4 VARCHAR(50), 
+ defender_1 VARCHAR(50), 
+ defender_2 VARCHAR(50), 
+ defender_3 VARCHAR(50), 
+ defender_4 VARCHAR(50), 
+ attacker_outcome VARCHAR(6), 
+ battle_type VARCHAR(20), 
+ major_death INT, 
+ major_capture INT, 
+ attacker_size INT, 
+ defender_size INT, 
+ attacker_commanders VARCHAR(220), 
+ defender_commanders VARCHAR(220), 
+ summer INT, 
+ location VARCHAR(50), 
+ region VARCHAR(50), 
+ note VARCHAR(500)
+);
+
+\d jch5x8.battle
+
+CREATE TABLE jch5x8.death (
+ death_id SERIAL PRIMARY KEY,
+ name VARCHAR(50),
+ allegiances VARCHAR(50),
+ death_year INT,
+ book_of_death INT,
+ death_chapter INT,
+ book_intro_chapter INT,
+ gender INT,
+ nobility INT,
+ GoT INT,	
+ CoK INT,
+ SoS INT,
+ FfC INT,
+ DwD INT
+);
+
+
+select count(*) from jch5x8.death;
+
+
+
+DROP TABLE jch5x8.order_products, jch5x8.products, jch5x8.departments, jch5x8.aisles, jch5x8.orders;
+
+
+CREATE TABLE jch5x8.orders (
+ order_id INT PRIMARY KEY, 
+ user_id INT NOT NULL, 
+ eval_set VARCHAR(50), 
+ order_number INT NOT NULL, 
+ order_dow VARCHAR(50), 
+ order_hour_of_day INT, 
+ days_since_prior_order INT
+);
+
+CREATE TABLE jch5x8.aisles (
+ aisle_id INT PRIMARY KEY, 
+ aisle VARCHAR(50)
+);
+
+CREATE TABLE jch5x8.departments (
+ department_id INT PRIMARY KEY, 
+ department VARCHAR(50)
+);
+
+CREATE TABLE jch5x8.products (
+ product_id INT PRIMARY KEY, 
+ product_name VARCHAR(250) NOT NULL,
+ aisle_id INT REFERENCES jch5x8.aisles,
+ department_id INT REFERENCES jch5x8.departments
+);
+
+CREATE TABLE jch5x8.order_products (
+ order_id INT REFERENCES jch5x8.orders, 
+ product_id INT REFERENCES jch5x8.products, 
+ add_to_cart_order INT, 
+ reordered INT,
+ PRIMARY KEY (order_id, product_id)
+);
+
+
+CREATE SEQUENCE order_number START 0;
+
+BEGIN;
+COPY orders FROM '/dsa/data/all_datasets/instacart/orders.csv';
+SELECT setval('order_number', max(order_id)) FROM orders;
+END;
