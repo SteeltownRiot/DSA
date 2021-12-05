@@ -1,0 +1,2241 @@
+InvoiceId,trackid,CustomerId,UnitPrice,BillingAddress,BillingCity
+1,2,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+1,4,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+2,6,4,0.99,Ullevålsveien 14,Oslo
+2,8,4,0.99,Ullevålsveien 14,Oslo
+2,10,4,0.99,Ullevålsveien 14,Oslo
+2,12,4,0.99,Ullevålsveien 14,Oslo
+3,16,8,0.99,Grétrystraat 63,Brussels
+3,20,8,0.99,Grétrystraat 63,Brussels
+3,24,8,0.99,Grétrystraat 63,Brussels
+3,28,8,0.99,Grétrystraat 63,Brussels
+3,32,8,0.99,Grétrystraat 63,Brussels
+3,36,8,0.99,Grétrystraat 63,Brussels
+4,42,14,0.99,8210 111 ST NW,Edmonton
+4,48,14,0.99,8210 111 ST NW,Edmonton
+4,54,14,0.99,8210 111 ST NW,Edmonton
+4,60,14,0.99,8210 111 ST NW,Edmonton
+4,66,14,0.99,8210 111 ST NW,Edmonton
+4,72,14,0.99,8210 111 ST NW,Edmonton
+4,78,14,0.99,8210 111 ST NW,Edmonton
+4,84,14,0.99,8210 111 ST NW,Edmonton
+4,90,14,0.99,8210 111 ST NW,Edmonton
+5,99,23,0.99,69 Salem Street,Boston
+5,108,23,0.99,69 Salem Street,Boston
+5,117,23,0.99,69 Salem Street,Boston
+5,126,23,0.99,69 Salem Street,Boston
+5,135,23,0.99,69 Salem Street,Boston
+5,144,23,0.99,69 Salem Street,Boston
+5,153,23,0.99,69 Salem Street,Boston
+5,162,23,0.99,69 Salem Street,Boston
+5,171,23,0.99,69 Salem Street,Boston
+5,180,23,0.99,69 Salem Street,Boston
+5,189,23,0.99,69 Salem Street,Boston
+5,198,23,0.99,69 Salem Street,Boston
+5,207,23,0.99,69 Salem Street,Boston
+5,216,23,0.99,69 Salem Street,Boston
+6,230,37,0.99,Berger Straße 10,Frankfurt
+7,231,38,0.99,Barbarossastraße 19,Berlin
+7,232,38,0.99,Barbarossastraße 19,Berlin
+8,234,40,0.99,"8, Rue Hanovre",Paris
+8,236,40,0.99,"8, Rue Hanovre",Paris
+9,238,42,0.99,"9, Place Louis Barthou",Bordeaux
+9,240,42,0.99,"9, Place Louis Barthou",Bordeaux
+9,242,42,0.99,"9, Place Louis Barthou",Bordeaux
+9,244,42,0.99,"9, Place Louis Barthou",Bordeaux
+10,248,46,0.99,3 Chatham Street,Dublin
+10,252,46,0.99,3 Chatham Street,Dublin
+10,256,46,0.99,3 Chatham Street,Dublin
+10,260,46,0.99,3 Chatham Street,Dublin
+10,264,46,0.99,3 Chatham Street,Dublin
+10,268,46,0.99,3 Chatham Street,Dublin
+11,274,52,0.99,202 Hoxton Street,London
+11,280,52,0.99,202 Hoxton Street,London
+11,286,52,0.99,202 Hoxton Street,London
+11,292,52,0.99,202 Hoxton Street,London
+11,298,52,0.99,202 Hoxton Street,London
+11,304,52,0.99,202 Hoxton Street,London
+11,310,52,0.99,202 Hoxton Street,London
+11,316,52,0.99,202 Hoxton Street,London
+11,322,52,0.99,202 Hoxton Street,London
+12,331,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,340,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,349,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,358,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,367,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,376,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,385,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,394,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,403,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,412,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,421,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,430,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,439,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+12,448,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+13,462,16,0.99,1600 Amphitheatre Parkway,Mountain View
+14,463,17,0.99,1 Microsoft Way,Redmond
+14,464,17,0.99,1 Microsoft Way,Redmond
+15,466,19,0.99,1 Infinite Loop,Cupertino
+15,468,19,0.99,1 Infinite Loop,Cupertino
+16,470,21,0.99,801 W 4th Street,Reno
+16,472,21,0.99,801 W 4th Street,Reno
+16,474,21,0.99,801 W 4th Street,Reno
+16,476,21,0.99,801 W 4th Street,Reno
+17,480,25,0.99,319 N. Frances Street,Madison
+17,484,25,0.99,319 N. Frances Street,Madison
+17,488,25,0.99,319 N. Frances Street,Madison
+17,492,25,0.99,319 N. Frances Street,Madison
+17,496,25,0.99,319 N. Frances Street,Madison
+17,500,25,0.99,319 N. Frances Street,Madison
+18,506,31,0.99,194A Chain Lake Drive,Halifax
+18,512,31,0.99,194A Chain Lake Drive,Halifax
+18,518,31,0.99,194A Chain Lake Drive,Halifax
+18,524,31,0.99,194A Chain Lake Drive,Halifax
+18,530,31,0.99,194A Chain Lake Drive,Halifax
+18,536,31,0.99,194A Chain Lake Drive,Halifax
+18,542,31,0.99,194A Chain Lake Drive,Halifax
+18,548,31,0.99,194A Chain Lake Drive,Halifax
+18,554,31,0.99,194A Chain Lake Drive,Halifax
+19,563,40,0.99,"8, Rue Hanovre",Paris
+19,572,40,0.99,"8, Rue Hanovre",Paris
+19,581,40,0.99,"8, Rue Hanovre",Paris
+19,590,40,0.99,"8, Rue Hanovre",Paris
+19,599,40,0.99,"8, Rue Hanovre",Paris
+19,608,40,0.99,"8, Rue Hanovre",Paris
+19,617,40,0.99,"8, Rue Hanovre",Paris
+19,626,40,0.99,"8, Rue Hanovre",Paris
+19,635,40,0.99,"8, Rue Hanovre",Paris
+19,644,40,0.99,"8, Rue Hanovre",Paris
+19,653,40,0.99,"8, Rue Hanovre",Paris
+19,662,40,0.99,"8, Rue Hanovre",Paris
+19,671,40,0.99,"8, Rue Hanovre",Paris
+19,680,40,0.99,"8, Rue Hanovre",Paris
+20,694,54,0.99,110 Raeburn Pl,Edinburgh 
+21,695,55,0.99,421 Bourke Street,Sidney
+21,696,55,0.99,421 Bourke Street,Sidney
+22,698,57,0.99,"Calle Lira, 198",Santiago
+22,700,57,0.99,"Calle Lira, 198",Santiago
+23,702,59,0.99,"3,Raj Bhavan Road",Bangalore
+23,704,59,0.99,"3,Raj Bhavan Road",Bangalore
+23,706,59,0.99,"3,Raj Bhavan Road",Bangalore
+23,708,59,0.99,"3,Raj Bhavan Road",Bangalore
+24,712,4,0.99,Ullevålsveien 14,Oslo
+24,716,4,0.99,Ullevålsveien 14,Oslo
+24,720,4,0.99,Ullevålsveien 14,Oslo
+24,724,4,0.99,Ullevålsveien 14,Oslo
+24,728,4,0.99,Ullevålsveien 14,Oslo
+24,732,4,0.99,Ullevålsveien 14,Oslo
+25,738,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+25,744,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+25,750,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+25,756,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+25,762,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+25,768,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+25,774,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+25,780,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+25,786,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+26,795,19,0.99,1 Infinite Loop,Cupertino
+26,804,19,0.99,1 Infinite Loop,Cupertino
+26,813,19,0.99,1 Infinite Loop,Cupertino
+26,822,19,0.99,1 Infinite Loop,Cupertino
+26,831,19,0.99,1 Infinite Loop,Cupertino
+26,840,19,0.99,1 Infinite Loop,Cupertino
+26,849,19,0.99,1 Infinite Loop,Cupertino
+26,858,19,0.99,1 Infinite Loop,Cupertino
+26,867,19,0.99,1 Infinite Loop,Cupertino
+26,876,19,0.99,1 Infinite Loop,Cupertino
+26,885,19,0.99,1 Infinite Loop,Cupertino
+26,894,19,0.99,1 Infinite Loop,Cupertino
+26,903,19,0.99,1 Infinite Loop,Cupertino
+26,912,19,0.99,1 Infinite Loop,Cupertino
+27,926,33,0.99,5112 48 Street,Yellowknife
+28,927,34,0.99,Rua da Assunção 53,Lisbon
+28,928,34,0.99,Rua da Assunção 53,Lisbon
+29,930,36,0.99,Tauentzienstraße 8,Berlin
+29,932,36,0.99,Tauentzienstraße 8,Berlin
+30,934,38,0.99,Barbarossastraße 19,Berlin
+30,936,38,0.99,Barbarossastraße 19,Berlin
+30,938,38,0.99,Barbarossastraße 19,Berlin
+30,940,38,0.99,Barbarossastraße 19,Berlin
+31,944,42,0.99,"9, Place Louis Barthou",Bordeaux
+31,948,42,0.99,"9, Place Louis Barthou",Bordeaux
+31,952,42,0.99,"9, Place Louis Barthou",Bordeaux
+31,956,42,0.99,"9, Place Louis Barthou",Bordeaux
+31,960,42,0.99,"9, Place Louis Barthou",Bordeaux
+31,964,42,0.99,"9, Place Louis Barthou",Bordeaux
+32,970,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+32,976,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+32,982,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+32,988,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+32,994,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+32,1000,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+32,1006,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+32,1012,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+32,1018,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+33,1027,57,0.99,"Calle Lira, 198",Santiago
+33,1036,57,0.99,"Calle Lira, 198",Santiago
+33,1045,57,0.99,"Calle Lira, 198",Santiago
+33,1054,57,0.99,"Calle Lira, 198",Santiago
+33,1063,57,0.99,"Calle Lira, 198",Santiago
+33,1072,57,0.99,"Calle Lira, 198",Santiago
+33,1081,57,0.99,"Calle Lira, 198",Santiago
+33,1090,57,0.99,"Calle Lira, 198",Santiago
+33,1099,57,0.99,"Calle Lira, 198",Santiago
+33,1108,57,0.99,"Calle Lira, 198",Santiago
+33,1117,57,0.99,"Calle Lira, 198",Santiago
+33,1126,57,0.99,"Calle Lira, 198",Santiago
+33,1135,57,0.99,"Calle Lira, 198",Santiago
+33,1144,57,0.99,"Calle Lira, 198",Santiago
+34,1158,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+35,1159,13,0.99,Qe 7 Bloco G,Brasília
+35,1160,13,0.99,Qe 7 Bloco G,Brasília
+36,1162,15,0.99,700 W Pender Street,Vancouver
+36,1164,15,0.99,700 W Pender Street,Vancouver
+37,1166,17,0.99,1 Microsoft Way,Redmond
+37,1168,17,0.99,1 Microsoft Way,Redmond
+37,1170,17,0.99,1 Microsoft Way,Redmond
+37,1172,17,0.99,1 Microsoft Way,Redmond
+38,1176,21,0.99,801 W 4th Street,Reno
+38,1180,21,0.99,801 W 4th Street,Reno
+38,1184,21,0.99,801 W 4th Street,Reno
+38,1188,21,0.99,801 W 4th Street,Reno
+38,1192,21,0.99,801 W 4th Street,Reno
+38,1196,21,0.99,801 W 4th Street,Reno
+39,1202,27,0.99,1033 N Park Ave,Tucson
+39,1208,27,0.99,1033 N Park Ave,Tucson
+39,1214,27,0.99,1033 N Park Ave,Tucson
+39,1220,27,0.99,1033 N Park Ave,Tucson
+39,1226,27,0.99,1033 N Park Ave,Tucson
+39,1232,27,0.99,1033 N Park Ave,Tucson
+39,1238,27,0.99,1033 N Park Ave,Tucson
+39,1244,27,0.99,1033 N Park Ave,Tucson
+39,1250,27,0.99,1033 N Park Ave,Tucson
+40,1259,36,0.99,Tauentzienstraße 8,Berlin
+40,1268,36,0.99,Tauentzienstraße 8,Berlin
+40,1277,36,0.99,Tauentzienstraße 8,Berlin
+40,1286,36,0.99,Tauentzienstraße 8,Berlin
+40,1295,36,0.99,Tauentzienstraße 8,Berlin
+40,1304,36,0.99,Tauentzienstraße 8,Berlin
+40,1313,36,0.99,Tauentzienstraße 8,Berlin
+40,1322,36,0.99,Tauentzienstraße 8,Berlin
+40,1331,36,0.99,Tauentzienstraße 8,Berlin
+40,1340,36,0.99,Tauentzienstraße 8,Berlin
+40,1349,36,0.99,Tauentzienstraße 8,Berlin
+40,1358,36,0.99,Tauentzienstraße 8,Berlin
+40,1367,36,0.99,Tauentzienstraße 8,Berlin
+40,1376,36,0.99,Tauentzienstraße 8,Berlin
+41,1390,50,0.99,C/ San Bernardo 85,Madrid
+42,1391,51,0.99,Celsiusg. 9,Stockholm
+42,1392,51,0.99,Celsiusg. 9,Stockholm
+43,1394,53,0.99,113 Lupus St,London
+43,1396,53,0.99,113 Lupus St,London
+44,1398,55,0.99,421 Bourke Street,Sidney
+44,1400,55,0.99,421 Bourke Street,Sidney
+44,1402,55,0.99,421 Bourke Street,Sidney
+44,1404,55,0.99,421 Bourke Street,Sidney
+45,1408,59,0.99,"3,Raj Bhavan Road",Bangalore
+45,1412,59,0.99,"3,Raj Bhavan Road",Bangalore
+45,1416,59,0.99,"3,Raj Bhavan Road",Bangalore
+45,1420,59,0.99,"3,Raj Bhavan Road",Bangalore
+45,1424,59,0.99,"3,Raj Bhavan Road",Bangalore
+45,1428,59,0.99,"3,Raj Bhavan Road",Bangalore
+46,1434,6,0.99,Rilská 3174/6,Prague
+46,1440,6,0.99,Rilská 3174/6,Prague
+46,1446,6,0.99,Rilská 3174/6,Prague
+46,1452,6,0.99,Rilská 3174/6,Prague
+46,1458,6,0.99,Rilská 3174/6,Prague
+46,1464,6,0.99,Rilská 3174/6,Prague
+46,1470,6,0.99,Rilská 3174/6,Prague
+46,1476,6,0.99,Rilská 3174/6,Prague
+46,1482,6,0.99,Rilská 3174/6,Prague
+47,1491,15,0.99,700 W Pender Street,Vancouver
+47,1500,15,0.99,700 W Pender Street,Vancouver
+47,1509,15,0.99,700 W Pender Street,Vancouver
+47,1518,15,0.99,700 W Pender Street,Vancouver
+47,1527,15,0.99,700 W Pender Street,Vancouver
+47,1536,15,0.99,700 W Pender Street,Vancouver
+47,1545,15,0.99,700 W Pender Street,Vancouver
+47,1554,15,0.99,700 W Pender Street,Vancouver
+47,1563,15,0.99,700 W Pender Street,Vancouver
+47,1572,15,0.99,700 W Pender Street,Vancouver
+47,1581,15,0.99,700 W Pender Street,Vancouver
+47,1590,15,0.99,700 W Pender Street,Vancouver
+47,1599,15,0.99,700 W Pender Street,Vancouver
+47,1608,15,0.99,700 W Pender Street,Vancouver
+48,1622,29,0.99,796 Dundas Street West,Toronto
+49,1623,30,0.99,230 Elgin Street,Ottawa
+49,1624,30,0.99,230 Elgin Street,Ottawa
+50,1626,32,0.99,696 Osborne Street,Winnipeg
+50,1628,32,0.99,696 Osborne Street,Winnipeg
+51,1630,34,0.99,Rua da Assunção 53,Lisbon
+51,1632,34,0.99,Rua da Assunção 53,Lisbon
+51,1634,34,0.99,Rua da Assunção 53,Lisbon
+51,1636,34,0.99,Rua da Assunção 53,Lisbon
+52,1640,38,0.99,Barbarossastraße 19,Berlin
+52,1644,38,0.99,Barbarossastraße 19,Berlin
+52,1648,38,0.99,Barbarossastraße 19,Berlin
+52,1652,38,0.99,Barbarossastraße 19,Berlin
+52,1656,38,0.99,Barbarossastraße 19,Berlin
+52,1660,38,0.99,Barbarossastraße 19,Berlin
+53,1666,44,0.99,Porthaninkatu 9,Helsinki
+53,1672,44,0.99,Porthaninkatu 9,Helsinki
+53,1678,44,0.99,Porthaninkatu 9,Helsinki
+53,1684,44,0.99,Porthaninkatu 9,Helsinki
+53,1690,44,0.99,Porthaninkatu 9,Helsinki
+53,1696,44,0.99,Porthaninkatu 9,Helsinki
+53,1702,44,0.99,Porthaninkatu 9,Helsinki
+53,1708,44,0.99,Porthaninkatu 9,Helsinki
+53,1714,44,0.99,Porthaninkatu 9,Helsinki
+54,1723,53,0.99,113 Lupus St,London
+54,1732,53,0.99,113 Lupus St,London
+54,1741,53,0.99,113 Lupus St,London
+54,1750,53,0.99,113 Lupus St,London
+54,1759,53,0.99,113 Lupus St,London
+54,1768,53,0.99,113 Lupus St,London
+54,1777,53,0.99,113 Lupus St,London
+54,1786,53,0.99,113 Lupus St,London
+54,1795,53,0.99,113 Lupus St,London
+54,1804,53,0.99,113 Lupus St,London
+54,1813,53,0.99,113 Lupus St,London
+54,1822,53,0.99,113 Lupus St,London
+54,1831,53,0.99,113 Lupus St,London
+54,1840,53,0.99,113 Lupus St,London
+55,1854,8,0.99,Grétrystraat 63,Brussels
+56,1855,9,0.99,Sønder Boulevard 51,Copenhagen
+56,1856,9,0.99,Sønder Boulevard 51,Copenhagen
+57,1858,11,0.99,"Av. Paulista, 2022",São Paulo
+57,1860,11,0.99,"Av. Paulista, 2022",São Paulo
+58,1862,13,0.99,Qe 7 Bloco G,Brasília
+58,1864,13,0.99,Qe 7 Bloco G,Brasília
+58,1866,13,0.99,Qe 7 Bloco G,Brasília
+58,1868,13,0.99,Qe 7 Bloco G,Brasília
+59,1872,17,0.99,1 Microsoft Way,Redmond
+59,1876,17,0.99,1 Microsoft Way,Redmond
+59,1880,17,0.99,1 Microsoft Way,Redmond
+59,1884,17,0.99,1 Microsoft Way,Redmond
+59,1888,17,0.99,1 Microsoft Way,Redmond
+59,1892,17,0.99,1 Microsoft Way,Redmond
+60,1898,23,0.99,69 Salem Street,Boston
+60,1904,23,0.99,69 Salem Street,Boston
+60,1910,23,0.99,69 Salem Street,Boston
+60,1916,23,0.99,69 Salem Street,Boston
+60,1922,23,0.99,69 Salem Street,Boston
+60,1928,23,0.99,69 Salem Street,Boston
+60,1934,23,0.99,69 Salem Street,Boston
+60,1940,23,0.99,69 Salem Street,Boston
+60,1946,23,0.99,69 Salem Street,Boston
+61,1955,32,0.99,696 Osborne Street,Winnipeg
+61,1964,32,0.99,696 Osborne Street,Winnipeg
+61,1973,32,0.99,696 Osborne Street,Winnipeg
+61,1982,32,0.99,696 Osborne Street,Winnipeg
+61,1991,32,0.99,696 Osborne Street,Winnipeg
+61,2000,32,0.99,696 Osborne Street,Winnipeg
+61,2009,32,0.99,696 Osborne Street,Winnipeg
+61,2018,32,0.99,696 Osborne Street,Winnipeg
+61,2027,32,0.99,696 Osborne Street,Winnipeg
+61,2036,32,0.99,696 Osborne Street,Winnipeg
+61,2045,32,0.99,696 Osborne Street,Winnipeg
+61,2054,32,0.99,696 Osborne Street,Winnipeg
+61,2063,32,0.99,696 Osborne Street,Winnipeg
+61,2072,32,0.99,696 Osborne Street,Winnipeg
+62,2086,46,0.99,3 Chatham Street,Dublin
+63,2087,47,0.99,"Via Degli Scipioni, 43",Rome
+63,2088,47,0.99,"Via Degli Scipioni, 43",Rome
+64,2090,49,0.99,Ordynacka 10,Warsaw
+64,2092,49,0.99,Ordynacka 10,Warsaw
+65,2094,51,0.99,Celsiusg. 9,Stockholm
+65,2096,51,0.99,Celsiusg. 9,Stockholm
+65,2098,51,0.99,Celsiusg. 9,Stockholm
+65,2100,51,0.99,Celsiusg. 9,Stockholm
+66,2104,55,0.99,421 Bourke Street,Sidney
+66,2108,55,0.99,421 Bourke Street,Sidney
+66,2112,55,0.99,421 Bourke Street,Sidney
+66,2116,55,0.99,421 Bourke Street,Sidney
+66,2120,55,0.99,421 Bourke Street,Sidney
+66,2124,55,0.99,421 Bourke Street,Sidney
+67,2130,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+67,2136,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+67,2142,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+67,2148,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+67,2154,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+67,2160,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+67,2166,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+67,2172,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+67,2178,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+68,2187,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2196,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2205,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2214,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2223,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2232,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2241,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2250,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2259,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2268,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2277,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2286,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2295,11,0.99,"Av. Paulista, 2022",São Paulo
+68,2304,11,0.99,"Av. Paulista, 2022",São Paulo
+69,2318,25,0.99,319 N. Frances Street,Madison
+70,2319,26,0.99,2211 W Berry Street,Fort Worth
+70,2320,26,0.99,2211 W Berry Street,Fort Worth
+71,2322,28,0.99,302 S 700 E,Salt Lake City
+71,2324,28,0.99,302 S 700 E,Salt Lake City
+72,2326,30,0.99,230 Elgin Street,Ottawa
+72,2328,30,0.99,230 Elgin Street,Ottawa
+72,2330,30,0.99,230 Elgin Street,Ottawa
+72,2332,30,0.99,230 Elgin Street,Ottawa
+73,2336,34,0.99,Rua da Assunção 53,Lisbon
+73,2340,34,0.99,Rua da Assunção 53,Lisbon
+73,2344,34,0.99,Rua da Assunção 53,Lisbon
+73,2348,34,0.99,Rua da Assunção 53,Lisbon
+73,2352,34,0.99,Rua da Assunção 53,Lisbon
+73,2356,34,0.99,Rua da Assunção 53,Lisbon
+74,2362,40,0.99,"8, Rue Hanovre",Paris
+74,2368,40,0.99,"8, Rue Hanovre",Paris
+74,2374,40,0.99,"8, Rue Hanovre",Paris
+74,2380,40,0.99,"8, Rue Hanovre",Paris
+74,2386,40,0.99,"8, Rue Hanovre",Paris
+74,2392,40,0.99,"8, Rue Hanovre",Paris
+74,2398,40,0.99,"8, Rue Hanovre",Paris
+74,2404,40,0.99,"8, Rue Hanovre",Paris
+74,2410,40,0.99,"8, Rue Hanovre",Paris
+75,2419,49,0.99,Ordynacka 10,Warsaw
+75,2428,49,0.99,Ordynacka 10,Warsaw
+75,2437,49,0.99,Ordynacka 10,Warsaw
+75,2446,49,0.99,Ordynacka 10,Warsaw
+75,2455,49,0.99,Ordynacka 10,Warsaw
+75,2464,49,0.99,Ordynacka 10,Warsaw
+75,2473,49,0.99,Ordynacka 10,Warsaw
+75,2482,49,0.99,Ordynacka 10,Warsaw
+75,2491,49,0.99,Ordynacka 10,Warsaw
+75,2500,49,0.99,Ordynacka 10,Warsaw
+75,2509,49,0.99,Ordynacka 10,Warsaw
+75,2518,49,0.99,Ordynacka 10,Warsaw
+75,2527,49,0.99,Ordynacka 10,Warsaw
+75,2536,49,0.99,Ordynacka 10,Warsaw
+76,2550,4,0.99,Ullevålsveien 14,Oslo
+77,2551,5,0.99,Klanova 9/506,Prague
+77,2552,5,0.99,Klanova 9/506,Prague
+78,2554,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+78,2556,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+79,2558,9,0.99,Sønder Boulevard 51,Copenhagen
+79,2560,9,0.99,Sønder Boulevard 51,Copenhagen
+79,2562,9,0.99,Sønder Boulevard 51,Copenhagen
+79,2564,9,0.99,Sønder Boulevard 51,Copenhagen
+80,2568,13,0.99,Qe 7 Bloco G,Brasília
+80,2572,13,0.99,Qe 7 Bloco G,Brasília
+80,2576,13,0.99,Qe 7 Bloco G,Brasília
+80,2580,13,0.99,Qe 7 Bloco G,Brasília
+80,2584,13,0.99,Qe 7 Bloco G,Brasília
+80,2588,13,0.99,Qe 7 Bloco G,Brasília
+81,2594,19,0.99,1 Infinite Loop,Cupertino
+81,2600,19,0.99,1 Infinite Loop,Cupertino
+81,2606,19,0.99,1 Infinite Loop,Cupertino
+81,2612,19,0.99,1 Infinite Loop,Cupertino
+81,2618,19,0.99,1 Infinite Loop,Cupertino
+81,2624,19,0.99,1 Infinite Loop,Cupertino
+81,2630,19,0.99,1 Infinite Loop,Cupertino
+81,2636,19,0.99,1 Infinite Loop,Cupertino
+81,2642,19,0.99,1 Infinite Loop,Cupertino
+82,2651,28,0.99,302 S 700 E,Salt Lake City
+82,2660,28,0.99,302 S 700 E,Salt Lake City
+82,2669,28,0.99,302 S 700 E,Salt Lake City
+82,2678,28,0.99,302 S 700 E,Salt Lake City
+82,2687,28,0.99,302 S 700 E,Salt Lake City
+82,2696,28,0.99,302 S 700 E,Salt Lake City
+82,2705,28,0.99,302 S 700 E,Salt Lake City
+82,2714,28,0.99,302 S 700 E,Salt Lake City
+82,2723,28,0.99,302 S 700 E,Salt Lake City
+82,2732,28,0.99,302 S 700 E,Salt Lake City
+82,2741,28,0.99,302 S 700 E,Salt Lake City
+82,2750,28,0.99,302 S 700 E,Salt Lake City
+82,2759,28,0.99,302 S 700 E,Salt Lake City
+82,2768,28,0.99,302 S 700 E,Salt Lake City
+83,2782,42,0.99,"9, Place Louis Barthou",Bordeaux
+84,2783,43,0.99,"68, Rue Jouvence",Dijon
+84,2784,43,0.99,"68, Rue Jouvence",Dijon
+85,2786,45,0.99,Erzsébet krt. 58.,Budapest
+85,2788,45,0.99,Erzsébet krt. 58.,Budapest
+86,2790,47,0.99,"Via Degli Scipioni, 43",Rome
+86,2792,47,0.99,"Via Degli Scipioni, 43",Rome
+86,2794,47,0.99,"Via Degli Scipioni, 43",Rome
+86,2796,47,0.99,"Via Degli Scipioni, 43",Rome
+87,2800,51,0.99,Celsiusg. 9,Stockholm
+87,2804,51,0.99,Celsiusg. 9,Stockholm
+87,2808,51,0.99,Celsiusg. 9,Stockholm
+87,2812,51,0.99,Celsiusg. 9,Stockholm
+87,2816,51,0.99,Celsiusg. 9,Stockholm
+87,2820,51,1.99,Celsiusg. 9,Stockholm
+88,2826,57,1.99,"Calle Lira, 198",Santiago
+88,2832,57,1.99,"Calle Lira, 198",Santiago
+88,2838,57,1.99,"Calle Lira, 198",Santiago
+88,2844,57,1.99,"Calle Lira, 198",Santiago
+88,2850,57,1.99,"Calle Lira, 198",Santiago
+88,2856,57,1.99,"Calle Lira, 198",Santiago
+88,2862,57,1.99,"Calle Lira, 198",Santiago
+88,2868,57,1.99,"Calle Lira, 198",Santiago
+88,2874,57,1.99,"Calle Lira, 198",Santiago
+89,2883,7,1.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2892,7,1.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2901,7,1.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2910,7,1.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2919,7,1.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2928,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2937,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2946,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2955,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2964,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2973,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2982,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,2991,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+89,3000,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+90,3014,21,0.99,801 W 4th Street,Reno
+91,3015,22,0.99,120 S Orange Ave,Orlando
+91,3016,22,0.99,120 S Orange Ave,Orlando
+92,3018,24,0.99,162 E Superior Street,Chicago
+92,3020,24,0.99,162 E Superior Street,Chicago
+93,3022,26,0.99,2211 W Berry Street,Fort Worth
+93,3024,26,0.99,2211 W Berry Street,Fort Worth
+93,3026,26,0.99,2211 W Berry Street,Fort Worth
+93,3028,26,0.99,2211 W Berry Street,Fort Worth
+94,3032,30,0.99,230 Elgin Street,Ottawa
+94,3036,30,0.99,230 Elgin Street,Ottawa
+94,3040,30,0.99,230 Elgin Street,Ottawa
+94,3044,30,0.99,230 Elgin Street,Ottawa
+94,3048,30,0.99,230 Elgin Street,Ottawa
+94,3052,30,0.99,230 Elgin Street,Ottawa
+95,3058,36,0.99,Tauentzienstraße 8,Berlin
+95,3064,36,0.99,Tauentzienstraße 8,Berlin
+95,3070,36,0.99,Tauentzienstraße 8,Berlin
+95,3076,36,0.99,Tauentzienstraße 8,Berlin
+95,3082,36,0.99,Tauentzienstraße 8,Berlin
+95,3088,36,0.99,Tauentzienstraße 8,Berlin
+95,3094,36,0.99,Tauentzienstraße 8,Berlin
+95,3100,36,0.99,Tauentzienstraße 8,Berlin
+95,3106,36,0.99,Tauentzienstraße 8,Berlin
+96,3115,45,0.99,Erzsébet krt. 58.,Budapest
+96,3124,45,0.99,Erzsébet krt. 58.,Budapest
+96,3133,45,0.99,Erzsébet krt. 58.,Budapest
+96,3142,45,0.99,Erzsébet krt. 58.,Budapest
+96,3151,45,0.99,Erzsébet krt. 58.,Budapest
+96,3160,45,0.99,Erzsébet krt. 58.,Budapest
+96,3169,45,1.99,Erzsébet krt. 58.,Budapest
+96,3178,45,1.99,Erzsébet krt. 58.,Budapest
+96,3187,45,1.99,Erzsébet krt. 58.,Budapest
+96,3196,45,1.99,Erzsébet krt. 58.,Budapest
+96,3205,45,1.99,Erzsébet krt. 58.,Budapest
+96,3214,45,1.99,Erzsébet krt. 58.,Budapest
+96,3223,45,1.99,Erzsébet krt. 58.,Budapest
+96,3232,45,1.99,Erzsébet krt. 58.,Budapest
+97,3246,59,1.99,"3,Raj Bhavan Road",Bangalore
+98,3247,1,1.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+98,3248,1,1.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+99,3250,3,1.99,1498 rue Bélanger,Montréal
+99,3252,3,1.99,1498 rue Bélanger,Montréal
+100,3254,5,0.99,Klanova 9/506,Prague
+100,3256,5,0.99,Klanova 9/506,Prague
+100,3258,5,0.99,Klanova 9/506,Prague
+100,3260,5,0.99,Klanova 9/506,Prague
+101,3264,9,0.99,Sønder Boulevard 51,Copenhagen
+101,3268,9,0.99,Sønder Boulevard 51,Copenhagen
+101,3272,9,0.99,Sønder Boulevard 51,Copenhagen
+101,3276,9,0.99,Sønder Boulevard 51,Copenhagen
+101,3280,9,0.99,Sønder Boulevard 51,Copenhagen
+101,3284,9,0.99,Sønder Boulevard 51,Copenhagen
+102,3290,15,0.99,700 W Pender Street,Vancouver
+102,3296,15,0.99,700 W Pender Street,Vancouver
+102,3302,15,0.99,700 W Pender Street,Vancouver
+102,3308,15,0.99,700 W Pender Street,Vancouver
+102,3314,15,0.99,700 W Pender Street,Vancouver
+102,3320,15,0.99,700 W Pender Street,Vancouver
+102,3326,15,0.99,700 W Pender Street,Vancouver
+102,3332,15,0.99,700 W Pender Street,Vancouver
+102,3338,15,1.99,700 W Pender Street,Vancouver
+103,3347,24,1.99,162 E Superior Street,Chicago
+103,3356,24,0.99,162 E Superior Street,Chicago
+103,3365,24,0.99,162 E Superior Street,Chicago
+103,3374,24,0.99,162 E Superior Street,Chicago
+103,3383,24,0.99,162 E Superior Street,Chicago
+103,3392,24,0.99,162 E Superior Street,Chicago
+103,3401,24,0.99,162 E Superior Street,Chicago
+103,3410,24,0.99,162 E Superior Street,Chicago
+103,3419,24,0.99,162 E Superior Street,Chicago
+103,3428,24,1.99,162 E Superior Street,Chicago
+103,3437,24,0.99,162 E Superior Street,Chicago
+103,3446,24,0.99,162 E Superior Street,Chicago
+103,3455,24,0.99,162 E Superior Street,Chicago
+103,3464,24,0.99,162 E Superior Street,Chicago
+104,3478,38,0.99,Barbarossastraße 19,Berlin
+105,3479,39,0.99,"4, Rue Milton",Paris
+105,3480,39,0.99,"4, Rue Milton",Paris
+106,3482,41,0.99,"11, Place Bellecour",Lyon
+106,3484,41,0.99,"11, Place Bellecour",Lyon
+107,3486,43,0.99,"68, Rue Jouvence",Dijon
+107,3488,43,0.99,"68, Rue Jouvence",Dijon
+107,3490,43,0.99,"68, Rue Jouvence",Dijon
+107,3492,43,0.99,"68, Rue Jouvence",Dijon
+108,3496,47,0.99,"Via Degli Scipioni, 43",Rome
+108,3500,47,0.99,"Via Degli Scipioni, 43",Rome
+108,1,47,0.99,"Via Degli Scipioni, 43",Rome
+108,5,47,0.99,"Via Degli Scipioni, 43",Rome
+108,9,47,0.99,"Via Degli Scipioni, 43",Rome
+108,13,47,0.99,"Via Degli Scipioni, 43",Rome
+109,19,53,0.99,113 Lupus St,London
+109,25,53,0.99,113 Lupus St,London
+109,31,53,0.99,113 Lupus St,London
+109,37,53,0.99,113 Lupus St,London
+109,43,53,0.99,113 Lupus St,London
+109,49,53,0.99,113 Lupus St,London
+109,55,53,0.99,113 Lupus St,London
+109,61,53,0.99,113 Lupus St,London
+109,67,53,0.99,113 Lupus St,London
+110,76,3,0.99,1498 rue Bélanger,Montréal
+110,85,3,0.99,1498 rue Bélanger,Montréal
+110,94,3,0.99,1498 rue Bélanger,Montréal
+110,103,3,0.99,1498 rue Bélanger,Montréal
+110,112,3,0.99,1498 rue Bélanger,Montréal
+110,121,3,0.99,1498 rue Bélanger,Montréal
+110,130,3,0.99,1498 rue Bélanger,Montréal
+110,139,3,0.99,1498 rue Bélanger,Montréal
+110,148,3,0.99,1498 rue Bélanger,Montréal
+110,157,3,0.99,1498 rue Bélanger,Montréal
+110,166,3,0.99,1498 rue Bélanger,Montréal
+110,175,3,0.99,1498 rue Bélanger,Montréal
+110,184,3,0.99,1498 rue Bélanger,Montréal
+110,193,3,0.99,1498 rue Bélanger,Montréal
+111,207,17,0.99,1 Microsoft Way,Redmond
+112,208,18,0.99,627 Broadway,New York
+112,209,18,0.99,627 Broadway,New York
+113,211,20,0.99,541 Del Medio Avenue,Mountain View
+113,213,20,0.99,541 Del Medio Avenue,Mountain View
+114,215,22,0.99,120 S Orange Ave,Orlando
+114,217,22,0.99,120 S Orange Ave,Orlando
+114,219,22,0.99,120 S Orange Ave,Orlando
+114,221,22,0.99,120 S Orange Ave,Orlando
+115,225,26,0.99,2211 W Berry Street,Fort Worth
+115,229,26,0.99,2211 W Berry Street,Fort Worth
+115,233,26,0.99,2211 W Berry Street,Fort Worth
+115,237,26,0.99,2211 W Berry Street,Fort Worth
+115,241,26,0.99,2211 W Berry Street,Fort Worth
+115,245,26,0.99,2211 W Berry Street,Fort Worth
+116,251,32,0.99,696 Osborne Street,Winnipeg
+116,257,32,0.99,696 Osborne Street,Winnipeg
+116,263,32,0.99,696 Osborne Street,Winnipeg
+116,269,32,0.99,696 Osborne Street,Winnipeg
+116,275,32,0.99,696 Osborne Street,Winnipeg
+116,281,32,0.99,696 Osborne Street,Winnipeg
+116,287,32,0.99,696 Osborne Street,Winnipeg
+116,293,32,0.99,696 Osborne Street,Winnipeg
+116,299,32,0.99,696 Osborne Street,Winnipeg
+117,308,41,0.99,"11, Place Bellecour",Lyon
+117,317,41,0.99,"11, Place Bellecour",Lyon
+117,326,41,0.99,"11, Place Bellecour",Lyon
+117,335,41,0.99,"11, Place Bellecour",Lyon
+117,344,41,0.99,"11, Place Bellecour",Lyon
+117,353,41,0.99,"11, Place Bellecour",Lyon
+117,362,41,0.99,"11, Place Bellecour",Lyon
+117,371,41,0.99,"11, Place Bellecour",Lyon
+117,380,41,0.99,"11, Place Bellecour",Lyon
+117,389,41,0.99,"11, Place Bellecour",Lyon
+117,398,41,0.99,"11, Place Bellecour",Lyon
+117,407,41,0.99,"11, Place Bellecour",Lyon
+117,416,41,0.99,"11, Place Bellecour",Lyon
+117,425,41,0.99,"11, Place Bellecour",Lyon
+118,439,55,0.99,421 Bourke Street,Sidney
+119,440,56,0.99,307 Macacha Güemes,Buenos Aires
+119,441,56,0.99,307 Macacha Güemes,Buenos Aires
+120,443,58,0.99,"12,Community Centre",Delhi
+120,445,58,0.99,"12,Community Centre",Delhi
+121,447,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+121,449,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+121,451,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+121,453,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+122,457,5,0.99,Klanova 9/506,Prague
+122,461,5,0.99,Klanova 9/506,Prague
+122,465,5,0.99,Klanova 9/506,Prague
+122,469,5,0.99,Klanova 9/506,Prague
+122,473,5,0.99,Klanova 9/506,Prague
+122,477,5,0.99,Klanova 9/506,Prague
+123,483,11,0.99,"Av. Paulista, 2022",São Paulo
+123,489,11,0.99,"Av. Paulista, 2022",São Paulo
+123,495,11,0.99,"Av. Paulista, 2022",São Paulo
+123,501,11,0.99,"Av. Paulista, 2022",São Paulo
+123,507,11,0.99,"Av. Paulista, 2022",São Paulo
+123,513,11,0.99,"Av. Paulista, 2022",São Paulo
+123,519,11,0.99,"Av. Paulista, 2022",São Paulo
+123,525,11,0.99,"Av. Paulista, 2022",São Paulo
+123,531,11,0.99,"Av. Paulista, 2022",São Paulo
+124,540,20,0.99,541 Del Medio Avenue,Mountain View
+124,549,20,0.99,541 Del Medio Avenue,Mountain View
+124,558,20,0.99,541 Del Medio Avenue,Mountain View
+124,567,20,0.99,541 Del Medio Avenue,Mountain View
+124,576,20,0.99,541 Del Medio Avenue,Mountain View
+124,585,20,0.99,541 Del Medio Avenue,Mountain View
+124,594,20,0.99,541 Del Medio Avenue,Mountain View
+124,603,20,0.99,541 Del Medio Avenue,Mountain View
+124,612,20,0.99,541 Del Medio Avenue,Mountain View
+124,621,20,0.99,541 Del Medio Avenue,Mountain View
+124,630,20,0.99,541 Del Medio Avenue,Mountain View
+124,639,20,0.99,541 Del Medio Avenue,Mountain View
+124,648,20,0.99,541 Del Medio Avenue,Mountain View
+124,657,20,0.99,541 Del Medio Avenue,Mountain View
+125,671,34,0.99,Rua da Assunção 53,Lisbon
+126,672,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+126,673,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+127,675,37,0.99,Berger Straße 10,Frankfurt
+127,677,37,0.99,Berger Straße 10,Frankfurt
+128,679,39,0.99,"4, Rue Milton",Paris
+128,681,39,0.99,"4, Rue Milton",Paris
+128,683,39,0.99,"4, Rue Milton",Paris
+128,685,39,0.99,"4, Rue Milton",Paris
+129,689,43,0.99,"68, Rue Jouvence",Dijon
+129,693,43,0.99,"68, Rue Jouvence",Dijon
+129,697,43,0.99,"68, Rue Jouvence",Dijon
+129,701,43,0.99,"68, Rue Jouvence",Dijon
+129,705,43,0.99,"68, Rue Jouvence",Dijon
+129,709,43,0.99,"68, Rue Jouvence",Dijon
+130,715,49,0.99,Ordynacka 10,Warsaw
+130,721,49,0.99,Ordynacka 10,Warsaw
+130,727,49,0.99,Ordynacka 10,Warsaw
+130,733,49,0.99,Ordynacka 10,Warsaw
+130,739,49,0.99,Ordynacka 10,Warsaw
+130,745,49,0.99,Ordynacka 10,Warsaw
+130,751,49,0.99,Ordynacka 10,Warsaw
+130,757,49,0.99,Ordynacka 10,Warsaw
+130,763,49,0.99,Ordynacka 10,Warsaw
+131,772,58,0.99,"12,Community Centre",Delhi
+131,781,58,0.99,"12,Community Centre",Delhi
+131,790,58,0.99,"12,Community Centre",Delhi
+131,799,58,0.99,"12,Community Centre",Delhi
+131,808,58,0.99,"12,Community Centre",Delhi
+131,817,58,0.99,"12,Community Centre",Delhi
+131,826,58,0.99,"12,Community Centre",Delhi
+131,835,58,0.99,"12,Community Centre",Delhi
+131,844,58,0.99,"12,Community Centre",Delhi
+131,853,58,0.99,"12,Community Centre",Delhi
+131,862,58,0.99,"12,Community Centre",Delhi
+131,871,58,0.99,"12,Community Centre",Delhi
+131,880,58,0.99,"12,Community Centre",Delhi
+131,889,58,0.99,"12,Community Centre",Delhi
+132,903,13,0.99,Qe 7 Bloco G,Brasília
+133,904,14,0.99,8210 111 ST NW,Edmonton
+133,905,14,0.99,8210 111 ST NW,Edmonton
+134,907,16,0.99,1600 Amphitheatre Parkway,Mountain View
+134,909,16,0.99,1600 Amphitheatre Parkway,Mountain View
+135,911,18,0.99,627 Broadway,New York
+135,913,18,0.99,627 Broadway,New York
+135,915,18,0.99,627 Broadway,New York
+135,917,18,0.99,627 Broadway,New York
+136,921,22,0.99,120 S Orange Ave,Orlando
+136,925,22,0.99,120 S Orange Ave,Orlando
+136,929,22,0.99,120 S Orange Ave,Orlando
+136,933,22,0.99,120 S Orange Ave,Orlando
+136,937,22,0.99,120 S Orange Ave,Orlando
+136,941,22,0.99,120 S Orange Ave,Orlando
+137,947,28,0.99,302 S 700 E,Salt Lake City
+137,953,28,0.99,302 S 700 E,Salt Lake City
+137,959,28,0.99,302 S 700 E,Salt Lake City
+137,965,28,0.99,302 S 700 E,Salt Lake City
+137,971,28,0.99,302 S 700 E,Salt Lake City
+137,977,28,0.99,302 S 700 E,Salt Lake City
+137,983,28,0.99,302 S 700 E,Salt Lake City
+137,989,28,0.99,302 S 700 E,Salt Lake City
+137,995,28,0.99,302 S 700 E,Salt Lake City
+138,1004,37,0.99,Berger Straße 10,Frankfurt
+138,1013,37,0.99,Berger Straße 10,Frankfurt
+138,1022,37,0.99,Berger Straße 10,Frankfurt
+138,1031,37,0.99,Berger Straße 10,Frankfurt
+138,1040,37,0.99,Berger Straße 10,Frankfurt
+138,1049,37,0.99,Berger Straße 10,Frankfurt
+138,1058,37,0.99,Berger Straße 10,Frankfurt
+138,1067,37,0.99,Berger Straße 10,Frankfurt
+138,1076,37,0.99,Berger Straße 10,Frankfurt
+138,1085,37,0.99,Berger Straße 10,Frankfurt
+138,1094,37,0.99,Berger Straße 10,Frankfurt
+138,1103,37,0.99,Berger Straße 10,Frankfurt
+138,1112,37,0.99,Berger Straße 10,Frankfurt
+138,1121,37,0.99,Berger Straße 10,Frankfurt
+139,1135,51,0.99,Celsiusg. 9,Stockholm
+140,1136,52,0.99,202 Hoxton Street,London
+140,1137,52,0.99,202 Hoxton Street,London
+141,1139,54,0.99,110 Raeburn Pl,Edinburgh 
+141,1141,54,0.99,110 Raeburn Pl,Edinburgh 
+142,1143,56,0.99,307 Macacha Güemes,Buenos Aires
+142,1145,56,0.99,307 Macacha Güemes,Buenos Aires
+142,1147,56,0.99,307 Macacha Güemes,Buenos Aires
+142,1149,56,0.99,307 Macacha Güemes,Buenos Aires
+143,1153,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+143,1157,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+143,1161,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+143,1165,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+143,1169,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+143,1173,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+144,1179,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+144,1185,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+144,1191,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+144,1197,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+144,1203,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+144,1209,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+144,1215,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+144,1221,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+144,1227,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+145,1236,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1245,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1254,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1263,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1272,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1281,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1290,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1299,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1308,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1317,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1326,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1335,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1344,16,0.99,1600 Amphitheatre Parkway,Mountain View
+145,1353,16,0.99,1600 Amphitheatre Parkway,Mountain View
+146,1367,30,0.99,230 Elgin Street,Ottawa
+147,1368,31,0.99,194A Chain Lake Drive,Halifax
+147,1369,31,0.99,194A Chain Lake Drive,Halifax
+148,1371,33,0.99,5112 48 Street,Yellowknife
+148,1373,33,0.99,5112 48 Street,Yellowknife
+149,1375,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+149,1377,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+149,1379,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+149,1381,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+150,1385,39,0.99,"4, Rue Milton",Paris
+150,1389,39,0.99,"4, Rue Milton",Paris
+150,1393,39,0.99,"4, Rue Milton",Paris
+150,1397,39,0.99,"4, Rue Milton",Paris
+150,1401,39,0.99,"4, Rue Milton",Paris
+150,1405,39,0.99,"4, Rue Milton",Paris
+151,1411,45,0.99,Erzsébet krt. 58.,Budapest
+151,1417,45,0.99,Erzsébet krt. 58.,Budapest
+151,1423,45,0.99,Erzsébet krt. 58.,Budapest
+151,1429,45,0.99,Erzsébet krt. 58.,Budapest
+151,1435,45,0.99,Erzsébet krt. 58.,Budapest
+151,1441,45,0.99,Erzsébet krt. 58.,Budapest
+151,1447,45,0.99,Erzsébet krt. 58.,Budapest
+151,1453,45,0.99,Erzsébet krt. 58.,Budapest
+151,1459,45,0.99,Erzsébet krt. 58.,Budapest
+152,1468,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1477,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1486,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1495,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1504,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1513,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1522,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1531,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1540,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1549,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1558,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1567,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1576,54,0.99,110 Raeburn Pl,Edinburgh 
+152,1585,54,0.99,110 Raeburn Pl,Edinburgh 
+153,1599,9,0.99,Sønder Boulevard 51,Copenhagen
+154,1600,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+154,1601,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+155,1603,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+155,1605,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+156,1607,14,0.99,8210 111 ST NW,Edmonton
+156,1609,14,0.99,8210 111 ST NW,Edmonton
+156,1611,14,0.99,8210 111 ST NW,Edmonton
+156,1613,14,0.99,8210 111 ST NW,Edmonton
+157,1617,18,0.99,627 Broadway,New York
+157,1621,18,0.99,627 Broadway,New York
+157,1625,18,0.99,627 Broadway,New York
+157,1629,18,0.99,627 Broadway,New York
+157,1633,18,0.99,627 Broadway,New York
+157,1637,18,0.99,627 Broadway,New York
+158,1643,24,0.99,162 E Superior Street,Chicago
+158,1649,24,0.99,162 E Superior Street,Chicago
+158,1655,24,0.99,162 E Superior Street,Chicago
+158,1661,24,0.99,162 E Superior Street,Chicago
+158,1667,24,0.99,162 E Superior Street,Chicago
+158,1673,24,0.99,162 E Superior Street,Chicago
+158,1679,24,0.99,162 E Superior Street,Chicago
+158,1685,24,0.99,162 E Superior Street,Chicago
+158,1691,24,0.99,162 E Superior Street,Chicago
+159,1700,33,0.99,5112 48 Street,Yellowknife
+159,1709,33,0.99,5112 48 Street,Yellowknife
+159,1718,33,0.99,5112 48 Street,Yellowknife
+159,1727,33,0.99,5112 48 Street,Yellowknife
+159,1736,33,0.99,5112 48 Street,Yellowknife
+159,1745,33,0.99,5112 48 Street,Yellowknife
+159,1754,33,0.99,5112 48 Street,Yellowknife
+159,1763,33,0.99,5112 48 Street,Yellowknife
+159,1772,33,0.99,5112 48 Street,Yellowknife
+159,1781,33,0.99,5112 48 Street,Yellowknife
+159,1790,33,0.99,5112 48 Street,Yellowknife
+159,1799,33,0.99,5112 48 Street,Yellowknife
+159,1808,33,0.99,5112 48 Street,Yellowknife
+159,1817,33,0.99,5112 48 Street,Yellowknife
+160,1831,47,0.99,"Via Degli Scipioni, 43",Rome
+161,1832,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+161,1833,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+162,1835,50,0.99,C/ San Bernardo 85,Madrid
+162,1837,50,0.99,C/ San Bernardo 85,Madrid
+163,1839,52,0.99,202 Hoxton Street,London
+163,1841,52,0.99,202 Hoxton Street,London
+163,1843,52,0.99,202 Hoxton Street,London
+163,1845,52,0.99,202 Hoxton Street,London
+164,1849,56,0.99,307 Macacha Güemes,Buenos Aires
+164,1853,56,0.99,307 Macacha Güemes,Buenos Aires
+164,1857,56,0.99,307 Macacha Güemes,Buenos Aires
+164,1861,56,0.99,307 Macacha Güemes,Buenos Aires
+164,1865,56,0.99,307 Macacha Güemes,Buenos Aires
+164,1869,56,0.99,307 Macacha Güemes,Buenos Aires
+165,1875,3,0.99,1498 rue Bélanger,Montréal
+165,1881,3,0.99,1498 rue Bélanger,Montréal
+165,1887,3,0.99,1498 rue Bélanger,Montréal
+165,1893,3,0.99,1498 rue Bélanger,Montréal
+165,1899,3,0.99,1498 rue Bélanger,Montréal
+165,1905,3,0.99,1498 rue Bélanger,Montréal
+165,1911,3,0.99,1498 rue Bélanger,Montréal
+165,1917,3,0.99,1498 rue Bélanger,Montréal
+165,1923,3,0.99,1498 rue Bélanger,Montréal
+166,1932,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,1941,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,1950,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,1959,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,1968,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,1977,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,1986,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,1995,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,2004,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,2013,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,2022,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,2031,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,2040,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+166,2049,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+167,2063,26,0.99,2211 W Berry Street,Fort Worth
+168,2064,27,0.99,1033 N Park Ave,Tucson
+168,2065,27,0.99,1033 N Park Ave,Tucson
+169,2067,29,0.99,796 Dundas Street West,Toronto
+169,2069,29,0.99,796 Dundas Street West,Toronto
+170,2071,31,0.99,194A Chain Lake Drive,Halifax
+170,2073,31,0.99,194A Chain Lake Drive,Halifax
+170,2075,31,0.99,194A Chain Lake Drive,Halifax
+170,2077,31,0.99,194A Chain Lake Drive,Halifax
+171,2081,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+171,2085,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+171,2089,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+171,2093,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+171,2097,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+171,2101,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+172,2107,41,0.99,"11, Place Bellecour",Lyon
+172,2113,41,0.99,"11, Place Bellecour",Lyon
+172,2119,41,0.99,"11, Place Bellecour",Lyon
+172,2125,41,0.99,"11, Place Bellecour",Lyon
+172,2131,41,0.99,"11, Place Bellecour",Lyon
+172,2137,41,0.99,"11, Place Bellecour",Lyon
+172,2143,41,0.99,"11, Place Bellecour",Lyon
+172,2149,41,0.99,"11, Place Bellecour",Lyon
+172,2155,41,0.99,"11, Place Bellecour",Lyon
+173,2164,50,0.99,C/ San Bernardo 85,Madrid
+173,2173,50,0.99,C/ San Bernardo 85,Madrid
+173,2182,50,0.99,C/ San Bernardo 85,Madrid
+173,2191,50,0.99,C/ San Bernardo 85,Madrid
+173,2200,50,0.99,C/ San Bernardo 85,Madrid
+173,2209,50,0.99,C/ San Bernardo 85,Madrid
+173,2218,50,0.99,C/ San Bernardo 85,Madrid
+173,2227,50,0.99,C/ San Bernardo 85,Madrid
+173,2236,50,0.99,C/ San Bernardo 85,Madrid
+173,2245,50,0.99,C/ San Bernardo 85,Madrid
+173,2254,50,0.99,C/ San Bernardo 85,Madrid
+173,2263,50,0.99,C/ San Bernardo 85,Madrid
+173,2272,50,0.99,C/ San Bernardo 85,Madrid
+173,2281,50,0.99,C/ San Bernardo 85,Madrid
+174,2295,5,0.99,Klanova 9/506,Prague
+175,2296,6,0.99,Rilská 3174/6,Prague
+175,2297,6,0.99,Rilská 3174/6,Prague
+176,2299,8,0.99,Grétrystraat 63,Brussels
+176,2301,8,0.99,Grétrystraat 63,Brussels
+177,2303,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+177,2305,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+177,2307,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+177,2309,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+178,2313,14,0.99,8210 111 ST NW,Edmonton
+178,2317,14,0.99,8210 111 ST NW,Edmonton
+178,2321,14,0.99,8210 111 ST NW,Edmonton
+178,2325,14,0.99,8210 111 ST NW,Edmonton
+178,2329,14,0.99,8210 111 ST NW,Edmonton
+178,2333,14,0.99,8210 111 ST NW,Edmonton
+179,2339,20,0.99,541 Del Medio Avenue,Mountain View
+179,2345,20,0.99,541 Del Medio Avenue,Mountain View
+179,2351,20,0.99,541 Del Medio Avenue,Mountain View
+179,2357,20,0.99,541 Del Medio Avenue,Mountain View
+179,2363,20,0.99,541 Del Medio Avenue,Mountain View
+179,2369,20,0.99,541 Del Medio Avenue,Mountain View
+179,2375,20,0.99,541 Del Medio Avenue,Mountain View
+179,2381,20,0.99,541 Del Medio Avenue,Mountain View
+179,2387,20,0.99,541 Del Medio Avenue,Mountain View
+180,2396,29,0.99,796 Dundas Street West,Toronto
+180,2405,29,0.99,796 Dundas Street West,Toronto
+180,2414,29,0.99,796 Dundas Street West,Toronto
+180,2423,29,0.99,796 Dundas Street West,Toronto
+180,2432,29,0.99,796 Dundas Street West,Toronto
+180,2441,29,0.99,796 Dundas Street West,Toronto
+180,2450,29,0.99,796 Dundas Street West,Toronto
+180,2459,29,0.99,796 Dundas Street West,Toronto
+180,2468,29,0.99,796 Dundas Street West,Toronto
+180,2477,29,0.99,796 Dundas Street West,Toronto
+180,2486,29,0.99,796 Dundas Street West,Toronto
+180,2495,29,0.99,796 Dundas Street West,Toronto
+180,2504,29,0.99,796 Dundas Street West,Toronto
+180,2513,29,0.99,796 Dundas Street West,Toronto
+181,2527,43,0.99,"68, Rue Jouvence",Dijon
+182,2528,44,0.99,Porthaninkatu 9,Helsinki
+182,2529,44,0.99,Porthaninkatu 9,Helsinki
+183,2531,46,0.99,3 Chatham Street,Dublin
+183,2533,46,0.99,3 Chatham Street,Dublin
+184,2535,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+184,2537,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+184,2539,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+184,2541,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+185,2545,52,0.99,202 Hoxton Street,London
+185,2549,52,0.99,202 Hoxton Street,London
+185,2553,52,0.99,202 Hoxton Street,London
+185,2557,52,0.99,202 Hoxton Street,London
+185,2561,52,0.99,202 Hoxton Street,London
+185,2565,52,0.99,202 Hoxton Street,London
+186,2571,58,0.99,"12,Community Centre",Delhi
+186,2577,58,0.99,"12,Community Centre",Delhi
+186,2583,58,0.99,"12,Community Centre",Delhi
+186,2589,58,0.99,"12,Community Centre",Delhi
+186,2595,58,0.99,"12,Community Centre",Delhi
+186,2601,58,0.99,"12,Community Centre",Delhi
+186,2607,58,0.99,"12,Community Centre",Delhi
+186,2613,58,0.99,"12,Community Centre",Delhi
+186,2619,58,0.99,"12,Community Centre",Delhi
+187,2628,8,0.99,Grétrystraat 63,Brussels
+187,2637,8,0.99,Grétrystraat 63,Brussels
+187,2646,8,0.99,Grétrystraat 63,Brussels
+187,2655,8,0.99,Grétrystraat 63,Brussels
+187,2664,8,0.99,Grétrystraat 63,Brussels
+187,2673,8,0.99,Grétrystraat 63,Brussels
+187,2682,8,0.99,Grétrystraat 63,Brussels
+187,2691,8,0.99,Grétrystraat 63,Brussels
+187,2700,8,0.99,Grétrystraat 63,Brussels
+187,2709,8,0.99,Grétrystraat 63,Brussels
+187,2718,8,0.99,Grétrystraat 63,Brussels
+187,2727,8,0.99,Grétrystraat 63,Brussels
+187,2736,8,0.99,Grétrystraat 63,Brussels
+187,2745,8,0.99,Grétrystraat 63,Brussels
+188,2759,22,0.99,120 S Orange Ave,Orlando
+189,2760,23,0.99,69 Salem Street,Boston
+189,2761,23,0.99,69 Salem Street,Boston
+190,2763,25,0.99,319 N. Frances Street,Madison
+190,2765,25,0.99,319 N. Frances Street,Madison
+191,2767,27,0.99,1033 N Park Ave,Tucson
+191,2769,27,0.99,1033 N Park Ave,Tucson
+191,2771,27,0.99,1033 N Park Ave,Tucson
+191,2773,27,0.99,1033 N Park Ave,Tucson
+192,2777,31,0.99,194A Chain Lake Drive,Halifax
+192,2781,31,0.99,194A Chain Lake Drive,Halifax
+192,2785,31,0.99,194A Chain Lake Drive,Halifax
+192,2789,31,0.99,194A Chain Lake Drive,Halifax
+192,2793,31,0.99,194A Chain Lake Drive,Halifax
+192,2797,31,0.99,194A Chain Lake Drive,Halifax
+193,2803,37,0.99,Berger Straße 10,Frankfurt
+193,2809,37,0.99,Berger Straße 10,Frankfurt
+193,2815,37,0.99,Berger Straße 10,Frankfurt
+193,2821,37,1.99,Berger Straße 10,Frankfurt
+193,2827,37,1.99,Berger Straße 10,Frankfurt
+193,2833,37,1.99,Berger Straße 10,Frankfurt
+193,2839,37,1.99,Berger Straße 10,Frankfurt
+193,2845,37,1.99,Berger Straße 10,Frankfurt
+193,2851,37,1.99,Berger Straße 10,Frankfurt
+194,2860,46,1.99,3 Chatham Street,Dublin
+194,2869,46,1.99,3 Chatham Street,Dublin
+194,2878,46,1.99,3 Chatham Street,Dublin
+194,2887,46,1.99,3 Chatham Street,Dublin
+194,2896,46,1.99,3 Chatham Street,Dublin
+194,2905,46,1.99,3 Chatham Street,Dublin
+194,2914,46,1.99,3 Chatham Street,Dublin
+194,2923,46,1.99,3 Chatham Street,Dublin
+194,2932,46,0.99,3 Chatham Street,Dublin
+194,2941,46,0.99,3 Chatham Street,Dublin
+194,2950,46,0.99,3 Chatham Street,Dublin
+194,2959,46,0.99,3 Chatham Street,Dublin
+194,2968,46,0.99,3 Chatham Street,Dublin
+194,2977,46,0.99,3 Chatham Street,Dublin
+195,2991,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+196,2992,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+196,2993,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+197,2995,4,0.99,Ullevålsveien 14,Oslo
+197,2997,4,0.99,Ullevålsveien 14,Oslo
+198,2999,6,0.99,Rilská 3174/6,Prague
+198,3001,6,0.99,Rilská 3174/6,Prague
+198,3003,6,0.99,Rilská 3174/6,Prague
+198,3005,6,0.99,Rilská 3174/6,Prague
+199,3009,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+199,3013,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+199,3017,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+199,3021,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+199,3025,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+199,3029,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+200,3035,16,0.99,1600 Amphitheatre Parkway,Mountain View
+200,3041,16,0.99,1600 Amphitheatre Parkway,Mountain View
+200,3047,16,0.99,1600 Amphitheatre Parkway,Mountain View
+200,3053,16,0.99,1600 Amphitheatre Parkway,Mountain View
+200,3059,16,0.99,1600 Amphitheatre Parkway,Mountain View
+200,3065,16,0.99,1600 Amphitheatre Parkway,Mountain View
+200,3071,16,0.99,1600 Amphitheatre Parkway,Mountain View
+200,3077,16,0.99,1600 Amphitheatre Parkway,Mountain View
+200,3083,16,0.99,1600 Amphitheatre Parkway,Mountain View
+201,3092,25,0.99,319 N. Frances Street,Madison
+201,3101,25,0.99,319 N. Frances Street,Madison
+201,3110,25,0.99,319 N. Frances Street,Madison
+201,3119,25,0.99,319 N. Frances Street,Madison
+201,3128,25,0.99,319 N. Frances Street,Madison
+201,3137,25,0.99,319 N. Frances Street,Madison
+201,3146,25,0.99,319 N. Frances Street,Madison
+201,3155,25,0.99,319 N. Frances Street,Madison
+201,3164,25,0.99,319 N. Frances Street,Madison
+201,3173,25,1.99,319 N. Frances Street,Madison
+201,3182,25,1.99,319 N. Frances Street,Madison
+201,3191,25,1.99,319 N. Frances Street,Madison
+201,3200,25,1.99,319 N. Frances Street,Madison
+201,3209,25,1.99,319 N. Frances Street,Madison
+202,3223,39,1.99,"4, Rue Milton",Paris
+203,3224,40,1.99,"8, Rue Hanovre",Paris
+203,3225,40,0.99,"8, Rue Hanovre",Paris
+204,3227,42,1.99,"9, Place Louis Barthou",Bordeaux
+204,3229,42,1.99,"9, Place Louis Barthou",Bordeaux
+205,3231,44,1.99,Porthaninkatu 9,Helsinki
+205,3233,44,1.99,Porthaninkatu 9,Helsinki
+205,3235,44,1.99,Porthaninkatu 9,Helsinki
+205,3237,44,1.99,Porthaninkatu 9,Helsinki
+206,3241,48,1.99,Lijnbaansgracht 120bg,Amsterdam
+206,3245,48,1.99,Lijnbaansgracht 120bg,Amsterdam
+206,3249,48,1.99,Lijnbaansgracht 120bg,Amsterdam
+206,3253,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+206,3257,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+206,3261,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+207,3267,54,0.99,110 Raeburn Pl,Edinburgh 
+207,3273,54,0.99,110 Raeburn Pl,Edinburgh 
+207,3279,54,0.99,110 Raeburn Pl,Edinburgh 
+207,3285,54,0.99,110 Raeburn Pl,Edinburgh 
+207,3291,54,0.99,110 Raeburn Pl,Edinburgh 
+207,3297,54,0.99,110 Raeburn Pl,Edinburgh 
+207,3303,54,0.99,110 Raeburn Pl,Edinburgh 
+207,3309,54,0.99,110 Raeburn Pl,Edinburgh 
+207,3315,54,0.99,110 Raeburn Pl,Edinburgh 
+208,3324,4,0.99,Ullevålsveien 14,Oslo
+208,3333,4,0.99,Ullevålsveien 14,Oslo
+208,3342,4,1.99,Ullevålsveien 14,Oslo
+208,3351,4,0.99,Ullevålsveien 14,Oslo
+208,3360,4,1.99,Ullevålsveien 14,Oslo
+208,3369,4,0.99,Ullevålsveien 14,Oslo
+208,3378,4,0.99,Ullevålsveien 14,Oslo
+208,3387,4,0.99,Ullevålsveien 14,Oslo
+208,3396,4,0.99,Ullevålsveien 14,Oslo
+208,3405,4,0.99,Ullevålsveien 14,Oslo
+208,3414,4,0.99,Ullevålsveien 14,Oslo
+208,3423,4,0.99,Ullevålsveien 14,Oslo
+208,3432,4,0.99,Ullevålsveien 14,Oslo
+208,3441,4,0.99,Ullevålsveien 14,Oslo
+209,3455,18,0.99,627 Broadway,New York
+210,3456,19,0.99,1 Infinite Loop,Cupertino
+210,3457,19,0.99,1 Infinite Loop,Cupertino
+211,3459,21,0.99,801 W 4th Street,Reno
+211,3461,21,0.99,801 W 4th Street,Reno
+212,3463,23,0.99,69 Salem Street,Boston
+212,3465,23,0.99,69 Salem Street,Boston
+212,3467,23,0.99,69 Salem Street,Boston
+212,3469,23,0.99,69 Salem Street,Boston
+213,3473,27,0.99,1033 N Park Ave,Tucson
+213,3477,27,0.99,1033 N Park Ave,Tucson
+213,3481,27,0.99,1033 N Park Ave,Tucson
+213,3485,27,0.99,1033 N Park Ave,Tucson
+213,3489,27,0.99,1033 N Park Ave,Tucson
+213,3493,27,0.99,1033 N Park Ave,Tucson
+214,3499,33,0.99,5112 48 Street,Yellowknife
+214,2,33,0.99,5112 48 Street,Yellowknife
+214,8,33,0.99,5112 48 Street,Yellowknife
+214,14,33,0.99,5112 48 Street,Yellowknife
+214,20,33,0.99,5112 48 Street,Yellowknife
+214,26,33,0.99,5112 48 Street,Yellowknife
+214,32,33,0.99,5112 48 Street,Yellowknife
+214,38,33,0.99,5112 48 Street,Yellowknife
+214,44,33,0.99,5112 48 Street,Yellowknife
+215,53,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,62,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,71,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,80,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,89,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,98,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,107,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,116,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,125,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,134,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,143,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,152,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,161,42,0.99,"9, Place Louis Barthou",Bordeaux
+215,170,42,0.99,"9, Place Louis Barthou",Bordeaux
+216,184,56,0.99,307 Macacha Güemes,Buenos Aires
+217,185,57,0.99,"Calle Lira, 198",Santiago
+217,186,57,0.99,"Calle Lira, 198",Santiago
+218,188,59,0.99,"3,Raj Bhavan Road",Bangalore
+218,190,59,0.99,"3,Raj Bhavan Road",Bangalore
+219,192,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+219,194,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+219,196,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+219,198,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+220,202,6,0.99,Rilská 3174/6,Prague
+220,206,6,0.99,Rilská 3174/6,Prague
+220,210,6,0.99,Rilská 3174/6,Prague
+220,214,6,0.99,Rilská 3174/6,Prague
+220,218,6,0.99,Rilská 3174/6,Prague
+220,222,6,0.99,Rilská 3174/6,Prague
+221,228,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+221,234,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+221,240,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+221,246,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+221,252,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+221,258,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+221,264,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+221,270,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+221,276,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+222,285,21,0.99,801 W 4th Street,Reno
+222,294,21,0.99,801 W 4th Street,Reno
+222,303,21,0.99,801 W 4th Street,Reno
+222,312,21,0.99,801 W 4th Street,Reno
+222,321,21,0.99,801 W 4th Street,Reno
+222,330,21,0.99,801 W 4th Street,Reno
+222,339,21,0.99,801 W 4th Street,Reno
+222,348,21,0.99,801 W 4th Street,Reno
+222,357,21,0.99,801 W 4th Street,Reno
+222,366,21,0.99,801 W 4th Street,Reno
+222,375,21,0.99,801 W 4th Street,Reno
+222,384,21,0.99,801 W 4th Street,Reno
+222,393,21,0.99,801 W 4th Street,Reno
+222,402,21,0.99,801 W 4th Street,Reno
+223,416,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+224,417,36,0.99,Tauentzienstraße 8,Berlin
+224,418,36,0.99,Tauentzienstraße 8,Berlin
+225,420,38,0.99,Barbarossastraße 19,Berlin
+225,422,38,0.99,Barbarossastraße 19,Berlin
+226,424,40,0.99,"8, Rue Hanovre",Paris
+226,426,40,0.99,"8, Rue Hanovre",Paris
+226,428,40,0.99,"8, Rue Hanovre",Paris
+226,430,40,0.99,"8, Rue Hanovre",Paris
+227,434,44,0.99,Porthaninkatu 9,Helsinki
+227,438,44,0.99,Porthaninkatu 9,Helsinki
+227,442,44,0.99,Porthaninkatu 9,Helsinki
+227,446,44,0.99,Porthaninkatu 9,Helsinki
+227,450,44,0.99,Porthaninkatu 9,Helsinki
+227,454,44,0.99,Porthaninkatu 9,Helsinki
+228,460,50,0.99,C/ San Bernardo 85,Madrid
+228,466,50,0.99,C/ San Bernardo 85,Madrid
+228,472,50,0.99,C/ San Bernardo 85,Madrid
+228,478,50,0.99,C/ San Bernardo 85,Madrid
+228,484,50,0.99,C/ San Bernardo 85,Madrid
+228,490,50,0.99,C/ San Bernardo 85,Madrid
+228,496,50,0.99,C/ San Bernardo 85,Madrid
+228,502,50,0.99,C/ San Bernardo 85,Madrid
+228,508,50,0.99,C/ San Bernardo 85,Madrid
+229,517,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,526,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,535,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,544,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,553,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,562,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,571,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,580,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,589,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,598,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,607,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,616,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,625,59,0.99,"3,Raj Bhavan Road",Bangalore
+229,634,59,0.99,"3,Raj Bhavan Road",Bangalore
+230,648,14,0.99,8210 111 ST NW,Edmonton
+231,649,15,0.99,700 W Pender Street,Vancouver
+231,650,15,0.99,700 W Pender Street,Vancouver
+232,652,17,0.99,1 Microsoft Way,Redmond
+232,654,17,0.99,1 Microsoft Way,Redmond
+233,656,19,0.99,1 Infinite Loop,Cupertino
+233,658,19,0.99,1 Infinite Loop,Cupertino
+233,660,19,0.99,1 Infinite Loop,Cupertino
+233,662,19,0.99,1 Infinite Loop,Cupertino
+234,666,23,0.99,69 Salem Street,Boston
+234,670,23,0.99,69 Salem Street,Boston
+234,674,23,0.99,69 Salem Street,Boston
+234,678,23,0.99,69 Salem Street,Boston
+234,682,23,0.99,69 Salem Street,Boston
+234,686,23,0.99,69 Salem Street,Boston
+235,692,29,0.99,796 Dundas Street West,Toronto
+235,698,29,0.99,796 Dundas Street West,Toronto
+235,704,29,0.99,796 Dundas Street West,Toronto
+235,710,29,0.99,796 Dundas Street West,Toronto
+235,716,29,0.99,796 Dundas Street West,Toronto
+235,722,29,0.99,796 Dundas Street West,Toronto
+235,728,29,0.99,796 Dundas Street West,Toronto
+235,734,29,0.99,796 Dundas Street West,Toronto
+235,740,29,0.99,796 Dundas Street West,Toronto
+236,749,38,0.99,Barbarossastraße 19,Berlin
+236,758,38,0.99,Barbarossastraße 19,Berlin
+236,767,38,0.99,Barbarossastraße 19,Berlin
+236,776,38,0.99,Barbarossastraße 19,Berlin
+236,785,38,0.99,Barbarossastraße 19,Berlin
+236,794,38,0.99,Barbarossastraße 19,Berlin
+236,803,38,0.99,Barbarossastraße 19,Berlin
+236,812,38,0.99,Barbarossastraße 19,Berlin
+236,821,38,0.99,Barbarossastraße 19,Berlin
+236,830,38,0.99,Barbarossastraße 19,Berlin
+236,839,38,0.99,Barbarossastraße 19,Berlin
+236,848,38,0.99,Barbarossastraße 19,Berlin
+236,857,38,0.99,Barbarossastraße 19,Berlin
+236,866,38,0.99,Barbarossastraße 19,Berlin
+237,880,52,0.99,202 Hoxton Street,London
+238,881,53,0.99,113 Lupus St,London
+238,882,53,0.99,113 Lupus St,London
+239,884,55,0.99,421 Bourke Street,Sidney
+239,886,55,0.99,421 Bourke Street,Sidney
+240,888,57,0.99,"Calle Lira, 198",Santiago
+240,890,57,0.99,"Calle Lira, 198",Santiago
+240,892,57,0.99,"Calle Lira, 198",Santiago
+240,894,57,0.99,"Calle Lira, 198",Santiago
+241,898,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+241,902,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+241,906,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+241,910,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+241,914,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+241,918,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+242,924,8,0.99,Grétrystraat 63,Brussels
+242,930,8,0.99,Grétrystraat 63,Brussels
+242,936,8,0.99,Grétrystraat 63,Brussels
+242,942,8,0.99,Grétrystraat 63,Brussels
+242,948,8,0.99,Grétrystraat 63,Brussels
+242,954,8,0.99,Grétrystraat 63,Brussels
+242,960,8,0.99,Grétrystraat 63,Brussels
+242,966,8,0.99,Grétrystraat 63,Brussels
+242,972,8,0.99,Grétrystraat 63,Brussels
+243,981,17,0.99,1 Microsoft Way,Redmond
+243,990,17,0.99,1 Microsoft Way,Redmond
+243,999,17,0.99,1 Microsoft Way,Redmond
+243,1008,17,0.99,1 Microsoft Way,Redmond
+243,1017,17,0.99,1 Microsoft Way,Redmond
+243,1026,17,0.99,1 Microsoft Way,Redmond
+243,1035,17,0.99,1 Microsoft Way,Redmond
+243,1044,17,0.99,1 Microsoft Way,Redmond
+243,1053,17,0.99,1 Microsoft Way,Redmond
+243,1062,17,0.99,1 Microsoft Way,Redmond
+243,1071,17,0.99,1 Microsoft Way,Redmond
+243,1080,17,0.99,1 Microsoft Way,Redmond
+243,1089,17,0.99,1 Microsoft Way,Redmond
+243,1098,17,0.99,1 Microsoft Way,Redmond
+244,1112,31,0.99,194A Chain Lake Drive,Halifax
+245,1113,32,0.99,696 Osborne Street,Winnipeg
+245,1114,32,0.99,696 Osborne Street,Winnipeg
+246,1116,34,0.99,Rua da Assunção 53,Lisbon
+246,1118,34,0.99,Rua da Assunção 53,Lisbon
+247,1120,36,0.99,Tauentzienstraße 8,Berlin
+247,1122,36,0.99,Tauentzienstraße 8,Berlin
+247,1124,36,0.99,Tauentzienstraße 8,Berlin
+247,1126,36,0.99,Tauentzienstraße 8,Berlin
+248,1130,40,0.99,"8, Rue Hanovre",Paris
+248,1134,40,0.99,"8, Rue Hanovre",Paris
+248,1138,40,0.99,"8, Rue Hanovre",Paris
+248,1142,40,0.99,"8, Rue Hanovre",Paris
+248,1146,40,0.99,"8, Rue Hanovre",Paris
+248,1150,40,0.99,"8, Rue Hanovre",Paris
+249,1156,46,0.99,3 Chatham Street,Dublin
+249,1162,46,0.99,3 Chatham Street,Dublin
+249,1168,46,0.99,3 Chatham Street,Dublin
+249,1174,46,0.99,3 Chatham Street,Dublin
+249,1180,46,0.99,3 Chatham Street,Dublin
+249,1186,46,0.99,3 Chatham Street,Dublin
+249,1192,46,0.99,3 Chatham Street,Dublin
+249,1198,46,0.99,3 Chatham Street,Dublin
+249,1204,46,0.99,3 Chatham Street,Dublin
+250,1213,55,0.99,421 Bourke Street,Sidney
+250,1222,55,0.99,421 Bourke Street,Sidney
+250,1231,55,0.99,421 Bourke Street,Sidney
+250,1240,55,0.99,421 Bourke Street,Sidney
+250,1249,55,0.99,421 Bourke Street,Sidney
+250,1258,55,0.99,421 Bourke Street,Sidney
+250,1267,55,0.99,421 Bourke Street,Sidney
+250,1276,55,0.99,421 Bourke Street,Sidney
+250,1285,55,0.99,421 Bourke Street,Sidney
+250,1294,55,0.99,421 Bourke Street,Sidney
+250,1303,55,0.99,421 Bourke Street,Sidney
+250,1312,55,0.99,421 Bourke Street,Sidney
+250,1321,55,0.99,421 Bourke Street,Sidney
+250,1330,55,0.99,421 Bourke Street,Sidney
+251,1344,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+252,1345,11,0.99,"Av. Paulista, 2022",São Paulo
+252,1346,11,0.99,"Av. Paulista, 2022",São Paulo
+253,1348,13,0.99,Qe 7 Bloco G,Brasília
+253,1350,13,0.99,Qe 7 Bloco G,Brasília
+254,1352,15,0.99,700 W Pender Street,Vancouver
+254,1354,15,0.99,700 W Pender Street,Vancouver
+254,1356,15,0.99,700 W Pender Street,Vancouver
+254,1358,15,0.99,700 W Pender Street,Vancouver
+255,1362,19,0.99,1 Infinite Loop,Cupertino
+255,1366,19,0.99,1 Infinite Loop,Cupertino
+255,1370,19,0.99,1 Infinite Loop,Cupertino
+255,1374,19,0.99,1 Infinite Loop,Cupertino
+255,1378,19,0.99,1 Infinite Loop,Cupertino
+255,1382,19,0.99,1 Infinite Loop,Cupertino
+256,1388,25,0.99,319 N. Frances Street,Madison
+256,1394,25,0.99,319 N. Frances Street,Madison
+256,1400,25,0.99,319 N. Frances Street,Madison
+256,1406,25,0.99,319 N. Frances Street,Madison
+256,1412,25,0.99,319 N. Frances Street,Madison
+256,1418,25,0.99,319 N. Frances Street,Madison
+256,1424,25,0.99,319 N. Frances Street,Madison
+256,1430,25,0.99,319 N. Frances Street,Madison
+256,1436,25,0.99,319 N. Frances Street,Madison
+257,1445,34,0.99,Rua da Assunção 53,Lisbon
+257,1454,34,0.99,Rua da Assunção 53,Lisbon
+257,1463,34,0.99,Rua da Assunção 53,Lisbon
+257,1472,34,0.99,Rua da Assunção 53,Lisbon
+257,1481,34,0.99,Rua da Assunção 53,Lisbon
+257,1490,34,0.99,Rua da Assunção 53,Lisbon
+257,1499,34,0.99,Rua da Assunção 53,Lisbon
+257,1508,34,0.99,Rua da Assunção 53,Lisbon
+257,1517,34,0.99,Rua da Assunção 53,Lisbon
+257,1526,34,0.99,Rua da Assunção 53,Lisbon
+257,1535,34,0.99,Rua da Assunção 53,Lisbon
+257,1544,34,0.99,Rua da Assunção 53,Lisbon
+257,1553,34,0.99,Rua da Assunção 53,Lisbon
+257,1562,34,0.99,Rua da Assunção 53,Lisbon
+258,1576,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+259,1577,49,0.99,Ordynacka 10,Warsaw
+259,1578,49,0.99,Ordynacka 10,Warsaw
+260,1580,51,0.99,Celsiusg. 9,Stockholm
+260,1582,51,0.99,Celsiusg. 9,Stockholm
+261,1584,53,0.99,113 Lupus St,London
+261,1586,53,0.99,113 Lupus St,London
+261,1588,53,0.99,113 Lupus St,London
+261,1590,53,0.99,113 Lupus St,London
+262,1594,57,0.99,"Calle Lira, 198",Santiago
+262,1598,57,0.99,"Calle Lira, 198",Santiago
+262,1602,57,0.99,"Calle Lira, 198",Santiago
+262,1606,57,0.99,"Calle Lira, 198",Santiago
+262,1610,57,0.99,"Calle Lira, 198",Santiago
+262,1614,57,0.99,"Calle Lira, 198",Santiago
+263,1620,4,0.99,Ullevålsveien 14,Oslo
+263,1626,4,0.99,Ullevålsveien 14,Oslo
+263,1632,4,0.99,Ullevålsveien 14,Oslo
+263,1638,4,0.99,Ullevålsveien 14,Oslo
+263,1644,4,0.99,Ullevålsveien 14,Oslo
+263,1650,4,0.99,Ullevålsveien 14,Oslo
+263,1656,4,0.99,Ullevålsveien 14,Oslo
+263,1662,4,0.99,Ullevålsveien 14,Oslo
+263,1668,4,0.99,Ullevålsveien 14,Oslo
+264,1677,13,0.99,Qe 7 Bloco G,Brasília
+264,1686,13,0.99,Qe 7 Bloco G,Brasília
+264,1695,13,0.99,Qe 7 Bloco G,Brasília
+264,1704,13,0.99,Qe 7 Bloco G,Brasília
+264,1713,13,0.99,Qe 7 Bloco G,Brasília
+264,1722,13,0.99,Qe 7 Bloco G,Brasília
+264,1731,13,0.99,Qe 7 Bloco G,Brasília
+264,1740,13,0.99,Qe 7 Bloco G,Brasília
+264,1749,13,0.99,Qe 7 Bloco G,Brasília
+264,1758,13,0.99,Qe 7 Bloco G,Brasília
+264,1767,13,0.99,Qe 7 Bloco G,Brasília
+264,1776,13,0.99,Qe 7 Bloco G,Brasília
+264,1785,13,0.99,Qe 7 Bloco G,Brasília
+264,1794,13,0.99,Qe 7 Bloco G,Brasília
+265,1808,27,0.99,1033 N Park Ave,Tucson
+266,1809,28,0.99,302 S 700 E,Salt Lake City
+266,1810,28,0.99,302 S 700 E,Salt Lake City
+267,1812,30,0.99,230 Elgin Street,Ottawa
+267,1814,30,0.99,230 Elgin Street,Ottawa
+268,1816,32,0.99,696 Osborne Street,Winnipeg
+268,1818,32,0.99,696 Osborne Street,Winnipeg
+268,1820,32,0.99,696 Osborne Street,Winnipeg
+268,1822,32,0.99,696 Osborne Street,Winnipeg
+269,1826,36,0.99,Tauentzienstraße 8,Berlin
+269,1830,36,0.99,Tauentzienstraße 8,Berlin
+269,1834,36,0.99,Tauentzienstraße 8,Berlin
+269,1838,36,0.99,Tauentzienstraße 8,Berlin
+269,1842,36,0.99,Tauentzienstraße 8,Berlin
+269,1846,36,0.99,Tauentzienstraße 8,Berlin
+270,1852,42,0.99,"9, Place Louis Barthou",Bordeaux
+270,1858,42,0.99,"9, Place Louis Barthou",Bordeaux
+270,1864,42,0.99,"9, Place Louis Barthou",Bordeaux
+270,1870,42,0.99,"9, Place Louis Barthou",Bordeaux
+270,1876,42,0.99,"9, Place Louis Barthou",Bordeaux
+270,1882,42,0.99,"9, Place Louis Barthou",Bordeaux
+270,1888,42,0.99,"9, Place Louis Barthou",Bordeaux
+270,1894,42,0.99,"9, Place Louis Barthou",Bordeaux
+270,1900,42,0.99,"9, Place Louis Barthou",Bordeaux
+271,1909,51,0.99,Celsiusg. 9,Stockholm
+271,1918,51,0.99,Celsiusg. 9,Stockholm
+271,1927,51,0.99,Celsiusg. 9,Stockholm
+271,1936,51,0.99,Celsiusg. 9,Stockholm
+271,1945,51,0.99,Celsiusg. 9,Stockholm
+271,1954,51,0.99,Celsiusg. 9,Stockholm
+271,1963,51,0.99,Celsiusg. 9,Stockholm
+271,1972,51,0.99,Celsiusg. 9,Stockholm
+271,1981,51,0.99,Celsiusg. 9,Stockholm
+271,1990,51,0.99,Celsiusg. 9,Stockholm
+271,1999,51,0.99,Celsiusg. 9,Stockholm
+271,2008,51,0.99,Celsiusg. 9,Stockholm
+271,2017,51,0.99,Celsiusg. 9,Stockholm
+271,2026,51,0.99,Celsiusg. 9,Stockholm
+272,2040,6,0.99,Rilská 3174/6,Prague
+273,2041,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+273,2042,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+274,2044,9,0.99,Sønder Boulevard 51,Copenhagen
+274,2046,9,0.99,Sønder Boulevard 51,Copenhagen
+275,2048,11,0.99,"Av. Paulista, 2022",São Paulo
+275,2050,11,0.99,"Av. Paulista, 2022",São Paulo
+275,2052,11,0.99,"Av. Paulista, 2022",São Paulo
+275,2054,11,0.99,"Av. Paulista, 2022",São Paulo
+276,2058,15,0.99,700 W Pender Street,Vancouver
+276,2062,15,0.99,700 W Pender Street,Vancouver
+276,2066,15,0.99,700 W Pender Street,Vancouver
+276,2070,15,0.99,700 W Pender Street,Vancouver
+276,2074,15,0.99,700 W Pender Street,Vancouver
+276,2078,15,0.99,700 W Pender Street,Vancouver
+277,2084,21,0.99,801 W 4th Street,Reno
+277,2090,21,0.99,801 W 4th Street,Reno
+277,2096,21,0.99,801 W 4th Street,Reno
+277,2102,21,0.99,801 W 4th Street,Reno
+277,2108,21,0.99,801 W 4th Street,Reno
+277,2114,21,0.99,801 W 4th Street,Reno
+277,2120,21,0.99,801 W 4th Street,Reno
+277,2126,21,0.99,801 W 4th Street,Reno
+277,2132,21,0.99,801 W 4th Street,Reno
+278,2141,30,0.99,230 Elgin Street,Ottawa
+278,2150,30,0.99,230 Elgin Street,Ottawa
+278,2159,30,0.99,230 Elgin Street,Ottawa
+278,2168,30,0.99,230 Elgin Street,Ottawa
+278,2177,30,0.99,230 Elgin Street,Ottawa
+278,2186,30,0.99,230 Elgin Street,Ottawa
+278,2195,30,0.99,230 Elgin Street,Ottawa
+278,2204,30,0.99,230 Elgin Street,Ottawa
+278,2213,30,0.99,230 Elgin Street,Ottawa
+278,2222,30,0.99,230 Elgin Street,Ottawa
+278,2231,30,0.99,230 Elgin Street,Ottawa
+278,2240,30,0.99,230 Elgin Street,Ottawa
+278,2249,30,0.99,230 Elgin Street,Ottawa
+278,2258,30,0.99,230 Elgin Street,Ottawa
+279,2272,44,0.99,Porthaninkatu 9,Helsinki
+280,2273,45,0.99,Erzsébet krt. 58.,Budapest
+280,2274,45,0.99,Erzsébet krt. 58.,Budapest
+281,2276,47,0.99,"Via Degli Scipioni, 43",Rome
+281,2278,47,0.99,"Via Degli Scipioni, 43",Rome
+282,2280,49,0.99,Ordynacka 10,Warsaw
+282,2282,49,0.99,Ordynacka 10,Warsaw
+282,2284,49,0.99,Ordynacka 10,Warsaw
+282,2286,49,0.99,Ordynacka 10,Warsaw
+283,2290,53,0.99,113 Lupus St,London
+283,2294,53,0.99,113 Lupus St,London
+283,2298,53,0.99,113 Lupus St,London
+283,2302,53,0.99,113 Lupus St,London
+283,2306,53,0.99,113 Lupus St,London
+283,2310,53,0.99,113 Lupus St,London
+284,2316,59,0.99,"3,Raj Bhavan Road",Bangalore
+284,2322,59,0.99,"3,Raj Bhavan Road",Bangalore
+284,2328,59,0.99,"3,Raj Bhavan Road",Bangalore
+284,2334,59,0.99,"3,Raj Bhavan Road",Bangalore
+284,2340,59,0.99,"3,Raj Bhavan Road",Bangalore
+284,2346,59,0.99,"3,Raj Bhavan Road",Bangalore
+284,2352,59,0.99,"3,Raj Bhavan Road",Bangalore
+284,2358,59,0.99,"3,Raj Bhavan Road",Bangalore
+284,2364,59,0.99,"3,Raj Bhavan Road",Bangalore
+285,2373,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2382,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2391,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2400,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2409,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2418,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2427,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2436,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2445,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2454,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2463,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2472,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2481,9,0.99,Sønder Boulevard 51,Copenhagen
+285,2490,9,0.99,Sønder Boulevard 51,Copenhagen
+286,2504,23,0.99,69 Salem Street,Boston
+287,2505,24,0.99,162 E Superior Street,Chicago
+287,2506,24,0.99,162 E Superior Street,Chicago
+288,2508,26,0.99,2211 W Berry Street,Fort Worth
+288,2510,26,0.99,2211 W Berry Street,Fort Worth
+289,2512,28,0.99,302 S 700 E,Salt Lake City
+289,2514,28,0.99,302 S 700 E,Salt Lake City
+289,2516,28,0.99,302 S 700 E,Salt Lake City
+289,2518,28,0.99,302 S 700 E,Salt Lake City
+290,2522,32,0.99,696 Osborne Street,Winnipeg
+290,2526,32,0.99,696 Osborne Street,Winnipeg
+290,2530,32,0.99,696 Osborne Street,Winnipeg
+290,2534,32,0.99,696 Osborne Street,Winnipeg
+290,2538,32,0.99,696 Osborne Street,Winnipeg
+290,2542,32,0.99,696 Osborne Street,Winnipeg
+291,2548,38,0.99,Barbarossastraße 19,Berlin
+291,2554,38,0.99,Barbarossastraße 19,Berlin
+291,2560,38,0.99,Barbarossastraße 19,Berlin
+291,2566,38,0.99,Barbarossastraße 19,Berlin
+291,2572,38,0.99,Barbarossastraße 19,Berlin
+291,2578,38,0.99,Barbarossastraße 19,Berlin
+291,2584,38,0.99,Barbarossastraße 19,Berlin
+291,2590,38,0.99,Barbarossastraße 19,Berlin
+291,2596,38,0.99,Barbarossastraße 19,Berlin
+292,2605,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2614,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2623,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2632,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2641,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2650,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2659,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2668,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2677,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2686,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2695,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2704,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2713,47,0.99,"Via Degli Scipioni, 43",Rome
+292,2722,47,0.99,"Via Degli Scipioni, 43",Rome
+293,2736,2,0.99,Theodor-Heuss-Straße 34,Stuttgart
+294,2737,3,0.99,1498 rue Bélanger,Montréal
+294,2738,3,0.99,1498 rue Bélanger,Montréal
+295,2740,5,0.99,Klanova 9/506,Prague
+295,2742,5,0.99,Klanova 9/506,Prague
+296,2744,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+296,2746,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+296,2748,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+296,2750,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+297,2754,11,0.99,"Av. Paulista, 2022",São Paulo
+297,2758,11,0.99,"Av. Paulista, 2022",São Paulo
+297,2762,11,0.99,"Av. Paulista, 2022",São Paulo
+297,2766,11,0.99,"Av. Paulista, 2022",São Paulo
+297,2770,11,0.99,"Av. Paulista, 2022",São Paulo
+297,2774,11,0.99,"Av. Paulista, 2022",São Paulo
+298,2780,17,0.99,1 Microsoft Way,Redmond
+298,2786,17,0.99,1 Microsoft Way,Redmond
+298,2792,17,0.99,1 Microsoft Way,Redmond
+298,2798,17,0.99,1 Microsoft Way,Redmond
+298,2804,17,0.99,1 Microsoft Way,Redmond
+298,2810,17,0.99,1 Microsoft Way,Redmond
+298,2816,17,0.99,1 Microsoft Way,Redmond
+298,2822,17,1.99,1 Microsoft Way,Redmond
+298,2828,17,1.99,1 Microsoft Way,Redmond
+299,2837,26,1.99,2211 W Berry Street,Fort Worth
+299,2846,26,1.99,2211 W Berry Street,Fort Worth
+299,2855,26,1.99,2211 W Berry Street,Fort Worth
+299,2864,26,1.99,2211 W Berry Street,Fort Worth
+299,2873,26,1.99,2211 W Berry Street,Fort Worth
+299,2882,26,1.99,2211 W Berry Street,Fort Worth
+299,2891,26,1.99,2211 W Berry Street,Fort Worth
+299,2900,26,1.99,2211 W Berry Street,Fort Worth
+299,2909,26,1.99,2211 W Berry Street,Fort Worth
+299,2918,26,1.99,2211 W Berry Street,Fort Worth
+299,2927,26,0.99,2211 W Berry Street,Fort Worth
+299,2936,26,0.99,2211 W Berry Street,Fort Worth
+299,2945,26,0.99,2211 W Berry Street,Fort Worth
+299,2954,26,0.99,2211 W Berry Street,Fort Worth
+300,2968,40,0.99,"8, Rue Hanovre",Paris
+301,2969,41,0.99,"11, Place Bellecour",Lyon
+301,2970,41,0.99,"11, Place Bellecour",Lyon
+302,2972,43,0.99,"68, Rue Jouvence",Dijon
+302,2974,43,0.99,"68, Rue Jouvence",Dijon
+303,2976,45,0.99,Erzsébet krt. 58.,Budapest
+303,2978,45,0.99,Erzsébet krt. 58.,Budapest
+303,2980,45,0.99,Erzsébet krt. 58.,Budapest
+303,2982,45,0.99,Erzsébet krt. 58.,Budapest
+304,2986,49,0.99,Ordynacka 10,Warsaw
+304,2990,49,0.99,Ordynacka 10,Warsaw
+304,2994,49,0.99,Ordynacka 10,Warsaw
+304,2998,49,0.99,Ordynacka 10,Warsaw
+304,3002,49,0.99,Ordynacka 10,Warsaw
+304,3006,49,0.99,Ordynacka 10,Warsaw
+305,3012,55,0.99,421 Bourke Street,Sidney
+305,3018,55,0.99,421 Bourke Street,Sidney
+305,3024,55,0.99,421 Bourke Street,Sidney
+305,3030,55,0.99,421 Bourke Street,Sidney
+305,3036,55,0.99,421 Bourke Street,Sidney
+305,3042,55,0.99,421 Bourke Street,Sidney
+305,3048,55,0.99,421 Bourke Street,Sidney
+305,3054,55,0.99,421 Bourke Street,Sidney
+305,3060,55,0.99,421 Bourke Street,Sidney
+306,3069,5,0.99,Klanova 9/506,Prague
+306,3078,5,0.99,Klanova 9/506,Prague
+306,3087,5,0.99,Klanova 9/506,Prague
+306,3096,5,0.99,Klanova 9/506,Prague
+306,3105,5,0.99,Klanova 9/506,Prague
+306,3114,5,0.99,Klanova 9/506,Prague
+306,3123,5,0.99,Klanova 9/506,Prague
+306,3132,5,0.99,Klanova 9/506,Prague
+306,3141,5,0.99,Klanova 9/506,Prague
+306,3150,5,0.99,Klanova 9/506,Prague
+306,3159,5,0.99,Klanova 9/506,Prague
+306,3168,5,1.99,Klanova 9/506,Prague
+306,3177,5,1.99,Klanova 9/506,Prague
+306,3186,5,1.99,Klanova 9/506,Prague
+307,3200,19,1.99,1 Infinite Loop,Cupertino
+308,3201,20,1.99,541 Del Medio Avenue,Mountain View
+308,3202,20,1.99,541 Del Medio Avenue,Mountain View
+309,3204,22,1.99,120 S Orange Ave,Orlando
+309,3206,22,1.99,120 S Orange Ave,Orlando
+310,3208,24,1.99,162 E Superior Street,Chicago
+310,3210,24,1.99,162 E Superior Street,Chicago
+310,3212,24,1.99,162 E Superior Street,Chicago
+310,3214,24,1.99,162 E Superior Street,Chicago
+311,3218,28,1.99,302 S 700 E,Salt Lake City
+311,3222,28,1.99,302 S 700 E,Salt Lake City
+311,3226,28,1.99,302 S 700 E,Salt Lake City
+311,3230,28,1.99,302 S 700 E,Salt Lake City
+311,3234,28,1.99,302 S 700 E,Salt Lake City
+311,3238,28,1.99,302 S 700 E,Salt Lake City
+312,3244,34,1.99,Rua da Assunção 53,Lisbon
+312,3250,34,1.99,Rua da Assunção 53,Lisbon
+312,3256,34,0.99,Rua da Assunção 53,Lisbon
+312,3262,34,0.99,Rua da Assunção 53,Lisbon
+312,3268,34,0.99,Rua da Assunção 53,Lisbon
+312,3274,34,0.99,Rua da Assunção 53,Lisbon
+312,3280,34,0.99,Rua da Assunção 53,Lisbon
+312,3286,34,0.99,Rua da Assunção 53,Lisbon
+312,3292,34,0.99,Rua da Assunção 53,Lisbon
+313,3301,43,0.99,"68, Rue Jouvence",Dijon
+313,3310,43,0.99,"68, Rue Jouvence",Dijon
+313,3319,43,0.99,"68, Rue Jouvence",Dijon
+313,3328,43,0.99,"68, Rue Jouvence",Dijon
+313,3337,43,1.99,"68, Rue Jouvence",Dijon
+313,3346,43,1.99,"68, Rue Jouvence",Dijon
+313,3355,43,0.99,"68, Rue Jouvence",Dijon
+313,3364,43,1.99,"68, Rue Jouvence",Dijon
+313,3373,43,0.99,"68, Rue Jouvence",Dijon
+313,3382,43,0.99,"68, Rue Jouvence",Dijon
+313,3391,43,0.99,"68, Rue Jouvence",Dijon
+313,3400,43,0.99,"68, Rue Jouvence",Dijon
+313,3409,43,0.99,"68, Rue Jouvence",Dijon
+313,3418,43,0.99,"68, Rue Jouvence",Dijon
+314,3432,57,0.99,"Calle Lira, 198",Santiago
+315,3433,58,0.99,"12,Community Centre",Delhi
+315,3434,58,0.99,"12,Community Centre",Delhi
+316,3436,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+316,3438,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+317,3440,3,0.99,1498 rue Bélanger,Montréal
+317,3442,3,0.99,1498 rue Bélanger,Montréal
+317,3444,3,0.99,1498 rue Bélanger,Montréal
+317,3446,3,0.99,1498 rue Bélanger,Montréal
+318,3450,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+318,3454,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+318,3458,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+318,3462,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+318,3466,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+318,3470,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+319,3476,13,0.99,Qe 7 Bloco G,Brasília
+319,3482,13,0.99,Qe 7 Bloco G,Brasília
+319,3488,13,0.99,Qe 7 Bloco G,Brasília
+319,3494,13,0.99,Qe 7 Bloco G,Brasília
+319,3500,13,0.99,Qe 7 Bloco G,Brasília
+319,3,13,0.99,Qe 7 Bloco G,Brasília
+319,9,13,0.99,Qe 7 Bloco G,Brasília
+319,15,13,0.99,Qe 7 Bloco G,Brasília
+319,21,13,0.99,Qe 7 Bloco G,Brasília
+320,30,22,0.99,120 S Orange Ave,Orlando
+320,39,22,0.99,120 S Orange Ave,Orlando
+320,48,22,0.99,120 S Orange Ave,Orlando
+320,57,22,0.99,120 S Orange Ave,Orlando
+320,66,22,0.99,120 S Orange Ave,Orlando
+320,75,22,0.99,120 S Orange Ave,Orlando
+320,84,22,0.99,120 S Orange Ave,Orlando
+320,93,22,0.99,120 S Orange Ave,Orlando
+320,102,22,0.99,120 S Orange Ave,Orlando
+320,111,22,0.99,120 S Orange Ave,Orlando
+320,120,22,0.99,120 S Orange Ave,Orlando
+320,129,22,0.99,120 S Orange Ave,Orlando
+320,138,22,0.99,120 S Orange Ave,Orlando
+320,147,22,0.99,120 S Orange Ave,Orlando
+321,161,36,0.99,Tauentzienstraße 8,Berlin
+322,162,37,0.99,Berger Straße 10,Frankfurt
+322,163,37,0.99,Berger Straße 10,Frankfurt
+323,165,39,0.99,"4, Rue Milton",Paris
+323,167,39,0.99,"4, Rue Milton",Paris
+324,169,41,0.99,"11, Place Bellecour",Lyon
+324,171,41,0.99,"11, Place Bellecour",Lyon
+324,173,41,0.99,"11, Place Bellecour",Lyon
+324,175,41,0.99,"11, Place Bellecour",Lyon
+325,179,45,0.99,Erzsébet krt. 58.,Budapest
+325,183,45,0.99,Erzsébet krt. 58.,Budapest
+325,187,45,0.99,Erzsébet krt. 58.,Budapest
+325,191,45,0.99,Erzsébet krt. 58.,Budapest
+325,195,45,0.99,Erzsébet krt. 58.,Budapest
+325,199,45,0.99,Erzsébet krt. 58.,Budapest
+326,205,51,0.99,Celsiusg. 9,Stockholm
+326,211,51,0.99,Celsiusg. 9,Stockholm
+326,217,51,0.99,Celsiusg. 9,Stockholm
+326,223,51,0.99,Celsiusg. 9,Stockholm
+326,229,51,0.99,Celsiusg. 9,Stockholm
+326,235,51,0.99,Celsiusg. 9,Stockholm
+326,241,51,0.99,Celsiusg. 9,Stockholm
+326,247,51,0.99,Celsiusg. 9,Stockholm
+326,253,51,0.99,Celsiusg. 9,Stockholm
+327,262,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,271,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,280,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,289,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,298,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,307,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,316,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,325,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,334,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,343,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,352,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,361,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,370,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+327,379,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+328,393,15,0.99,700 W Pender Street,Vancouver
+329,394,16,0.99,1600 Amphitheatre Parkway,Mountain View
+329,395,16,0.99,1600 Amphitheatre Parkway,Mountain View
+330,397,18,0.99,627 Broadway,New York
+330,399,18,0.99,627 Broadway,New York
+331,401,20,0.99,541 Del Medio Avenue,Mountain View
+331,403,20,0.99,541 Del Medio Avenue,Mountain View
+331,405,20,0.99,541 Del Medio Avenue,Mountain View
+331,407,20,0.99,541 Del Medio Avenue,Mountain View
+332,411,24,0.99,162 E Superior Street,Chicago
+332,415,24,0.99,162 E Superior Street,Chicago
+332,419,24,0.99,162 E Superior Street,Chicago
+332,423,24,0.99,162 E Superior Street,Chicago
+332,427,24,0.99,162 E Superior Street,Chicago
+332,431,24,0.99,162 E Superior Street,Chicago
+333,437,30,0.99,230 Elgin Street,Ottawa
+333,443,30,0.99,230 Elgin Street,Ottawa
+333,449,30,0.99,230 Elgin Street,Ottawa
+333,455,30,0.99,230 Elgin Street,Ottawa
+333,461,30,0.99,230 Elgin Street,Ottawa
+333,467,30,0.99,230 Elgin Street,Ottawa
+333,473,30,0.99,230 Elgin Street,Ottawa
+333,479,30,0.99,230 Elgin Street,Ottawa
+333,485,30,0.99,230 Elgin Street,Ottawa
+334,494,39,0.99,"4, Rue Milton",Paris
+334,503,39,0.99,"4, Rue Milton",Paris
+334,512,39,0.99,"4, Rue Milton",Paris
+334,521,39,0.99,"4, Rue Milton",Paris
+334,530,39,0.99,"4, Rue Milton",Paris
+334,539,39,0.99,"4, Rue Milton",Paris
+334,548,39,0.99,"4, Rue Milton",Paris
+334,557,39,0.99,"4, Rue Milton",Paris
+334,566,39,0.99,"4, Rue Milton",Paris
+334,575,39,0.99,"4, Rue Milton",Paris
+334,584,39,0.99,"4, Rue Milton",Paris
+334,593,39,0.99,"4, Rue Milton",Paris
+334,602,39,0.99,"4, Rue Milton",Paris
+334,611,39,0.99,"4, Rue Milton",Paris
+335,625,53,0.99,113 Lupus St,London
+336,626,54,0.99,110 Raeburn Pl,Edinburgh 
+336,627,54,0.99,110 Raeburn Pl,Edinburgh 
+337,629,56,0.99,307 Macacha Güemes,Buenos Aires
+337,631,56,0.99,307 Macacha Güemes,Buenos Aires
+338,633,58,0.99,"12,Community Centre",Delhi
+338,635,58,0.99,"12,Community Centre",Delhi
+338,637,58,0.99,"12,Community Centre",Delhi
+338,639,58,0.99,"12,Community Centre",Delhi
+339,643,3,0.99,1498 rue Bélanger,Montréal
+339,647,3,0.99,1498 rue Bélanger,Montréal
+339,651,3,0.99,1498 rue Bélanger,Montréal
+339,655,3,0.99,1498 rue Bélanger,Montréal
+339,659,3,0.99,1498 rue Bélanger,Montréal
+339,663,3,0.99,1498 rue Bélanger,Montréal
+340,669,9,0.99,Sønder Boulevard 51,Copenhagen
+340,675,9,0.99,Sønder Boulevard 51,Copenhagen
+340,681,9,0.99,Sønder Boulevard 51,Copenhagen
+340,687,9,0.99,Sønder Boulevard 51,Copenhagen
+340,693,9,0.99,Sønder Boulevard 51,Copenhagen
+340,699,9,0.99,Sønder Boulevard 51,Copenhagen
+340,705,9,0.99,Sønder Boulevard 51,Copenhagen
+340,711,9,0.99,Sønder Boulevard 51,Copenhagen
+340,717,9,0.99,Sønder Boulevard 51,Copenhagen
+341,726,18,0.99,627 Broadway,New York
+341,735,18,0.99,627 Broadway,New York
+341,744,18,0.99,627 Broadway,New York
+341,753,18,0.99,627 Broadway,New York
+341,762,18,0.99,627 Broadway,New York
+341,771,18,0.99,627 Broadway,New York
+341,780,18,0.99,627 Broadway,New York
+341,789,18,0.99,627 Broadway,New York
+341,798,18,0.99,627 Broadway,New York
+341,807,18,0.99,627 Broadway,New York
+341,816,18,0.99,627 Broadway,New York
+341,825,18,0.99,627 Broadway,New York
+341,834,18,0.99,627 Broadway,New York
+341,843,18,0.99,627 Broadway,New York
+342,857,32,0.99,696 Osborne Street,Winnipeg
+343,858,33,0.99,5112 48 Street,Yellowknife
+343,859,33,0.99,5112 48 Street,Yellowknife
+344,861,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+344,863,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+345,865,37,0.99,Berger Straße 10,Frankfurt
+345,867,37,0.99,Berger Straße 10,Frankfurt
+345,869,37,0.99,Berger Straße 10,Frankfurt
+345,871,37,0.99,Berger Straße 10,Frankfurt
+346,875,41,0.99,"11, Place Bellecour",Lyon
+346,879,41,0.99,"11, Place Bellecour",Lyon
+346,883,41,0.99,"11, Place Bellecour",Lyon
+346,887,41,0.99,"11, Place Bellecour",Lyon
+346,891,41,0.99,"11, Place Bellecour",Lyon
+346,895,41,0.99,"11, Place Bellecour",Lyon
+347,901,47,0.99,"Via Degli Scipioni, 43",Rome
+347,907,47,0.99,"Via Degli Scipioni, 43",Rome
+347,913,47,0.99,"Via Degli Scipioni, 43",Rome
+347,919,47,0.99,"Via Degli Scipioni, 43",Rome
+347,925,47,0.99,"Via Degli Scipioni, 43",Rome
+347,931,47,0.99,"Via Degli Scipioni, 43",Rome
+347,937,47,0.99,"Via Degli Scipioni, 43",Rome
+347,943,47,0.99,"Via Degli Scipioni, 43",Rome
+347,949,47,0.99,"Via Degli Scipioni, 43",Rome
+348,958,56,0.99,307 Macacha Güemes,Buenos Aires
+348,967,56,0.99,307 Macacha Güemes,Buenos Aires
+348,976,56,0.99,307 Macacha Güemes,Buenos Aires
+348,985,56,0.99,307 Macacha Güemes,Buenos Aires
+348,994,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1003,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1012,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1021,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1030,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1039,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1048,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1057,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1066,56,0.99,307 Macacha Güemes,Buenos Aires
+348,1075,56,0.99,307 Macacha Güemes,Buenos Aires
+349,1089,11,0.99,"Av. Paulista, 2022",São Paulo
+350,1090,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+350,1091,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+351,1093,14,0.99,8210 111 ST NW,Edmonton
+351,1095,14,0.99,8210 111 ST NW,Edmonton
+352,1097,16,0.99,1600 Amphitheatre Parkway,Mountain View
+352,1099,16,0.99,1600 Amphitheatre Parkway,Mountain View
+352,1101,16,0.99,1600 Amphitheatre Parkway,Mountain View
+352,1103,16,0.99,1600 Amphitheatre Parkway,Mountain View
+353,1107,20,0.99,541 Del Medio Avenue,Mountain View
+353,1111,20,0.99,541 Del Medio Avenue,Mountain View
+353,1115,20,0.99,541 Del Medio Avenue,Mountain View
+353,1119,20,0.99,541 Del Medio Avenue,Mountain View
+353,1123,20,0.99,541 Del Medio Avenue,Mountain View
+353,1127,20,0.99,541 Del Medio Avenue,Mountain View
+354,1133,26,0.99,2211 W Berry Street,Fort Worth
+354,1139,26,0.99,2211 W Berry Street,Fort Worth
+354,1145,26,0.99,2211 W Berry Street,Fort Worth
+354,1151,26,0.99,2211 W Berry Street,Fort Worth
+354,1157,26,0.99,2211 W Berry Street,Fort Worth
+354,1163,26,0.99,2211 W Berry Street,Fort Worth
+354,1169,26,0.99,2211 W Berry Street,Fort Worth
+354,1175,26,0.99,2211 W Berry Street,Fort Worth
+354,1181,26,0.99,2211 W Berry Street,Fort Worth
+355,1190,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1199,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1208,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1217,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1226,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1235,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1244,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1253,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1262,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1271,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1280,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1289,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1298,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+355,1307,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+356,1321,49,0.99,Ordynacka 10,Warsaw
+357,1322,50,0.99,C/ San Bernardo 85,Madrid
+357,1323,50,0.99,C/ San Bernardo 85,Madrid
+358,1325,52,0.99,202 Hoxton Street,London
+358,1327,52,0.99,202 Hoxton Street,London
+359,1329,54,0.99,110 Raeburn Pl,Edinburgh 
+359,1331,54,0.99,110 Raeburn Pl,Edinburgh 
+359,1333,54,0.99,110 Raeburn Pl,Edinburgh 
+359,1335,54,0.99,110 Raeburn Pl,Edinburgh 
+360,1339,58,0.99,"12,Community Centre",Delhi
+360,1343,58,0.99,"12,Community Centre",Delhi
+360,1347,58,0.99,"12,Community Centre",Delhi
+360,1351,58,0.99,"12,Community Centre",Delhi
+360,1355,58,0.99,"12,Community Centre",Delhi
+360,1359,58,0.99,"12,Community Centre",Delhi
+361,1365,5,0.99,Klanova 9/506,Prague
+361,1371,5,0.99,Klanova 9/506,Prague
+361,1377,5,0.99,Klanova 9/506,Prague
+361,1383,5,0.99,Klanova 9/506,Prague
+361,1389,5,0.99,Klanova 9/506,Prague
+361,1395,5,0.99,Klanova 9/506,Prague
+361,1401,5,0.99,Klanova 9/506,Prague
+361,1407,5,0.99,Klanova 9/506,Prague
+361,1413,5,0.99,Klanova 9/506,Prague
+362,1422,14,0.99,8210 111 ST NW,Edmonton
+362,1431,14,0.99,8210 111 ST NW,Edmonton
+362,1440,14,0.99,8210 111 ST NW,Edmonton
+362,1449,14,0.99,8210 111 ST NW,Edmonton
+362,1458,14,0.99,8210 111 ST NW,Edmonton
+362,1467,14,0.99,8210 111 ST NW,Edmonton
+362,1476,14,0.99,8210 111 ST NW,Edmonton
+362,1485,14,0.99,8210 111 ST NW,Edmonton
+362,1494,14,0.99,8210 111 ST NW,Edmonton
+362,1503,14,0.99,8210 111 ST NW,Edmonton
+362,1512,14,0.99,8210 111 ST NW,Edmonton
+362,1521,14,0.99,8210 111 ST NW,Edmonton
+362,1530,14,0.99,8210 111 ST NW,Edmonton
+362,1539,14,0.99,8210 111 ST NW,Edmonton
+363,1553,28,0.99,302 S 700 E,Salt Lake City
+364,1554,29,0.99,796 Dundas Street West,Toronto
+364,1555,29,0.99,796 Dundas Street West,Toronto
+365,1557,31,0.99,194A Chain Lake Drive,Halifax
+365,1559,31,0.99,194A Chain Lake Drive,Halifax
+366,1561,33,0.99,5112 48 Street,Yellowknife
+366,1563,33,0.99,5112 48 Street,Yellowknife
+366,1565,33,0.99,5112 48 Street,Yellowknife
+366,1567,33,0.99,5112 48 Street,Yellowknife
+367,1571,37,0.99,Berger Straße 10,Frankfurt
+367,1575,37,0.99,Berger Straße 10,Frankfurt
+367,1579,37,0.99,Berger Straße 10,Frankfurt
+367,1583,37,0.99,Berger Straße 10,Frankfurt
+367,1587,37,0.99,Berger Straße 10,Frankfurt
+367,1591,37,0.99,Berger Straße 10,Frankfurt
+368,1597,43,0.99,"68, Rue Jouvence",Dijon
+368,1603,43,0.99,"68, Rue Jouvence",Dijon
+368,1609,43,0.99,"68, Rue Jouvence",Dijon
+368,1615,43,0.99,"68, Rue Jouvence",Dijon
+368,1621,43,0.99,"68, Rue Jouvence",Dijon
+368,1627,43,0.99,"68, Rue Jouvence",Dijon
+368,1633,43,0.99,"68, Rue Jouvence",Dijon
+368,1639,43,0.99,"68, Rue Jouvence",Dijon
+368,1645,43,0.99,"68, Rue Jouvence",Dijon
+369,1654,52,0.99,202 Hoxton Street,London
+369,1663,52,0.99,202 Hoxton Street,London
+369,1672,52,0.99,202 Hoxton Street,London
+369,1681,52,0.99,202 Hoxton Street,London
+369,1690,52,0.99,202 Hoxton Street,London
+369,1699,52,0.99,202 Hoxton Street,London
+369,1708,52,0.99,202 Hoxton Street,London
+369,1717,52,0.99,202 Hoxton Street,London
+369,1726,52,0.99,202 Hoxton Street,London
+369,1735,52,0.99,202 Hoxton Street,London
+369,1744,52,0.99,202 Hoxton Street,London
+369,1753,52,0.99,202 Hoxton Street,London
+369,1762,52,0.99,202 Hoxton Street,London
+369,1771,52,0.99,202 Hoxton Street,London
+370,1785,7,0.99,"Rotenturmstraße 4, 1010 Innere Stadt",Vienne
+371,1786,8,0.99,Grétrystraat 63,Brussels
+371,1787,8,0.99,Grétrystraat 63,Brussels
+372,1789,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+372,1791,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+373,1793,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+373,1795,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+373,1797,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+373,1799,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+374,1803,16,0.99,1600 Amphitheatre Parkway,Mountain View
+374,1807,16,0.99,1600 Amphitheatre Parkway,Mountain View
+374,1811,16,0.99,1600 Amphitheatre Parkway,Mountain View
+374,1815,16,0.99,1600 Amphitheatre Parkway,Mountain View
+374,1819,16,0.99,1600 Amphitheatre Parkway,Mountain View
+374,1823,16,0.99,1600 Amphitheatre Parkway,Mountain View
+375,1829,22,0.99,120 S Orange Ave,Orlando
+375,1835,22,0.99,120 S Orange Ave,Orlando
+375,1841,22,0.99,120 S Orange Ave,Orlando
+375,1847,22,0.99,120 S Orange Ave,Orlando
+375,1853,22,0.99,120 S Orange Ave,Orlando
+375,1859,22,0.99,120 S Orange Ave,Orlando
+375,1865,22,0.99,120 S Orange Ave,Orlando
+375,1871,22,0.99,120 S Orange Ave,Orlando
+375,1877,22,0.99,120 S Orange Ave,Orlando
+376,1886,31,0.99,194A Chain Lake Drive,Halifax
+376,1895,31,0.99,194A Chain Lake Drive,Halifax
+376,1904,31,0.99,194A Chain Lake Drive,Halifax
+376,1913,31,0.99,194A Chain Lake Drive,Halifax
+376,1922,31,0.99,194A Chain Lake Drive,Halifax
+376,1931,31,0.99,194A Chain Lake Drive,Halifax
+376,1940,31,0.99,194A Chain Lake Drive,Halifax
+376,1949,31,0.99,194A Chain Lake Drive,Halifax
+376,1958,31,0.99,194A Chain Lake Drive,Halifax
+376,1967,31,0.99,194A Chain Lake Drive,Halifax
+376,1976,31,0.99,194A Chain Lake Drive,Halifax
+376,1985,31,0.99,194A Chain Lake Drive,Halifax
+376,1994,31,0.99,194A Chain Lake Drive,Halifax
+376,2003,31,0.99,194A Chain Lake Drive,Halifax
+377,2017,45,0.99,Erzsébet krt. 58.,Budapest
+378,2018,46,0.99,3 Chatham Street,Dublin
+378,2019,46,0.99,3 Chatham Street,Dublin
+379,2021,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+379,2023,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+380,2025,50,0.99,C/ San Bernardo 85,Madrid
+380,2027,50,0.99,C/ San Bernardo 85,Madrid
+380,2029,50,0.99,C/ San Bernardo 85,Madrid
+380,2031,50,0.99,C/ San Bernardo 85,Madrid
+381,2035,54,0.99,110 Raeburn Pl,Edinburgh 
+381,2039,54,0.99,110 Raeburn Pl,Edinburgh 
+381,2043,54,0.99,110 Raeburn Pl,Edinburgh 
+381,2047,54,0.99,110 Raeburn Pl,Edinburgh 
+381,2051,54,0.99,110 Raeburn Pl,Edinburgh 
+381,2055,54,0.99,110 Raeburn Pl,Edinburgh 
+382,2061,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+382,2067,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+382,2073,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+382,2079,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+382,2085,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+382,2091,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+382,2097,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+382,2103,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+382,2109,1,0.99,"Av. Brigadeiro Faria Lima, 2170",São José dos Campos
+383,2118,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2127,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2136,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2145,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2154,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2163,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2172,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2181,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2190,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2199,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2208,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2217,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2226,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+383,2235,10,0.99,"Rua Dr. Falcão Filho, 155",São Paulo
+384,2249,24,0.99,162 E Superior Street,Chicago
+385,2250,25,0.99,319 N. Frances Street,Madison
+385,2251,25,0.99,319 N. Frances Street,Madison
+386,2253,27,0.99,1033 N Park Ave,Tucson
+386,2255,27,0.99,1033 N Park Ave,Tucson
+387,2257,29,0.99,796 Dundas Street West,Toronto
+387,2259,29,0.99,796 Dundas Street West,Toronto
+387,2261,29,0.99,796 Dundas Street West,Toronto
+387,2263,29,0.99,796 Dundas Street West,Toronto
+388,2267,33,0.99,5112 48 Street,Yellowknife
+388,2271,33,0.99,5112 48 Street,Yellowknife
+388,2275,33,0.99,5112 48 Street,Yellowknife
+388,2279,33,0.99,5112 48 Street,Yellowknife
+388,2283,33,0.99,5112 48 Street,Yellowknife
+388,2287,33,0.99,5112 48 Street,Yellowknife
+389,2293,39,0.99,"4, Rue Milton",Paris
+389,2299,39,0.99,"4, Rue Milton",Paris
+389,2305,39,0.99,"4, Rue Milton",Paris
+389,2311,39,0.99,"4, Rue Milton",Paris
+389,2317,39,0.99,"4, Rue Milton",Paris
+389,2323,39,0.99,"4, Rue Milton",Paris
+389,2329,39,0.99,"4, Rue Milton",Paris
+389,2335,39,0.99,"4, Rue Milton",Paris
+389,2341,39,0.99,"4, Rue Milton",Paris
+390,2350,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2359,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2368,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2377,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2386,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2395,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2404,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2413,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2422,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2431,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2440,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2449,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2458,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+390,2467,48,0.99,Lijnbaansgracht 120bg,Amsterdam
+391,2481,3,0.99,1498 rue Bélanger,Montréal
+392,2482,4,0.99,Ullevålsveien 14,Oslo
+392,2483,4,0.99,Ullevålsveien 14,Oslo
+393,2485,6,0.99,Rilská 3174/6,Prague
+393,2487,6,0.99,Rilská 3174/6,Prague
+394,2489,8,0.99,Grétrystraat 63,Brussels
+394,2491,8,0.99,Grétrystraat 63,Brussels
+394,2493,8,0.99,Grétrystraat 63,Brussels
+394,2495,8,0.99,Grétrystraat 63,Brussels
+395,2499,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+395,2503,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+395,2507,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+395,2511,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+395,2515,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+395,2519,12,0.99,"Praça Pio X, 119",Rio de Janeiro
+396,2525,18,0.99,627 Broadway,New York
+396,2531,18,0.99,627 Broadway,New York
+396,2537,18,0.99,627 Broadway,New York
+396,2543,18,0.99,627 Broadway,New York
+396,2549,18,0.99,627 Broadway,New York
+396,2555,18,0.99,627 Broadway,New York
+396,2561,18,0.99,627 Broadway,New York
+396,2567,18,0.99,627 Broadway,New York
+396,2573,18,0.99,627 Broadway,New York
+397,2582,27,0.99,1033 N Park Ave,Tucson
+397,2591,27,0.99,1033 N Park Ave,Tucson
+397,2600,27,0.99,1033 N Park Ave,Tucson
+397,2609,27,0.99,1033 N Park Ave,Tucson
+397,2618,27,0.99,1033 N Park Ave,Tucson
+397,2627,27,0.99,1033 N Park Ave,Tucson
+397,2636,27,0.99,1033 N Park Ave,Tucson
+397,2645,27,0.99,1033 N Park Ave,Tucson
+397,2654,27,0.99,1033 N Park Ave,Tucson
+397,2663,27,0.99,1033 N Park Ave,Tucson
+397,2672,27,0.99,1033 N Park Ave,Tucson
+397,2681,27,0.99,1033 N Park Ave,Tucson
+397,2690,27,0.99,1033 N Park Ave,Tucson
+397,2699,27,0.99,1033 N Park Ave,Tucson
+398,2713,41,0.99,"11, Place Bellecour",Lyon
+399,2714,42,0.99,"9, Place Louis Barthou",Bordeaux
+399,2715,42,0.99,"9, Place Louis Barthou",Bordeaux
+400,2717,44,0.99,Porthaninkatu 9,Helsinki
+400,2719,44,0.99,Porthaninkatu 9,Helsinki
+401,2721,46,0.99,3 Chatham Street,Dublin
+401,2723,46,0.99,3 Chatham Street,Dublin
+401,2725,46,0.99,3 Chatham Street,Dublin
+401,2727,46,0.99,3 Chatham Street,Dublin
+402,2731,50,0.99,C/ San Bernardo 85,Madrid
+402,2735,50,0.99,C/ San Bernardo 85,Madrid
+402,2739,50,0.99,C/ San Bernardo 85,Madrid
+402,2743,50,0.99,C/ San Bernardo 85,Madrid
+402,2747,50,0.99,C/ San Bernardo 85,Madrid
+402,2751,50,0.99,C/ San Bernardo 85,Madrid
+403,2757,56,0.99,307 Macacha Güemes,Buenos Aires
+403,2763,56,0.99,307 Macacha Güemes,Buenos Aires
+403,2769,56,0.99,307 Macacha Güemes,Buenos Aires
+403,2775,56,0.99,307 Macacha Güemes,Buenos Aires
+403,2781,56,0.99,307 Macacha Güemes,Buenos Aires
+403,2787,56,0.99,307 Macacha Güemes,Buenos Aires
+403,2793,56,0.99,307 Macacha Güemes,Buenos Aires
+403,2799,56,0.99,307 Macacha Güemes,Buenos Aires
+403,2805,56,0.99,307 Macacha Güemes,Buenos Aires
+404,2814,6,0.99,Rilská 3174/6,Prague
+404,2823,6,1.99,Rilská 3174/6,Prague
+404,2832,6,1.99,Rilská 3174/6,Prague
+404,2841,6,1.99,Rilská 3174/6,Prague
+404,2850,6,1.99,Rilská 3174/6,Prague
+404,2859,6,1.99,Rilská 3174/6,Prague
+404,2868,6,1.99,Rilská 3174/6,Prague
+404,2877,6,1.99,Rilská 3174/6,Prague
+404,2886,6,1.99,Rilská 3174/6,Prague
+404,2895,6,1.99,Rilská 3174/6,Prague
+404,2904,6,1.99,Rilská 3174/6,Prague
+404,2913,6,1.99,Rilská 3174/6,Prague
+404,2922,6,1.99,Rilská 3174/6,Prague
+404,2931,6,0.99,Rilská 3174/6,Prague
+405,2945,20,0.99,541 Del Medio Avenue,Mountain View
+406,2946,21,0.99,801 W 4th Street,Reno
+406,2947,21,0.99,801 W 4th Street,Reno
+407,2949,23,0.99,69 Salem Street,Boston
+407,2951,23,0.99,69 Salem Street,Boston
+408,2953,25,0.99,319 N. Frances Street,Madison
+408,2955,25,0.99,319 N. Frances Street,Madison
+408,2957,25,0.99,319 N. Frances Street,Madison
+408,2959,25,0.99,319 N. Frances Street,Madison
+409,2963,29,0.99,796 Dundas Street West,Toronto
+409,2967,29,0.99,796 Dundas Street West,Toronto
+409,2971,29,0.99,796 Dundas Street West,Toronto
+409,2975,29,0.99,796 Dundas Street West,Toronto
+409,2979,29,0.99,796 Dundas Street West,Toronto
+409,2983,29,0.99,796 Dundas Street West,Toronto
+410,2989,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+410,2995,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+410,3001,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+410,3007,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+410,3013,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+410,3019,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+410,3025,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+410,3031,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+410,3037,35,0.99,"Rua dos Campeões Europeus de Viena, 4350",Porto
+411,3046,44,0.99,Porthaninkatu 9,Helsinki
+411,3055,44,0.99,Porthaninkatu 9,Helsinki
+411,3064,44,0.99,Porthaninkatu 9,Helsinki
+411,3073,44,0.99,Porthaninkatu 9,Helsinki
+411,3082,44,0.99,Porthaninkatu 9,Helsinki
+411,3091,44,0.99,Porthaninkatu 9,Helsinki
+411,3100,44,0.99,Porthaninkatu 9,Helsinki
+411,3109,44,0.99,Porthaninkatu 9,Helsinki
+411,3118,44,0.99,Porthaninkatu 9,Helsinki
+411,3127,44,0.99,Porthaninkatu 9,Helsinki
+411,3136,44,0.99,Porthaninkatu 9,Helsinki
+411,3145,44,0.99,Porthaninkatu 9,Helsinki
+411,3154,44,0.99,Porthaninkatu 9,Helsinki
+411,3163,44,0.99,Porthaninkatu 9,Helsinki
+412,3177,58,1.99,"12,Community Centre",Delhi
