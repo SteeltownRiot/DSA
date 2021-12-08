@@ -1,0 +1,60 @@
+contact_id,address,postal_code,phone,fax,email,city_id
+1,"Av. Brigadeiro Faria Lima, 2170",12227-000,+55 (12) 3923-5555,+55 (12) 3923-5566,luisg@embraer.com.br,1
+2,Theodor-Heuss-Straße 34,70174,+49 0711 2842222,,leonekohler@surfeu.de,2
+3,1498 rue Bélanger,H2G 1A7,+1 (514) 721-4711,,ftremblay@gmail.com,3
+4,Ullevålsveien 14,171,+47 22 44 22 22,,bjorn.hansen@yahoo.no,4
+5,Klanova 9/506,14700,+420 2 4172 5555,+420 2 4172 5555,frantisekw@jetbrains.com,5
+6,Rilská 3174/6,14300,+420 2 4177 0449,,hholy@gmail.com,5
+7,"Rotenturmstraße 4, 1010 Innere Stadt",1010,+43 01 5134505,,astrid.gruber@apple.at,7
+8,Grétrystraat 63,1000,+32 02 219 03 03,,daan_peeters@apple.be,8
+9,Sønder Boulevard 51,1720,+453 3331 9991,,kara.nielsen@jubii.dk,9
+10,"Rua Dr. Falcão Filho, 155",01007-010,+55 (11) 3033-5446,+55 (11) 3033-4564,eduardo@woodstock.com.br,10
+11,"Av. Paulista, 2022",01310-200,+55 (11) 3055-3278,+55 (11) 3055-8131,alero@uol.com.br,10
+12,"Praça Pio X, 119",20040-020,+55 (21) 2271-7000,+55 (21) 2271-7070,roberto.almeida@riotur.gov.br,12
+13,Qe 7 Bloco G,71020-677,+55 (61) 3363-5547,+55 (61) 3363-7855,fernadaramos4@uol.com.br,13
+14,8210 111 ST NW,T6G 2C7,+1 (780) 434-4554,+1 (780) 434-5565,mphilips12@shaw.ca,14
+15,700 W Pender Street,V6C 1G8,+1 (604) 688-2255,+1 (604) 688-8756,jenniferp@rogers.ca,15
+16,1600 Amphitheatre Parkway,94043-1351,+1 (650) 253-0000,+1 (650) 253-0000,fharris@google.com,16
+17,1 Microsoft Way,98052-8300,+1 (425) 882-8080,+1 (425) 882-8081,jacksmith@microsoft.com,17
+18,627 Broadway,10012-2612,+1 (212) 221-3546,+1 (212) 221-4679,michelleb@aol.com,18
+19,1 Infinite Loop,95014,+1 (408) 996-1010,+1 (408) 996-1011,tgoyer@apple.com,19
+20,541 Del Medio Avenue,94040-111,+1 (650) 644-3358,,dmiller@comcast.com,16
+21,801 W 4th Street,89503,+1 (775) 223-7665,,kachase@hotmail.com,21
+22,120 S Orange Ave,32801,+1 (407) 999-7788,,hleacock@gmail.com,22
+23,69 Salem Street,2113,+1 (617) 522-1333,,johngordon22@yahoo.com,23
+24,162 E Superior Street,60611,+1 (312) 332-3232,,fralston@gmail.com,24
+25,319 N. Frances Street,53703,+1 (608) 257-0597,,vstevens@yahoo.com,25
+26,2211 W Berry Street,76110,+1 (817) 924-7272,,ricunningham@hotmail.com,26
+27,1033 N Park Ave,85719,+1 (520) 622-4200,,patrick.gray@aol.com,27
+28,302 S 700 E,84102,+1 (801) 531-7272,,jubarnett@gmail.com,28
+29,796 Dundas Street West,M6J 1V1,+1 (416) 363-8888,,robbrown@shaw.ca,29
+30,230 Elgin Street,K2P 1L7,+1 (613) 234-3322,,edfrancis@yachoo.ca,30
+31,194A Chain Lake Drive,B3S 1C5,+1 (902) 450-0450,,marthasilk@gmail.com,31
+32,696 Osborne Street,R3L 2B9,+1 (204) 452-6452,,aaronmitchell@yahoo.ca,32
+33,5112 48 Street,X1A 1N6,+1 (867) 920-2233,,ellie.sullivan@shaw.ca,33
+34,Rua da Assunção 53,,+351 (213) 466-111,,jfernandes@yahoo.pt,34
+35,"Rua dos Campeões Europeus de Viena, 4350",,+351 (225) 022-448,,masampaio@sapo.pt,35
+36,Tauentzienstraße 8,10789,+49 030 26550280,,hannah.schneider@yahoo.de,36
+37,Berger Straße 10,60316,+49 069 40598889,,fzimmermann@yahoo.de,37
+38,Barbarossastraße 19,10779,+49 030 2141444,,nschroder@surfeu.de,36
+39,"4, Rue Milton",75009,+33 01 49 70 65 65,,camille.bernard@yahoo.fr,39
+40,"8, Rue Hanovre",75002,+33 01 47 42 71 71,,dominiquelefebvre@gmail.com,39
+41,"11, Place Bellecour",69002,+33 04 78 30 30 30,,marc.dubois@hotmail.com,41
+42,"9, Place Louis Barthou",33000,+33 05 56 96 96 96,,wyatt.girard@yahoo.fr,42
+43,"68, Rue Jouvence",21000,+33 03 80 73 66 99,,isabelle_mercier@apple.fr,43
+44,Porthaninkatu 9,530,+358 09 870 2000,,terhi.hamalainen@apple.fi,44
+45,Erzsébet krt. 58.,H-1073,,,ladislav_kovacs@apple.hu,45
+46,3 Chatham Street,,+353 01 6792424,,hughoreilly@apple.ie,46
+47,"Via Degli Scipioni, 43",192,+39 06 39733434,,lucas.mancini@yahoo.it,47
+48,Lijnbaansgracht 120bg,1016,+31 020 6223130,,johavanderberg@yahoo.nl,48
+49,Ordynacka 10,00-358,+48 22 828 37 39,,stanis?aw.wójcik@wp.pl,49
+50,C/ San Bernardo 85,28015,+34 914 454 454,,enrique_munoz@yahoo.es,50
+51,Celsiusg. 9,11230,+46 08-651 52 52,,joakim.johansson@yahoo.se,51
+52,202 Hoxton Street,N1 5LH,+44 020 7707 0707,,emma_jones@hotmail.com,52
+53,113 Lupus St,SW1V 3EN,+44 020 7976 5722,,phil.hughes@gmail.com,52
+54,110 Raeburn Pl,EH4 1HH,+44 0131 315 3300,,steve.murray@yahoo.uk,54
+55,421 Bourke Street,2010,+61 (02) 9332 3633,,mark.taylor@yahoo.au,55
+56,307 Macacha Güemes,1106,+54 (0)11 4311 4333,,diego.gutierrez@yahoo.ar,56
+57,"Calle Lira, 198",,+56 (0)2 635 4444,,luisrojas@yahoo.cl,57
+58,"12,Community Centre",110017,+91 0124 39883988,,manoj.pareek@rediff.com,58
+59,"3,Raj Bhavan Road",560001,+91 080 22289999,,puja_srivastava@yahoo.in,59

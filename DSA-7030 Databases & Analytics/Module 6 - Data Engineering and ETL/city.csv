@@ -1,0 +1,60 @@
+city_id,city,locale,country
+1,São José dos Campos,SP,Brazil
+2,Stuttgart,,Germany
+3,Montréal,QC,Canada
+4,Oslo,,Norway
+5,Prague,,Czech Republic
+6,Prague,,Czech Republic
+7,Vienne,,Austria
+8,Brussels,,Belgium
+9,Copenhagen,,Denmark
+10,São Paulo,SP,Brazil
+11,São Paulo,SP,Brazil
+12,Rio de Janeiro,RJ,Brazil
+13,Brasília,DF,Brazil
+14,Edmonton,AB,Canada
+15,Vancouver,BC,Canada
+16,Mountain View,CA,USA
+17,Redmond,WA,USA
+18,New York,NY,USA
+19,Cupertino,CA,USA
+20,Mountain View,CA,USA
+21,Reno,NV,USA
+22,Orlando,FL,USA
+23,Boston,MA,USA
+24,Chicago,IL,USA
+25,Madison,WI,USA
+26,Fort Worth,TX,USA
+27,Tucson,AZ,USA
+28,Salt Lake City,UT,USA
+29,Toronto,ON,Canada
+30,Ottawa,ON,Canada
+31,Halifax,NS,Canada
+32,Winnipeg,MB,Canada
+33,Yellowknife,NT,Canada
+34,Lisbon,,Portugal
+35,Porto,,Portugal
+36,Berlin,,Germany
+37,Frankfurt,,Germany
+38,Berlin,,Germany
+39,Paris,,France
+40,Paris,,France
+41,Lyon,,France
+42,Bordeaux,,France
+43,Dijon,,France
+44,Helsinki,,Finland
+45,Budapest,,Hungary
+46,Dublin,Dublin,Ireland
+47,Rome,RM,Italy
+48,Amsterdam,VV,Netherlands
+49,Warsaw,,Poland
+50,Madrid,,Spain
+51,Stockholm,,Sweden
+52,London,,United Kingdom
+53,London,,United Kingdom
+54,Edinburgh ,,United Kingdom
+55,Sidney,NSW,Australia
+56,Buenos Aires,,Argentina
+57,Santiago,,Chile
+58,Delhi,,India
+59,Bangalore,,India

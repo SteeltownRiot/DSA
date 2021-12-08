@@ -1,0 +1,415 @@
+First Name, Last Name, Preferred Genre
+'Eduardo','Martins','Rock', 30
+'Robert','Brown','Rock', 25
+'Enrique','Muñoz','Rock', 23
+'Hannah','Schneider','Metal', 22
+'Daan','Peeters','Rock', 21
+'Stanis?aw','Wójcik','Rock', 21
+'Niklas','Schröder','Rock', 21
+'Kara','Nielsen','Rock', 20
+'Terhi','Hämäläinen','Rock', 20
+'Michelle','Brooks','Rock', 19
+'Ellie','Sullivan','Rock', 19
+'Lucas','Mancini','Rock', 19
+'Isabelle','Mercier','Rock', 18
+'Phil','Hughes','Rock', 18
+'Johannes','Van der Berg','Rock', 18
+'Mark','Taylor','Rock', 18
+'Edward','Francis','Rock', 18
+'Bjørn','Hansen','Rock', 17
+'Dominique','Lefebvre','Rock', 17
+'Julia','Barnett','Rock', 17
+'Patrick','Gray','Rock', 16
+'Alexandre','Rocha','Latin', 16
+'Leonie','Köhler','Rock', 16
+'Roberto','Almeida','Latin', 16
+'Franti\x9aek','Wichterlová','Rock', 15
+'Roberto','Almeida','Rock', 15
+'Victor','Stevens','Rock', 15
+'Frank','Harris','Metal', 15
+'Madalena','Sampaio','Rock', 15
+'Mark','Taylor','Metal', 15
+'Luís','Gonçalves','Rock', 14
+'Emma','Jones','Latin', 14
+'Daan','Peeters','Alternative & Punk', 14
+'Wyatt','Girard','Metal', 14
+'Manoj','Pareek','Rock', 14
+'Ladislav','Kovács','Rock', 14
+'Astrid','Gruber','Rock', 14
+'Jennifer','Peterson','Rock', 14
+'João','Fernandes','Rock', 14
+'Madalena','Sampaio','Metal', 13
+'Martha','Silk','Latin', 13
+'Richard','Cunningham','Rock', 13
+'Tim','Goyer','Rock', 13
+'Alexandre','Rocha','Rock', 13
+'Mark','Philips','Rock', 13
+'Hugh', "O'Reilly",'Rock', 13
+'Aaron','Mitchell','Latin', 13
+'Hannah','Schneider','Rock', 12
+'Puja','Srivastava','Rock', 12
+'Joakim','Johansson','Latin', 12
+'Heather','Leacock','Metal', 12
+'Frank','Ralston','Rock', 12
+'Camille','Bernard','Rock', 12
+'John','Gordon','Latin', 12
+'Dan','Miller','Latin', 11
+'Fynn','Zimmermann','Rock', 11
+'Helena','Holý','TV Shows', 11
+'Fernanda','Ramos','Rock', 11
+'Marc','Dubois','Rock', 11
+'Luís','Gonçalves','Latin', 11
+'Frank','Harris','Rock', 10
+'Jennifer','Peterson','Latin', 10
+'Dan','Miller','Rock', 10
+'Steve','Murray','Rock', 10
+'François','Tremblay','Metal', 10
+'Joakim','Johansson','Metal', 10
+'Helena','Holý','Rock', 10
+'Richard','Cunningham','TV Shows', 10
+'Lucas','Mancini','Alternative & Punk', 10
+'Diego','Gutiérrez','Alternative & Punk', 9
+'Diego','Gutiérrez','Rock', 9
+'Terhi','Hämäläinen','Latin', 9
+'Martha','Silk','Metal', 9
+'Luis','Rojas','TV Shows', 9
+'Luis','Rojas','Rock', 9
+'Aaron','Mitchell','Rock', 9
+'Heather','Leacock','Rock', 9
+'Kathy','Chase','Rock', 9
+'Camille','Bernard','Alternative & Punk', 9
+'Edward','Francis','Alternative & Punk', 9
+'Marc','Dubois','Latin', 9
+'Steve','Murray','Latin', 9
+'Leonie','Köhler','Blues', 8
+'Jack','Smith','Rock', 8
+'Emma','Jones','Metal', 8
+'Camille','Bernard','Latin', 8
+'Fernanda','Ramos','Latin', 8
+'Diego','Gutiérrez','Latin', 8
+'Julia','Barnett','Alternative & Punk', 8
+'Ellie','Sullivan','Latin', 8
+'Hugh', "O'Reilly",'TV Shows', 8
+'Wyatt','Girard','Alternative & Punk', 8
+'Mark','Philips','Alternative & Punk', 8
+'Astrid','Gruber','Metal', 8
+'Fynn','Zimmermann','Latin', 8
+'Emma','Jones','Rock', 8
+'Wyatt','Girard','Rock', 8
+'Puja','Srivastava','Alternative & Punk', 8
+'Martha','Silk','Alternative & Punk', 7
+'Jack','Smith','Alternative & Punk', 7
+'Robert','Brown','Latin', 7
+'Joakim','Johansson','Rock', 7
+'Richard','Cunningham','Latin', 7
+'Franti\x9aek','Wichterlová','Metal', 7
+'Michelle','Brooks','Latin', 7
+'Phil','Hughes','Latin', 7
+'Madalena','Sampaio','Latin', 7
+'Jack','Smith','Latin', 7
+'Diego','Gutiérrez','Metal', 7
+'Hugh', "O'Reilly",'Latin', 7
+'Kathy','Chase','Latin', 7
+'Stanis?aw','Wójcik','Latin', 7
+'John','Gordon','Metal', 7
+'Victor','Stevens','Latin', 7
+'Ladislav','Kovács','TV Shows', 7
+'Aaron','Mitchell','Metal', 7
+'Stanis?aw','Wójcik','Alternative & Punk', 7
+'Steve','Murray','Metal', 6
+'Luis','Rojas','Latin', 6
+'Fynn','Zimmermann','TV Shows', 6
+'Dominique','Lefebvre','Alternative & Punk', 6
+'Heather','Leacock','Alternative & Punk', 6
+'Kathy','Chase','Metal', 6
+'John','Gordon','Rock', 6
+'Patrick','Gray','Latin', 6
+'Dominique','Lefebvre','Jazz', 6
+'Jack','Smith','Metal', 6
+'Dominique','Lefebvre','Latin', 6
+'François','Tremblay','Rock', 6
+'Patrick','Gray','Metal', 6
+'João','Fernandes','Alternative & Punk', 6
+'Kara','Nielsen','Metal', 6
+'Fernanda','Ramos','Blues', 6
+'Fernanda','Ramos','Metal', 6
+'Joakim','Johansson','Alternative & Punk', 6
+'Michelle','Brooks','Blues', 6
+'Isabelle','Mercier','Classical', 6
+'Helena','Holý','Latin', 6
+'Manoj','Pareek','Latin', 5
+'Tim','Goyer','Latin', 5
+'Enrique','Muñoz','Metal', 5
+'Puja','Srivastava','Jazz', 5
+'Phil','Hughes','Metal', 5
+'Astrid','Gruber','TV Shows', 5
+'Kara','Nielsen','Alternative & Punk', 5
+'Helena','Holý','Alternative & Punk', 5
+'Emma','Jones','Reggae', 5
+'Frank','Ralston','Latin', 5
+'Manoj','Pareek','Jazz', 5
+'Tim','Goyer','Metal', 5
+'Mark','Philips','Latin', 5
+'Niklas','Schröder','Alternative & Punk', 5
+'François','Tremblay','Jazz', 5
+'Manoj','Pareek','Metal', 5
+'John','Gordon','Alternative & Punk', 5
+'Frank','Ralston','Alternative', 5
+'Bjørn','Hansen','Classical', 5
+'Johannes','Van der Berg','Alternative & Punk', 5
+'Marc','Dubois','Soundtrack', 5
+'Frank','Harris','Latin', 5
+'Frank','Ralston','TV Shows', 5
+'Ellie','Sullivan','Metal', 5
+'Richard','Cunningham','Alternative & Punk', 5
+'Heather','Leacock','Latin', 5
+'Bjørn','Hansen','Latin', 5
+'Victor','Stevens','TV Shows', 5
+'Aaron','Mitchell','Reggae', 4
+'Tim','Goyer','Alternative & Punk', 4
+'Ladislav','Kovács','R&B/Soul', 4
+'Robert','Brown','Alternative & Punk', 4
+'Kara','Nielsen','Latin', 4
+'Alexandre','Rocha','Metal', 4
+'Luis','Rojas','Blues', 4
+'François','Tremblay','Bossa Nova', 4
+'Phil','Hughes','Alternative & Punk', 4
+'François','Tremblay','Classical', 4
+'João','Fernandes','Pop', 4
+'Julia','Barnett','Latin', 4
+'Wyatt','Girard','Latin', 4
+'Fynn','Zimmermann','Alternative & Punk', 4
+'Patrick','Gray','Classical', 4
+'Victor','Stevens','Alternative & Punk', 4
+'Fernanda','Ramos','Classical', 4
+'Terhi','Hämäläinen','Sci Fi & Fantasy', 4
+'Dan','Miller','Alternative & Punk', 4
+'Dan','Miller','Jazz', 4
+'François','Tremblay','Alternative & Punk', 4
+'Lucas','Mancini','Blues', 4
+'Franti\x9aek','Wichterlová','Pop', 4
+'Martha','Silk','Rock', 4
+'Puja','Srivastava','R&B/Soul', 4
+'Frank','Ralston','Classical', 4
+'Marc','Dubois','Alternative & Punk', 4
+'Leonie','Köhler','Latin', 4
+'Kathy','Chase','Reggae', 4
+'Isabelle','Mercier','Alternative', 4
+'Steve','Murray','Alternative & Punk', 4
+'Astrid','Gruber','R&B/Soul', 4
+'Edward','Francis','Metal', 4
+'Bjørn','Hansen','Alternative', 4
+'Leonie','Köhler','Metal', 4
+'Niklas','Schröder','Blues', 4
+'Niklas','Schröder','Latin', 4
+'João','Fernandes','Latin', 4
+'Camille','Bernard','Metal', 4
+'Puja','Srivastava','Latin', 4
+'Johannes','Van der Berg','Blues', 4
+'Enrique','Muñoz','Alternative & Punk', 4
+'Julia','Barnett','Sci Fi & Fantasy', 4
+'Jennifer','Peterson','Electronica/Dance', 3
+'Luis','Rojas','Easy Listening', 3
+'Franti\x9aek','Wichterlová','Jazz', 3
+'Hugh', "O'Reilly",'Alternative & Punk', 3
+'Hugh', "O'Reilly",'Metal', 3
+'Luís','Gonçalves','Reggae', 3
+'Dan','Miller','Blues', 3
+'John','Gordon','Jazz', 3
+'Michelle','Brooks','Jazz', 3
+'Hugh', "O'Reilly",'Jazz', 3
+'Franti\x9aek','Wichterlová','Latin', 3
+'Luis','Rojas','Metal', 3
+'Franti\x9aek','Wichterlová','Alternative & Punk', 3
+'Kathy','Chase','Alternative & Punk', 3
+'Roberto','Almeida','Metal', 3
+'Julia','Barnett','Metal', 3
+'Ladislav','Kovács','Alternative & Punk', 3
+'Isabelle','Mercier','Drama', 3
+'Manoj','Pareek','Blues', 3
+'Heather','Leacock','Jazz', 3
+'Edward','Francis','Reggae', 3
+'Steve','Murray','Jazz', 3
+'Alexandre','Rocha','Alternative & Punk', 3
+'François','Tremblay','Latin', 3
+'Emma','Jones','Alternative & Punk', 3
+'Johannes','Van der Berg','Sci Fi & Fantasy', 3
+'Steve','Murray','Hip Hop/Rap', 3
+'Tim','Goyer','Bossa Nova', 3
+'Ladislav','Kovács','Latin', 3
+'Jack','Smith','Easy Listening', 3
+'Johannes','Van der Berg','Pop', 3
+'Johannes','Van der Berg','Latin', 3
+'Ellie','Sullivan','Alternative & Punk', 3
+'Kathy','Chase','Jazz', 3
+'Franti\x9aek','Wichterlová','TV Shows', 3
+'Kara','Nielsen','Pop', 3
+'Jennifer','Peterson','Metal', 3
+'Kathy','Chase','Soundtrack', 3
+'Terhi','Hämäläinen','Jazz', 3
+'Tim','Goyer','Blues', 3
+'Victor','Stevens','R&B/Soul', 3
+'Aaron','Mitchell','Blues', 3
+'Mark','Philips','R&B/Soul', 3
+'Ladislav','Kovács','Metal', 3
+'Leonie','Köhler','Soundtrack', 3
+'Frank','Harris','Jazz', 3
+'Fynn','Zimmermann','Metal', 3
+'Frank','Harris','Blues', 3
+'Enrique','Muñoz','Latin', 3
+'Manoj','Pareek','Alternative & Punk', 3
+'Jennifer','Peterson','Hip Hop/Rap', 3
+'Camille','Bernard','Classical', 2
+'Puja','Srivastava','Metal', 2
+'Hannah','Schneider','Blues', 2
+'Mark','Taylor','Latin', 2
+'Lucas','Mancini','Latin', 2
+'Roberto','Almeida','World', 2
+'Marc','Dubois','Classical', 2
+'Michelle','Brooks','Metal', 2
+'Ellie','Sullivan','R&B/Soul', 2
+'João','Fernandes','World', 2
+'Martha','Silk','Jazz', 2
+'Phil','Hughes','R&B/Soul', 2
+'Aaron','Mitchell','Jazz', 2
+'Eduardo','Martins','Soundtrack', 2
+'Heather','Leacock','TV Shows', 2
+'Marc','Dubois','Metal', 2
+'Patrick','Gray','Pop', 2
+'Luís','Gonçalves','Sci Fi & Fantasy', 2
+'Enrique','Muñoz','Jazz', 2
+'Niklas','Schröder','Metal', 2
+'Bjørn','Hansen','Alternative & Punk', 2
+'Julia','Barnett','TV Shows', 2
+'Leonie','Köhler','Alternative & Punk', 2
+'Roberto','Almeida','Alternative & Punk', 2
+'Isabelle','Mercier','Electronica/Dance', 2
+'Edward','Francis','Hip Hop/Rap', 2
+'Phil','Hughes','Jazz', 2
+'Luís','Gonçalves','Pop', 2
+'Diego','Gutiérrez','Easy Listening', 2
+'Dan','Miller','TV Shows', 2
+'Camille','Bernard','Jazz', 2
+'Madalena','Sampaio','Jazz', 2
+'Fernanda','Ramos','R&B/Soul', 2
+'Jack','Smith','TV Shows', 2
+'Fynn','Zimmermann','Soundtrack', 2
+'Frank','Harris','Reggae', 2
+'François','Tremblay','TV Shows', 2
+'Wyatt','Girard','Jazz', 2
+'Marc','Dubois','Pop', 2
+'Marc','Dubois','Blues', 2
+'John','Gordon','R&B/Soul', 2
+'Helena','Holý','R&B/Soul', 2
+'Eduardo','Martins','Metal', 2
+'Victor','Stevens','Metal', 2
+'Bjørn','Hansen','Electronica/Dance', 2
+'Wyatt','Girard','Sci Fi & Fantasy', 2
+'Hannah','Schneider','Alternative & Punk', 2
+'Frank','Ralston','Metal', 2
+'Daan','Peeters','R&B/Soul', 2
+'Frank','Ralston','R&B/Soul', 2
+'Jack','Smith','Bossa Nova', 2
+'Manoj','Pareek','Classical', 2
+'Fynn','Zimmermann','Easy Listening', 2
+'Bjørn','Hansen','Drama', 2
+'Patrick','Gray','Alternative & Punk', 2
+'Eduardo','Martins','Latin', 2
+'Tim','Goyer','R&B/Soul', 2
+'Dan','Miller','Metal', 2
+'Dan','Miller','Bossa Nova', 2
+'Edward','Francis','Jazz', 2
+'Luís','Gonçalves','Soundtrack', 2
+'Jennifer','Peterson','Bossa Nova', 2
+'Astrid','Gruber','Latin', 2
+'Ladislav','Kovács','Blues', 2
+'Luís','Gonçalves','Metal', 2
+'Richard','Cunningham','Metal', 2
+'Mark','Philips','Jazz', 2
+'Tim','Goyer','Jazz', 2
+'Diego','Gutiérrez','Jazz', 2
+'Isabelle','Mercier','Alternative & Punk', 2
+'Luís','Gonçalves','Classical', 2
+'John','Gordon','Pop', 2
+'Alexandre','Rocha','Hip Hop/Rap', 2
+'João','Fernandes','R&B/Soul', 2
+'Robert','Brown','Metal', 2
+'Luis','Rojas','Alternative & Punk', 2
+'Johannes','Van der Berg','Metal', 2
+'Martha','Silk','World', 2
+'João','Fernandes','Blues', 2
+'Jack','Smith','Jazz', 2
+'Isabelle','Mercier','Hip Hop/Rap', 2
+'Kathy','Chase','R&B/Soul', 2
+'Jennifer','Peterson','World', 2
+'Mark','Taylor','Reggae', 2
+'Steve','Murray','Pop', 2
+'Mark','Philips','Blues', 2
+'Astrid','Gruber','Jazz', 2
+'Mark','Philips','Metal', 2
+'Lucas','Mancini','Classical', 2
+'Astrid','Gruber','Classical', 2
+'Helena','Holý','Electronica/Dance', 2
+'Victor','Stevens','Hip Hop/Rap', 2
+'Lucas','Mancini','Metal', 1
+'Astrid','Gruber','Pop', 1
+'João','Fernandes','Electronica/Dance', 1
+'Bjørn','Hansen','World', 1
+'Mark','Philips','Electronica/Dance', 1
+'Martha','Silk','Blues', 1
+'Frank','Ralston','Drama', 1
+'Fernanda','Ramos','Pop', 1
+'Ladislav','Kovács','Electronica/Dance', 1
+'Fynn','Zimmermann','Jazz', 1
+'Michelle','Brooks','R&B/Soul', 1
+'Luis','Rojas','Soundtrack', 1
+'Helena','Holý','Blues', 1
+'Hugh', "O'Reilly",'Blues', 1
+'João','Fernandes','Metal', 1
+'Terhi','Hämäläinen','Alternative & Punk', 1
+'Stanis?aw','Wójcik','Metal', 1
+'Joakim','Johansson','World', 1
+'Joakim','Johansson','Jazz', 1
+'Stanis?aw','Wójcik','Blues', 1
+'Steve','Murray','World', 1
+'Heather','Leacock','Blues', 1
+'Dominique','Lefebvre','TV Shows', 1
+'Leonie','Köhler','Pop', 1
+'Dominique','Lefebvre','Bossa Nova', 1
+'Fynn','Zimmermann','Blues', 1
+'Joakim','Johansson','TV Shows', 1
+'Terhi','Hämäläinen','Reggae', 1
+'Niklas','Schröder','Jazz', 1
+'Isabelle','Mercier','Jazz', 1
+'Patrick','Gray','Hip Hop/Rap', 1
+'Ellie','Sullivan','Classical', 1
+'Frank','Ralston','Hip Hop/Rap', 1
+'Daan','Peeters','Metal', 1
+'Mark','Taylor','Blues', 1
+'Enrique','Muñoz','Hip Hop/Rap', 1
+'Jennifer','Peterson','Drama', 1
+'Eduardo','Martins','R&B/Soul', 1
+'Richard','Cunningham','Jazz', 1
+'João','Fernandes','TV Shows', 1
+'João','Fernandes','Sci Fi & Fantasy', 1
+'Eduardo','Martins','Alternative & Punk', 1
+'Mark','Philips','Bossa Nova', 1
+'Puja','Srivastava','Sci Fi & Fantasy', 1
+'Diego','Gutiérrez','Soundtrack', 1
+'Luis','Rojas','Classical', 1
+'Camille','Bernard','TV Shows', 1
+'Helena','Holý','Metal', 1
+'Tim','Goyer','TV Shows', 1
+'Marc','Dubois','Reggae', 1
+'Dominique','Lefebvre','Metal', 1
+'Frank','Ralston','Alternative & Punk', 1
+'Madalena','Sampaio','Blues', 1
+'Kathy','Chase','Pop', 1
+'Patrick','Gray','Blues', 1
+'Stanis?aw','Wójcik','Jazz', 1
+'Niklas','Schröder','Alternative', 1
+'John','Gordon','Blues', 1
+'Jack','Smith','Soundtrack', 1
+'Ladislav','Kovács','Sci Fi & Fantasy', 1
+'Manoj','Pareek','TV Shows', 1
+'Mark','Philips','World', 1
