@@ -1002,3 +1002,90 @@ BEGIN;
 COPY orders FROM '/dsa/data/all_datasets/instacart/orders.csv';
 SELECT setval('order_number', max(order_id)) FROM orders;
 END;
+
+
+UPDATE contact 
+SET city_id = ci.city_id
+FROM city ci
+WHERE contact.city = ci.city;
+
+UPDATE customer 
+SET contact_id = c.contact_id
+FROM contact c
+WHERE customer.customer_id = c.customer_id;
+
+UPDATE tracks 
+SET album_id = a.album_id
+FROM album a
+WHERE tracks.track = a.track;
+
+ALTER TABLE contact
+DROP COLUMN city;
+
+ALTER TABLE album
+DROP COLUMN track;
+
+ALTER TABLE tracks
+DROP COLUMN track;
+
+%%sql
+COUNT   *
+FROM    jch5x8.tracks
+
+SELECT artist AS Artist, AVG(bytes) AS BytesPerSong FROM jch5x8.album a JOIN jch5x8.tracks t USING (album_id) GROUP BY artist
+
+
+
+SELECT artist AS Artist, count(trackbytes) AS BytesPerSong FROM jch5x8.album a JOIN jch5x8.tracks t USING (album_id) GROUP BY artist
+
+(SELECT artist, count(album_id) AS albums FROM jch5x8.album GROUP BY artist) as album_count GROUP BY artist
+
+(SELECT DISTINCT song, artist, count(*) AS tracks FROM jch5x8.tracks GROUP BY artist, song)
+
+
+SQL = "SELECT album_count.artist, count(t.track_id)/count(album_count.album_id) AS \"Avg Tracks per Album\" "
+SQL += "FROM jch5x8.track t NATURAL JOIN ( "
+SQL += "SELECT artist, count(album_id) AS albums "
+SQL += "FROM jch5x8.album "
+SQL += "GROUP BY artist) AS album_count "
+SQL += "GROUP BY artist"
+
+
+%%sql
+EXPLAIN
+SELECT AVG(top_renters.rental_time), AVG(top_renters.cnt)
+FROM customer c 
+INNER JOIN (
+        SELECT customer_id
+        , SUM(return_date - rental_date) as rental_time
+        , COUNT(*) as cnt
+        FROM rental 
+        GROUP BY customer_id 
+        HAVING SUM(return_date - rental_date) > '200 days'::interval
+    ) as top_renters
+USING (customer_id)
+;
+
+SQL = "SELECT a.artist, count(t.track_id)/count(album_count.album_id) AS \"Avg Tracks per Album\" "
+SQL += "FROM jch5x8.album a JOIN ( "
+SQL += "SELECT count(album_id) AS albums, count(track_id) AS tracks "
+SQL += "FROM jch5x8.track "
+SQL += "GROUP BY artist) AS album_count "
+SQL += "GROUP BY artist"
+
+SELECT count(DISTINCT album_id)/count(track_id) FROM jch5x8.track
+
+
+SELECT  count(DISTINCT album_id)/count(track_id)
+FROM    jch5x8.track "
+
+
+SELECT c.first_name, c.last_name, sum(track_count.tracks) AS tracks "
+SQL += "FROM jch5x8.customer c JOIN invoice_customers ic "
+SQL += "ON c.customer_id = ic.customer_id JOIN ( "
+SQL += "SELECT invoice_id, count(track_id) AS tracks "
+SQL += "FROM jch5x8.invoice_tracks "
+SQL += "GROUP BY invoice_id) AS track_count USING(invoice_id)"
+SQL += "GROUP BY c.first_name, c.last_name "
+SQL += "ORDER BY tracks DESC "
+SQL += "LIMIT 5"
