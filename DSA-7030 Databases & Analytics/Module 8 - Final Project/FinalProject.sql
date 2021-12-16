@@ -164,7 +164,7 @@ print(df.head(10))
 fig, ax = plt.subplots(1, 1, figsize = (25, 15))
 
 # Set crime variable = to top 5 offenses
-for crime in ['THEFT', 'BATTERY', 'ASSAULT', 'CRIMINAL DAMAGE', 'NARCOTICS']:
+for crime in ['THEFT', 'BATTERY', 'battery', 'CRIMINAL DAMAGE', 'NARCOTICS']:
     plt.plot(df.loc[df['Offense'] == crime, ['Month']], df.loc[df['Offense'] == crime, ['Incidents']], label = crime.lower().capitalize(), linewidth = 3.0, alpha = 0.75)
 plt.xticks(np.arange(1, 13, 1), color = 'grey', size = 20)
 plt.yticks(np.arange(0, 32000, 10000), color = 'grey', size = 20)
@@ -180,7 +180,7 @@ plt.show()
 # Set figure parameters
 fig, ax = plt.subplots(1, 1, figsize=(25, 15))
 # Set crime variable = to top 5 offenses
-for crime in ['THEFT', 'BATTERY', 'ASSAULT', 'CRIMINAL DAMAGE', 'NARCOTICS']:
+for crime in ['THEFT', 'BATTERY', 'battery', 'CRIMINAL DAMAGE', 'NARCOTICS']:
     plt.plot(df.loc[df['Offense'] == crime, ['Month']], df.loc[df['Offense'] == crime, ['Incidents']], label = crime.lower().capitalize(), linewidth = 3.0, alpha = 0.75)
 plt.xticks(np.arange(1, 13, 1), color = 'grey')
 plt.yticks(np.arange(0, 40000, 10000), color = 'grey')
@@ -243,7 +243,7 @@ FROM    cases c JOIN iucr_codes i_c
         USING (il_id)
         JOIN wards w
         USING (ward_id)
-WHERE   ((offense_type = 'ASSAULT')
+WHERE   ((offense_type = 'battery')
             OR (offense_type = 'BATTERY')
         )
         AND ((EXTRACT(MONTH FROM datetime) = 4)
@@ -254,9 +254,9 @@ ORDER BY Month, Offense, Ward;"""
 
 ward_data = chicago_crime.query_to_pandas_safe(ward_query)
 # we could do the following with SQL queries instead, but usually best to do locally:
-ward_assault = ward_data.loc[ward_data['primary_type'] == 'ASSAULT', ['year', 'ward', 'count']]
-ward_assault_2017 = ward_assault.loc[ward_assault['year'] == 2017, ['ward', 'count']]
-ward_assault_2016 = ward_assault.loc[ward_assault['year'] == 2016, ['ward', 'count']]
+ward_battery = ward_data.loc[ward_data['primary_type'] == 'battery', ['year', 'ward', 'count']]
+ward_battery_2017 = ward_battery.loc[ward_battery['year'] == 2017, ['ward', 'count']]
+ward_battery_2016 = ward_battery.loc[ward_battery['year'] == 2016, ['ward', 'count']]
 ward_theft = ward_data.loc[ward_data['primary_type'] == 'THEFT', ['year', 'ward', 'count']]
 ward_theft_2017 = ward_theft.loc[ward_theft['year'] == 2017, ['ward', 'count']]
 ward_theft_2016 = ward_theft.loc[ward_theft['year'] == 2016, ['ward', 'count']]
@@ -264,8 +264,8 @@ ward_theft_2016 = ward_theft.loc[ward_theft['year'] == 2016, ['ward', 'count']]
 fig, ax = plt.subplots(1, 1, figsize=(25, 25))
 
 myx = 100*(np.array(ward_theft_2017['count']) - np.array(ward_theft_2016['count']))/np.array(ward_theft_2016['count'])
-myy = 100*(np.array(ward_assault_2017['count']) - np.array(ward_assault_2016['count']))/np.array(ward_assault_2016['count'])
-plt.ylabel("Assault change (%)", color='grey', size=30)
+myy = 100*(np.array(ward_battery_2017['count']) - np.array(ward_battery_2016['count']))/np.array(ward_battery_2016['count'])
+plt.ylabel("battery change (%)", color='grey', size=30)
 plt.xlabel("Theft change (%)", color='grey', size=30)
 # plot axes through the origin:
 ax.axhline(y=0, color='k', alpha=0.2)
@@ -274,7 +274,7 @@ ax.axvline(x=0, color='k', alpha=0.2)
 for i in range(50):
     if (abs(myx[i]) > 19) or (abs(myy[i]) > 20): # only plot 'unusual' wards
         ax.annotate("Ward " + str(i), (myx[i], myy[i]), alpha=0.5, xytext = (myx[i] + 0.5, myy[i] + 0.5), size = 18)
-ax.scatter(myx, myy, s = 1/50*(np.array(ward_theft_2017['count']) + np.array(ward_assault_2017['count'])))
+ax.scatter(myx, myy, s = 1/50*(np.array(ward_theft_2017['count']) + np.array(ward_battery_2017['count'])))
 plt.xticks(np.arange(-40, 50, 10), color='grey')
 plt.yticks(np.arange(-40, 50, 10), color='grey')
 plt.show()
@@ -283,8 +283,7 @@ plt.show()
 
 
 SELECT  DISTINCT iucr.offense_type AS offense
-        ,geo.lat
-        ,geo.long
+        ,geo.lat_long AS lat_long
         ,COUNT(*) AS incidents
 FROM    cases c JOIN incident_locations ic
         USING (il_id)
@@ -292,28 +291,81 @@ FROM    cases c JOIN incident_locations ic
         USING (iucr_id)
         JOIN geolocs geo
         USING (geoloc_id)
-WHERE   (offense = 'THEFT'
-        OR offense = 'BATTERY'
-        OR offense = 'CRIMINAL DAMAGE'
-        OR offense = 'NARCOTICS'
-        OR offense = 'BURGLARY')
+WHERE   (iucr.offense_type = 'THEFT'
+        OR iucr.offense_type = 'BATTERY'
+        OR iucr.offense_type = 'CRIMINAL DAMAGE'
+        OR iucr.offense_type = 'NARCOTICS'
+        OR iucr.offense_type = 'BURGLARY')
+GROUP BY offense, lat_long;
 
 
-SELECT  EXTRACT(MONTH FROM datetime) AS Month
-        ,offense_type AS Offense
-        ,ward AS Ward
-        ,COUNT(*) as count
+
+
+chicago_crimes = '''
+SELECT  DISTINCT iucr.offense_type AS offense
+        ,geo.lat_long AS lat_long
+        ,COUNT(*) AS incidents
+FROM    cases c JOIN incident_locations ic
+        USING (il_id)
+        JOIN iucr_codes iucr
+        USING (iucr_id)
+        JOIN geolocs geo
+        USING (geoloc_id)
+WHERE   (iucr.offense_type = 'THEFT'
+        OR iucr.offense_type = 'BATTERY')
+GROUP BY offense, lat_long;
+'''
+# Store sql results in a variable
+map_result = %sql $chicago_crimes
+# Print sql result
+print(map_result)
+
+# Store sql result in dataframe
+df = pd.DataFrame(map_result, columns = ['Month', 'Offense', 'Ward', "Incidents"])
+#df.head(10))
+
+# Create map of Chicago
+chicago_map = folium.Map(location = [41.895140898, -87.624255632],
+                        zoom_start = 13,
+                        tiles = "CartoDB dark_matter")
+
+# Iterate through the dataframe and add markers to the map
+for i in range(500):
+    lat = map_result['lat_long'].iloc[i][0]
+    long = map_result['lat_long'].iloc[i][1]
+    radius = map_result['incidents'].iloc[i] * 10
+    
+    if map_result['incidents'].iloc[i] > 1000:
+        color = "#FF4500"
+    else:
+        color = "#008080"
+    
+    popup_text = """Latitude : {}<br>
+                Longitude : {}<br>
+                Incidents : {}<br>"""
+    popup_text = popup_text.format(lat,
+                               long,
+                               map_result['incidents'].iloc[i]
+                               )
+    folium.CircleMarker(location = [lat, long], popup = popup_text, radius = radius, color = color, fill = True).add_to(chicago_map)
+
+
+SELECT  EXTRACT(MONTH FROM datetime):INT AS month
+        ,offense_type AS offense
+        ,ward AS ward
+        ,COUNT(*) as incidents
 FROM    cases c JOIN iucr_codes i_c
         USING   (iucr_id)
         JOIN incident_locations il
         USING (il_id)
         JOIN wards w
         USING (ward_id)
-WHERE   ((offense_type = 'ASSAULT')
+WHERE   ((offense_type = 'battery')
             OR (offense_type = 'BATTERY')
         )
         AND ((EXTRACT(MONTH FROM datetime) = 4)
             OR (EXTRACT(MONTH FROM datetime) = 7)
         )
-GROUP BY Month, Offense, Ward
-ORDER BY Month, Offense, Ward;
+GROUP BY month, offense, ward
+ORDER BY month, offense, ward
+;

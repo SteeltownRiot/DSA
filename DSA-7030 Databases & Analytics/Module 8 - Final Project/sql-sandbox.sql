@@ -3,13 +3,13 @@ SELECT  ic.offense_type AS Offense
         ,EXTRACT(YEAR FROM datetime) AS Year
         ,EXTRACT(MONTH FROM datetime) AS Month
         ,COUNT(*) AS Incidents
-FROM    jch5x8.cASes c JOIN iucr_codes ic
+FROM    jch5x8.cases c JOIN iucr_codes ic
         USING (iucr_id)
 WHERE   c.iucr_id IN (
         SELECT  DISTINCT ON(offense_type)
                 offense_type
                 ,iucr_id
-        FROM    iucr_codes join cASes
+        FROM    iucr_codes join cases
                 USING (iucr_id)
         GROUP BY EXTRACT(YEAR FROM datetime), iucr_id
         ORDER BY EXTRACT(YEAR FROM datetime), COUNT(*) DESC, offense_type
@@ -23,13 +23,13 @@ SELECT  ic.offense_type AS Offense
         ,EXTRACT(YEAR FROM datetime) AS Year
         ,EXTRACT(MONTH FROM datetime) AS Month
         ,COUNT(*) AS Incidents
-FROM    jch5x8.cASes c JOIN iucr_codes ic
+FROM    jch5x8.cases c JOIN iucr_codes ic
         USING (iucr_id)
 WHERE   ic.offense_type EXISTS (
         SELECT  DISTINCT offense_type
                 ,EXTRACT(YEAR FROM datetime) AS year   
                 ,COUNT(*) AS cnt
-        FROM    iucr_codes join cASes
+        FROM    iucr_codes join cases
                 USING (iucr_id)
         GROUP BY year, offense_type
         ORDER BY year, cnt DESC, offense_type
@@ -42,13 +42,13 @@ SELECT  tos.offense_type AS Offense
         ,tos.year AS Year
         ,EXTRACT(MONTH FROM datetime) AS Month
         ,COUNT(*) AS Incidents
-FROM    jch5x8.cASes c JOIN iucr_codes ic
+FROM    jch5x8.cases c JOIN iucr_codes ic
         USING (iucr_id)
         JOIN (
         SELECT  DISTINCT offense_type
                 ,EXTRACT(YEAR FROM datetime) AS year   
                 ,COUNT(*) AS cnt
-        FROM    iucr_codes join cASes
+        FROM    iucr_codes join cases
                 USING (iucr_id)
         GROUP BY year, offense_type
         ORDER BY year, cnt DESC, offense_type
@@ -67,7 +67,7 @@ tos.Y
 SELECT  DISTINCT offense_type
                 ,EXTRACT(YEAR FROM datetime) AS year   
                 ,COUNT(*) AS cnt
-        FROM    iucr_codes join cASes
+        FROM    iucr_codes join cases
                 USING (iucr_id)
         GROUP BY year, offense_type
         ORDER BY year, cnt DESC, offense_type
@@ -77,7 +77,7 @@ SELECT  DISTINCT offense_type
 SELECT  iucr_id
                 ,COUNT(*) AS Incidents
                 ,EXTRACT(MONTH FROM ca.datetime) AS Month
-        FROM    iucr_codes i_c join cASes ca
+        FROM    iucr_codes i_c join cases ca
                 USING (iucr_id)
         GROUP BY iucr_id, month
         ORDER BY cnt DESC
@@ -89,7 +89,7 @@ SELECT EXTRACT(MONTH FROM datetime) AS Month
         ,offense_type AS Offense
         ,ward AS Ward
         ,COUNT(*) AS count
-                        FROM    cASes c JOIN iucr_codes i_c
+                        FROM    cases c JOIN iucr_codes i_c
                                 USING   (iucr_id)
                                 JOIN incident_locations il
                                 USING (il_id)
@@ -201,5 +201,39 @@ WHERE FLOOR((year - prev_obs_year)/365) <=3
 ORDER BY pct_change DESC
 LIMIT 1;
 
+%%sql
+SELECT  c.name, avg(ac.actors) as avg_actors
+FROM    category c JOIN film_category fc
+        USING(category_id)
+        JOIN film f
+        USING(film_id)
+        JOIN (SELECT  film_id, COUNT(actor_id) as actors
+              FROM    film_actor
+              GROUP BY film_id
+        ) as ac
+        USING(film_id)
+GROUP BY c.name
+ORDER BY avg_actors DESC
+LIMIT   3;
 
-
+%%sql
+SELECT  b.beat
+        ,ic.offense_type AS Offense
+        ,avg(bi.incidents) as "Avg. Incidents"
+        ,bi.incidents as "Incidents"
+FROM    beats b JOIN (
+            SELECT  be.beat_id
+                    ,c.iucr_id
+                    ,COUNT(iucr_id) as incidents
+            FROM    incident_locations ils JOIN cases c
+                    USING(il_id)
+                    JOIN beats be
+                    USING(beat_id)
+            GROUP BY be.beat_id, iucr_id
+        ) as bi
+        ON b.beat_id = bi.beat_id
+        JOIN iucr_codes ic
+        ON bi.iucr_id = ic.iucr_id
+GROUP BY b.beat, bi.incidents, Offense
+ORDER BY "Avg. Incidents" DESC
+LIMIT   50;
