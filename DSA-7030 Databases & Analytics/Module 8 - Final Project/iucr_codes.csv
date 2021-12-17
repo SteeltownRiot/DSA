@@ -1,4 +1,4 @@
-iucr_id,iucr,offense_type,description,nibrs
+iucr_id,iucr,primary_offense,description,nibrs
 1,110,HOMICIDE,FIRST DEGREE MURDER,
 2,130,HOMICIDE,SECOND DEGREE MURDER,
 3,141,HOMICIDE,INVOLUNTARY MANSLAUGHTER,
