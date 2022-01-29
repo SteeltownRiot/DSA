@@ -3,6 +3,7 @@
 #########################################################################
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+*.DS_Store
 
 ########################################################################
 # Python gitignore
@@ -82,9 +83,6 @@ docs/_build/
 
 # PyBuilder
 target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
 profile_default/
