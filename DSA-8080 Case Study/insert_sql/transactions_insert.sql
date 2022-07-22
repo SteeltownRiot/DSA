@@ -1,0 +1,42 @@
+INSERT INTO public.frax_transactions (
+    transaction_id
+    ,access_list  
+    ,block_number
+    ,block_time
+    ,frax_data 
+    ,from_data 
+    ,gas_limit 
+    ,gas_price 
+    ,gas_used 
+    ,hash_value 
+    ,index_value 
+    ,max_fee_per_gas 
+    ,max_priority_fee_per_gas 
+    ,nounc 
+    ,priority_fee_per_gas 
+    ,success 
+    ,to_value 
+    ,type_value 
+    ,value_transactions 
+)
+VALUES(
+    %s
+    ,%s
+    ,%s 
+    ,%s 
+    ,%s
+    ,%s 
+    ,%s 
+    ,%s 
+    ,%s 
+    ,%s  
+    ,%s 
+    ,%s  
+    ,%s  
+    ,%s 
+    ,%s  
+    ,%s  
+    ,%s 
+    ,%s  
+    ,%s 
+)

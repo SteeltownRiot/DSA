@@ -1,0 +1,40 @@
+INSERT INTO public.frax_traces (
+    trace_id  
+    ,block_number 
+    ,block_time 
+    ,call_type 
+    ,error 
+    ,from_data 
+    ,gas 
+    ,gas_used 
+    ,input_data 
+    ,output_data 
+    ,sub_traces 
+    ,success 
+    ,to_value 
+    ,tx_hash 
+    ,tx_index 
+    ,tx_success 
+    ,type_value 
+    ,value_traces 
+)
+VALUES (
+    %s  
+    ,%s  
+    ,%s 
+    ,%s 
+    ,%s  
+    ,%s 
+    ,%s 
+    ,%s 
+    ,%s  
+    ,%s 
+    ,%s  
+    ,%s 
+    ,%s  
+    ,%s  
+    ,%s  
+    ,%s 
+    ,%s 
+    ,%s 
+)
