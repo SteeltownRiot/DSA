@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS frax_traces (
     ,tx_success BOOLEAN
     ,type_value TEXT
     ,value_traces FLOAT
+    ,date_id INT REFERENCES date_table (date_id)
 );
 
 CREATE TABLE IF NOT EXISTS frax_contracts (
@@ -53,6 +54,8 @@ CREATE TABLE IF NOT EXISTS frax_contracts (
     ,contracts_name TEXT
     ,contracts_namespace TEXT
     ,updated_at DATE
+    ,created_date_id INT REFERENCES date_table (date_id)
+    ,updated_date_id INT REFERENCES date_table (date_id)
 );
 
 CREATE TABLE IF NOT EXISTS frax_logs (
@@ -67,6 +70,7 @@ CREATE TABLE IF NOT EXISTS frax_logs (
     ,topic4 TEXT
     ,tx_hash TEXT
     ,tx_index FLOAT
+    ,date_id INT REFERENCES date_table (date_id)
 );
 
 CREATE TABLE IF NOT EXISTS date_table (
@@ -86,6 +90,7 @@ CREATE TABLE IF NOT EXISTS frax_price (
     date DATE  PRIMARY KEY
     ,price FLOAT
     ,symbol TEXT
+    ,date_id INT REFERENCES date_table (date_id)
 ); */
 
 CREATE TABLE IF NOT EXISTS frax_main (
