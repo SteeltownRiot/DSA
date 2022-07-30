@@ -41,7 +41,7 @@ SELECT	block_hash
 FROM	ethereum.logs
 WHERE	"contract_address" = '\x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0'	--FXS
 		AND block_time >= '2020-12-01'
-		AND block_time < '2022-07-01'
+		AND block_time < '2022-06-01'
 ORDER BY 3 DESC;
 
 --FXS traces ???
@@ -70,7 +70,7 @@ SELECT	address
 FROM	ethereum.traces
 WHERE	"address" = '\x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0'	--FXS
 		AND block_time >= '2020-12-01'
-		AND block_time < '2022-07-01'
+		AND block_time < '2022-06-01'
 ORDER BY 4 DESC;
 
 --FXS transactions ✓
@@ -96,7 +96,7 @@ SELECT	access_list
 FROM	ethereum.transactions
 WHERE	"to" = '\x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0'		--FXS
 		AND block_time >= '2020-12-01'
-		AND block_time < '2022-07-01'
+		AND block_time < '2022-06-01'
 ORDER BY 4 DESC;
 
 --FXS prices ✓
@@ -107,5 +107,5 @@ SELECT	minute AS "date_time"
 FROM	prices.usd
 WHERE	SYMBOL = 'FXS'
 		AND minute >= '2020-12-01'
-		AND minute < '2022-07-01'
+		AND minute < '2022-06-01'
 ORDER BY 1 DESC;

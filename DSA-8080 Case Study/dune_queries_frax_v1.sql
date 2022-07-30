@@ -42,7 +42,7 @@ SELECT	block_hash
 FROM	ethereum.logs
 WHERE	"contract_address" = '\x853d955aCEf822Db058eb8505911ED77F175b99e'	--FRAX
 		AND block_time >= '2020-12-01'
-		AND block_time < '2022-07-01'
+		AND block_time < '2022-06-01'
 ORDER BY 3 DESC;
 
 --FRAX transactions
@@ -68,5 +68,5 @@ SELECT	access_list
 FROM	ethereum.transactions
 WHERE	"to" = '\x853d955aCEf822Db058eb8505911ED77F175b99e'		--FRAX
 		AND block_time >= '2020-12-01'
-		AND block_time < '2022-07-01'
+		AND block_time < '2022-06-01'
 ORDER BY 4 DESC;
