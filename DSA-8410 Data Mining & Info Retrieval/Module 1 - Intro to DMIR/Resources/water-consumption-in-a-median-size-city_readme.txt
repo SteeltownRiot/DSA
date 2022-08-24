@@ -55,5 +55,6 @@ Explanation: type of vendor of the device that measure the consumption in the ho
 Variable: UL
 Explanation: cubic meters of consumption in January 2016
 
-The rest of the variables are labelled in the following manner f.1_XXX_XX. You can ignore the first fourth letters (f.1_) because it is an error
-of the conversion, Im sorry. The first three X referes to the month (ENE means Enero, January in Spanish, Feb means Febrero, February in Spanish and so on).  
+The rest of the variables are labeled in the following manner f.1_XXX_XX. You can ignore the first fourth 
+letters (f.1_) because it is an error of the conversion. I'm sorry. The first three X refers to the month 
+(ENE means Enero, January in Spanish, Feb means Febrero, February in Spanish and so on).
